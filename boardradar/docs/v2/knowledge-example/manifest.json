@@ -1,0 +1,27 @@
+{
+  "sources": [
+    {
+      "id": "example-owned-source",
+      "title": "Exemplo próprio de ingestão BoardRadar",
+      "game_id": null,
+      "edition_id": null,
+      "license": "project-owned",
+      "permission": "owned",
+      "url": null,
+      "retrieved_at": "2026-10-19",
+      "version": "1.0",
+      "type": "editorial",
+      "review_status": "reviewed",
+      "authority": "editorial"
+    }
+  ],
+  "documents": [
+    {
+      "id": "example-owned-passage",
+      "source_id": "example-owned-source",
+      "file": "example.txt",
+      "section": "Exemplo de ingestão local",
+      "page": null
+    }
+  ]
+}

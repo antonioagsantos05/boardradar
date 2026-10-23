@@ -1,0 +1,4 @@
+import {games,offers,stores,franchises,rawGames} from './poc';
+export const gameRepository={all:()=>games,byId:(id:string)=>games.find(g=>g.id===id||g.slug===id),bySlug:(slug:string)=>games.find(g=>g.slug===slug)};
+export const offerRepository={all:()=>offers,forEdition:(id:string)=>offers.filter(o=>o.edition_id===id),stores:()=>stores};
+export const recommendationRepository={videogames:()=>franchises.map(f=>({id:f.id,name:f.nome,franchise:f.nome,tags:[...f.temas,...f.experiencias]})),relations:()=>rawGames.flatMap(g=>franchises.flatMap(f=>{const matches=[...f.temas,...f.experiencias].filter(t=>[...g.temas,...g.experiencias].includes(t));return matches.length?[{game_id:g.game_id,videogame_id:f.id,weight:Math.min(1,matches.length/4),rationale:'Afinidade editorial por '+matches.join(', ')+'. Não implica licença oficial.'}]:[]}))};

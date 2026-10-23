@@ -1,0 +1,66 @@
+BoardRadar
+Estratégia de Negócio e Produto
+Versão 3.0  |  21 de outubro de 2026  |  Escopo: prova de conceito (POC)
+Documento consolidado a partir das decisões registradas na conversa. Não representa sistema já implementado.
+1. Visão e proposta de valor
+O BoardRadar é uma POC de marketplace de jogos de tabuleiro que reúne ofertas simuladas de lojas e anúncios de vendedores fictícios. O Radar AI ajuda a descobrir jogos, entender afinidades e comparar alternativas sem utilizar modelos generativos externos.
+2. Objetivos e limites da POC
+Demonstrar descoberta de jogos, comparação de ofertas e navegação entre catálogo e marketplace.
+Validar recomendações personalizadas baseadas em regras, temas, experiências, franquias e preferências.
+Simular cadastro, perfis e publicação de anúncios sem prometer transações reais ou persistência compartilhada.
+Planejar custo operacional de R$ 0, condicionado aos limites e à disponibilidade dos serviços gratuitos.
+3. Público e jornadas
+Perfil
+Jornada
+Visitante
+Explora 100 jogos, filtra, compara ofertas e usa o Radar AI sem conta.
+Comprador demonstrativo
+Cadastra-se, informa ao menos uma preferência e consulta ofertas e anúncios.
+Vendedor demonstrativo
+Usa a mesma conta, cria e gerencia anúncios de exemplares distintos.
+4. Catálogo e oferta simulada
+Elemento
+Volume previsto
+Jogos
+100 jogos selecionados da base BGG disponibilizada pelo usuário
+Edições
+124
+Lojas fictícias
+10
+Ofertas de lojas fictícias
+300
+Anúncios simulados
+100
+Vendedores fictícios
+100
+Temas / experiências / franquias
+61 / 27 / 30
+Os dados de demonstração devem ser rotulados como fictícios. As descrições serão originais em português, com imagens referenciadas por URL quando disponíveis. A complexidade usa escala de 1 a 5.
+5. Regras do produto
+Catálogo: um jogo pode ter diversas edições, ofertas de lojas e anúncios de usuários; preços e condições devem ser comparados com contexto.
+Acesso: visitantes podem navegar e usar o Radar AI. Publicar anúncio e manter perfil demonstrativo requer cadastro.
+Cadastro: e-mail e senha constam como requisitos funcionais futuros; na POC não haverá autenticação segura nem armazenamento de senhas reais. Ao entrar no fluxo demonstrativo, ao menos uma preferência deve ser selecionada.
+Preferências: gostos e rejeições podem ser informados sem avaliar tudo; não selecionados são neutros. Preferências descobertas no chat são temporárias e só vão ao perfil com confirmação.
+Anúncios: apenas jogos do catálogo; selecionar edição ou “Outra / Não sei” com descrição; preço obrigatório; entre 1 e 8 fotos na proposta de produto.
+Anúncios: exemplares físicos diferentes podem ter anúncios separados; duplicar o mesmo exemplar não é permitido. Estados: ativo, reservado, vendido e pausado.
+Gestão: criar, editar, pausar, reativar e marcar como vendido. Publicação imediata e denúncia/moderação posterior são regras de negócio; moderação administrativa completa fica fora da POC.
+Contato e negociação: botão demonstrativo, sem chat interno, pagamento, frete integrado ou negociação transacional na POC.
+6. Radar AI — experiência aprovada
+Chat livre com sugestões de perguntas iniciais.
+Recomendar inicialmente até três jogos, com opção “mostrar mais”.
+Perguntar detalhes somente quando indispensáveis; usar o contexto já informado.
+Considerar temas, franquias, experiências, mecânicas, jogadores, duração, complexidade, preços, ofertas e preferências.
+Respeitar rejeições e restrições explícitas; nunca inventar jogos, preços, disponibilidade ou atributos.
+Justificar recomendações com características reais do catálogo e explicar quando não houver correspondências.
+7. Experiência visual
+Marketplace moderno, limpo e responsivo. Telas: início, catálogo, detalhes do jogo, marketplace, Radar AI, perfil e meus anúncios. Diferenciar visualmente lojas fictícias de vendedores simulados. Componentes reutilizáveis, filtros acessíveis, estados vazios e avisos de simulação.
+8. Fora do escopo
+Pagamentos, garantia de transações, logística, avaliações, notificações, autenticação de produção, armazenamento multiusuário, moderação administrativa completa, treinamento de modelos e integração com APIs de IA externas.
+9. Critérios de aceite da POC
+Catálogo navegável com filtros e páginas de detalhe, baseado nos JSONs.
+Comparação de ofertas de lojas e anúncios de usuários, ambos identificados como simulados.
+Radar AI retorna até três jogos válidos e justificativas, com continuidade “mostrar mais”.
+Fluxos demonstrativos de perfil e anúncios persistem no navegador e são identificados como locais.
+A indisponibilidade do Python não impede a navegação no marketplace.
+10. Riscos e pendências
+A publicação do serviço Python gratuito precisa ser validada. A promessa de R$ 0 depende de limites de uso e condições dos provedores. URLs de imagens e qualidade do catálogo precisam de verificação. Regras comerciais de contato, denúncias e fotos são objetivos de produto, mas seus fluxos completos não integram a POC.

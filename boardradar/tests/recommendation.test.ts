@@ -1,0 +1,10 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import { recommend, validOffers, isFresh } from '../src/domain/recommendation';
+import { gameRepository } from '../src/repositories/catalog';
+test('restrições de jogadores prevalecem sobre afinidade',()=>{const r=recommend({players:4,videogames:['v4']});assert(r.length>0);assert(r.every(r=>r.game.players.min<=4&&r.game.players.max>=4));assert(!r.some(r=>r.game.id==='g60'))});
+test('orçamento não transforma falta de oferta em zero',()=>{assert(!recommend({budget:10000}).some(r=>r.game.id==='g59'));assert(recommend({budget:150}).every(r=>validOffers(r.game)[0].price_cents<=15000))});
+test('busca ignora acentos e aceita aliases',()=>{assert(recommend({query:'spot it'}).some(r=>r.game.id==='g10'));assert(recommend({query:'Pokemon'}).some(r=>r.game.id==='g60'))});
+test('ofertas ficam restritas à edição correta',()=>{const g=gameRepository.byId('g1')!;assert(validOffers(g).every(o=>o.edition_id===g.editions[0].id));assert.equal(validOffers(g,'g2-pt-base').length,0)});
+test('datas inválidas, antigas e futuras não são atuais',()=>{const now=Date.parse('2026-10-19T12:00:00Z');assert(isFresh('2026-10-15T12:00:00Z',now));assert(!isFresh('2026-09-01T12:00:00Z',now));assert(!isFresh('2030-01-01T00:00:00Z',now));assert(!isFresh('invalid',now))});
+test('XCOM e Mass Effect têm justificativa editorial',()=>{for(const id of ['v11','v13']){const r=recommend({videogames:[id]});assert(r.length);assert(r[0].reasons.some(s=>s.includes('editorial')))}});

@@ -1,0 +1,174 @@
+BOARDRADAR
+Especificação técnica e guia de desenvolvimento
+Arquitetura • diagramas • contratos • RAG • segurança • testes • backlog
+Versão de planejamento 2.0  |  19 de outubro de 2026  |  Proposta — não implementada integralmente
+Base documental: “Assistente de Compras de Board Games — Especificação consolidada”, v1.0 (15/10/2026), e “BoardRadar — Documentação do projeto e entrega da POC”, v1.1 (19/10/2026).
+Nota: capacidades futuras, métricas e estimativas neste documento são propostas a validar; preços e lojas da POC são fictícios.
+1. Objetivo e fronteiras
+Evoluir a POC Next.js 16.4.2 / React 19 / TypeScript, com serviço Python local e JSON somente leitura, para um assistente híbrido com LLM, ferramentas estruturadas, recuperação de conhecimento (RAG) e adaptação contextual. Não assumir que recursos futuros já estão implementados.
+Restrições preservadas: filtros obrigatórios antes do ranking; preço somente de ofertas; equivalência de edições validada; modo DEMO sem redirecionamento; fontes, datas e incertezas visíveis.
+2. Inventário técnico documentado
+Componente
+Estado atual
+Ação sugerida
+Next.js + React
+Interface, APIs e catálogo
+Preservar e evoluir chat com streaming
+Python chatbot
+engine.py e server.py; regras
+Introduzir orquestrador LLM atrás de interface
+/api/chat
+message + state
+Versionar contrato; compatibilidade
+Recomendação TS/Python
+Ranking determinístico
+Unificar política de restrições
+JSON / localStorage
+Sem banco e login
+Preservar POC; planejar migração
+Testes
+6 TS + 17 Python, smoke e browser
+Ampliar avaliação de IA e carga
+
+3. Arquitetura-alvo
+
+O LLM interpreta e redige; ferramentas consultam dados confiáveis. O backend valida argumentos, autorizações e resultados. RAG fornece passagens com proveniência. O frontend nunca recebe credenciais do provedor.
+Decisões de implantação
+POC: manter Next.js + Python local; configurar provedor LLM por variáveis de ambiente e fallback seguro.
+Produção: serviço Python persistente, proxy autenticado, HTTPS, limites de taxa e isolamento de segredos.
+Banco/índice vetorial somente quando volume e requisitos justificarem; começar com recuperação simples testável.
+Streaming via SSE ou equivalente com cancelamento, timeouts e tratamento de erros.
+4. Fluxo de uma resposta
+
+1. Normalizar mensagem, sessão, preferências explícitas e edição mencionada.
+2. Classificar intenção: recomendação, explicação, regra, comparação, oferta, entretenimento ou geral.
+3. Escolher ferramentas de leitura com parâmetros tipados e limites.
+4. Recuperar dados e passagens com fonte, versão, data e confiança.
+5. Aplicar guardrails: não inventar preço/estoque, não misturar edições, distinguir opinião e regra.
+6. Gerar resposta proporcional ao nível da pergunta, com referências e pergunta de esclarecimento quando necessária.
+7. Registrar métricas técnicas e feedback com política de privacidade.
+5. Módulos e contratos sugeridos
+Módulo
+Responsabilidade
+Interface proposta
+ConversationService
+Estado, resumo, contexto e histórico
+respond(message, session_id, preferences)
+ToolRouter
+Selecionar e validar ferramentas
+execute(tool_name, args)
+GameSearch
+Filtros e dados do catálogo
+search_games(filters)
+Recommendation
+Restrições + score + justificativas
+recommend_games(profile, constraints)
+EditionOffer
+Edições e ofertas verificadas
+get_offers(edition_id)
+KnowledgeRetriever
+Recuperar fontes e trechos
+retrieve(query, game_id, edition_id)
+EntertainmentMapper
+Mapear obras → atributos
+map_preferences(media_ids)
+AnswerValidator
+Checagem de evidência e políticas
+validate(answer, evidence)
+
+Contrato JSON ilustrativo (não implementado)
+POST /api/chat/v2
+{  "message": "Compare Root e Scythe",  "session_id": "uuid-opcional",  "context": {"experience_level": "auto", "edition_id": null}}{  "answer": "...",  "recommendations": [{"game_id": "...", "reason": "..."}],  "sources": [{"source_id": "...", "page": 12}],  "session_id": "...",  "confidence": "grounded|partial|unknown"}
+6. Dados e DNA de entretenimento
+Adicionar entidades media_work (id, title, type, year, tags, provenance), media_game_relation (media_id, game_id, weight, rationale, review_status) e knowledge_source (id, game_id, edition_id, license, url, retrieved_at, version). Não confundir afinidade editorial com adaptação oficial ou equivalência de gameplay.
+Camada
+Dados mínimos
+Controle
+Obra de entretenimento
+Título, tipo, temas, atmosfera
+Fonte e revisão editorial
+Relação obra–jogo
+Peso, justificativa, atributos
+Revisão e explicabilidade
+Jogo / edição
+IDs separados, regras, idioma, SKU
+Validação referencial
+Oferta
+Edição, preço em centavos, timestamp
+Origem autorizada, validade
+Conhecimento
+Texto autorizado, seção, página, versão
+Licença e proveniência
+
+7. RAG para regras e conhecimento
+Ingestão: obter material com permissão de uso; extrair texto, preservar edição, seção e página; versionar.
+Indexação: segmentar por regra/seção, registrar metadados e gerar índice lexical e/ou vetorial.
+Busca: priorizar game_id + edition_id, combinar busca textual e semântica, reranquear passagens.
+Resposta: citar fonte, página e edição; separar regra oficial de interpretação e estratégia.
+Sem evidência suficiente: informar limitação e solicitar manual, edição ou detalhes da situação.
+Nunca assumir que toda regra de uma edição se aplica a outra; revisar erratas e FAQs.
+8. Contexto, adaptação e segurança
+Nível de explicação inferido apenas da conversa e editável pelo usuário; evitar rótulos permanentes de habilidade.
+Contexto de curto prazo: últimas mensagens + resumo verificável + filtros explícitos; impedir que o resumo substitua dados oficiais.
+Perfil persistente somente mediante escolha do usuário; política de retenção e exclusão.
+Prompt injection: tratar páginas, manuais e textos externos como dados, não instruções; allowlist de ferramentas.
+Proteção contra abuso: rate limiting, cotas, limites de tokens, timeouts, moderação e monitoramento de erros.
+Preços/estoques nunca são gerados pelo modelo; saídas comerciais só por registros válidos e autorizados.
+9. Estratégia de testes e avaliação
+Camada
+Cenários obrigatórios
+Unitários
+Filtros, score, IDs, edições, datas, centavos, argumentos de ferramentas
+Integração
+LLM mockado, timeouts, RAG sem resultado, API /chat/v2, cancelamento
+Qualidade de IA
+Iniciante, especialista, múltiplos turnos, negações, perguntas fora de escopo
+Factualidade
+Regras por edição, citação correta, preço sem oferta, fontes conflitantes
+Segurança
+Prompt injection, conteúdo malicioso, limites e vazamento de segredo
+Carga
+Concorrência, p95, custo por conversa, disponibilidade e degradação
+
+Criar conjunto de avaliação versionado com perguntas, evidências esperadas, critérios de aceitação e revisão humana. Os RNFs originais propõem p95 backend < 500 ms e LCP p75 < 2,5 s sob condições definidas; respostas LLM exigem metas próprias (tempo até primeiro token e resposta completa), ainda a definir.
+10. Backlog de implementação
+Sprint sugerida
+Entregáveis
+Dependências
+S0 — base
+Auditoria do catálogo, contratos e testes de regressão
+Fontes e curadoria
+S1 — núcleo IA
+Adaptador de provedor, orquestrador, ferramentas e logs
+Chave API e orçamento
+S2 — qualidade
+Avaliações, guardrails, streaming e fallback
+S1
+S3 — DNA
+Obras de filmes/séries, relações e explicações
+Curadoria/licenças
+S4 — conhecimento
+Ingestão, busca RAG, fontes e regras por edição
+Direitos de uso
+S5 — comércio
+Piloto de ofertas reais e edição confiável
+Parceiros autorizados
+S6 — escala
+Observabilidade, cache, testes de carga e privacidade
+Métricas do beta
+
+11. Critérios de aceite por release
+Beta IA: responde perguntas variadas sem quebrar filtros; cita evidências quando necessário; assume desconhecimento com segurança.
+DNA: explica por que uma obra se relaciona com um board game e indica quando a conexão é temática versus mecânica.
+Especialista: regras fundamentadas por edição; ambiguidades explicitadas; nenhuma referência inventada.
+Comercial: apenas ofertas reais autorizadas e verificadas, edições compatíveis, timestamp e frete/condições claros.
+Produção: métricas, proteção de segredos, testes de carga, privacidade e plano de incidentes aprovados.
+12. ADRs e pendências
+ADR-01: provedor e modelo LLM, fallback e custo por token.
+ADR-02: banco e mecanismo de busca/RAG (lexical, vetorial ou híbrido).
+ADR-03: estratégia de sessão, autenticação e retenção de histórico.
+ADR-04: aquisição licenciada de manuais, FAQs e metadados de entretenimento.
+ADR-05: sincronização de ofertas, matching de edição e política de validade.
+ADR-06: observabilidade, metas de latência, limites de uso e infraestrutura de produção.
+13. Referências de origem e status
+Especificação consolidada v1.0: resumo executivo; RN-001 a RN-025; RF-001 a RF-028; RNF-001 a RNF-014; arquitetura POC; modelo de dados; ranking; roadmap. Documentação BoardRadar v1.1: arquitetura real, 60 jogos, 13 videogames, 10 lojas fictícias, 236 ofertas simuladas, chatbot Python local, testes e pendências editoriais. Toda arquitetura LLM/RAG, modelo de mídia e cronograma acima são propostas novas, não funcionalidades comprovadamente implementadas.

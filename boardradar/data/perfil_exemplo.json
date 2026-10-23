@@ -1,0 +1,21 @@
+{
+  "gostos": {
+    "franquias": [
+      "franquia_01",
+      "franquia_24"
+    ],
+    "temas": [
+      "misterio"
+    ],
+    "experiencias": [
+      "cooperacao"
+    ]
+  },
+  "nao_gosto": {
+    "temas": [
+      "terror"
+    ],
+    "experiencias": []
+  },
+  "indiferente": "qualquer item não selecionado"
+}

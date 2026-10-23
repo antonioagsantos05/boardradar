@@ -1,0 +1,4 @@
+export const listingStatusLabels:Record<string,string>={draft:"Rascunho",pending_review:"Em análise",active:"Publicado",reserved:"Reservado",paused:"Pausado",sold:"Vendido",rejected:"Ajustes solicitados",removed:"Removido",expired:"Expirado"};
+export const listingConditionLabels:Record<string,string>={new:"Novo",like_new:"Como novo",good:"Bom estado",fair:"Com desgaste"};
+export const editableListingStatuses=["draft","paused","rejected","active","pending_review","reserved"];
+export function listingPriceCents(raw:string){const value=raw.trim().replace(",",".");if(!/^\d+(\.\d{1,2})?$/.test(value))throw Error("Informe um preço válido com até duas casas decimais.");const [whole,fraction=""]=value.split(".");const cents=Number(whole)*100+Number((fraction+"00").slice(0,2));if(!Number.isSafeInteger(cents)||cents<1||cents>100000000)throw Error("O preço deve estar entre R$ 0,01 e R$ 1.000.000,00.");return cents;}

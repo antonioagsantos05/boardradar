@@ -1,0 +1,152 @@
+[
+  {
+    "id": "RN-001",
+    "text": "Consulta pública sem autenticação.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-002",
+    "text": "Onboarding opcional e editável.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-003",
+    "text": "Jogos admitem múltiplas tags de tema, mecânica, estilo e franquia.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-004",
+    "text": "Jogo-base, expansão e edição comercial têm identificações distintas.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-005",
+    "text": "Somente edições idênticas ou equivalentes explicitamente aprovadas podem ter ofertas comparadas.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-006",
+    "text": "Preços e estoque vêm exclusivamente de ofertas registradas, nunca de texto gerado por IA.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-007",
+    "text": "Ofertas antigas são sinalizadas e não tratadas como atuais.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-008",
+    "text": "Ordenação padrão pelo menor preço de produto válido; informar frete não incluído.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-009",
+    "text": "Filtros obrigatórios prevalecem sobre o score de recomendação.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-010",
+    "text": "Jogo sem oferta pode ser descoberto, mas sem preço verificado.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-011",
+    "text": "Patrocínio identificado e sem manipulação silenciosa do ranking.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-012",
+    "text": "Cliques de saída rastreados apenas quando permitido.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-013",
+    "text": "Histórico registra observações reais, sem retroagir dados inexistentes.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-014",
+    "text": "Respeitar licenças e autorizações de dados externos.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-015",
+    "text": "Usuário pode solicitar exclusão da conta/dados, conforme obrigações aplicáveis.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-016",
+    "text": "Somente administradores corrigem vínculos entre ofertas e edições.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-017",
+    "text": "Importações registram origem e data.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-018",
+    "text": "IDs externos não substituem IDs internos.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-019",
+    "text": "Importações devem ser idempotentes.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-020",
+    "text": "Correspondências incertas passam por revisão.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-021",
+    "text": "Dados sem direito de uso não são publicados.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-022",
+    "text": "Fonte externa não sobrescreve curadoria própria sem regra.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-023",
+    "text": "Oferta sem edição confiável não participa da comparação.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-024",
+    "text": "Dados sintéticos são identificados por origem e sinalizados na UI.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  },
+  {
+    "id": "RN-025",
+    "text": "Modo demo bloqueia checkout e redirecionamentos comerciais reais.",
+    "source_file": "especificacao_completa_boardgame_poc (1).docx",
+    "source_sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc"
+  }
+]

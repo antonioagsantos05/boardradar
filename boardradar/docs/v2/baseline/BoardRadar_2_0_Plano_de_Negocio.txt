@@ -1,0 +1,130 @@
+BOARDRADAR
+Estratégia de negócio e produto
+Proposta de valor • públicos • jornadas • monetização • roadmap • indicadores
+Versão de planejamento 2.0  |  19 de outubro de 2026  |  Proposta — não implementada integralmente
+Base documental: “Assistente de Compras de Board Games — Especificação consolidada”, v1.0 (15/10/2026), e “BoardRadar — Documentação do projeto e entrega da POC”, v1.1 (19/10/2026).
+Nota: capacidades futuras, métricas e estimativas neste documento são propostas a validar; preços e lojas da POC são fictícios.
+1. Resumo executivo
+O BoardRadar 2.0 é proposto como plataforma brasileira de descoberta, aprendizado e decisão de compra de jogos de tabuleiro. O Radar AI é o diferencial central: conversa com iniciantes e entusiastas, conecta interesses em filmes, séries e videogames a experiências de tabuleiro e apoia o usuário antes, durante e depois da compra.
+Tese comercial: conquistar novos jogadores pela familiaridade com entretenimento e reter jogadores experientes por conhecimento especializado, comparações, regras e estratégias. A receita inicial pretendida vem de afiliados e acordos transparentes com lojas autorizadas.
+2. Situação atual versus visão
+Elemento
+POC documentada
+Visão proposta
+Catálogo
+60 jogos; metadados preliminares
+Curadoria verificada, expansão progressiva
+Videogames
+13 referências
+Adicionar filmes e séries com relações editoriais
+Assistente
+Python, regras e contexto; sem LLM
+LLM + ferramentas + RAG + avaliações
+Preços
+236 ofertas e histórico sintéticos
+Ofertas reais autorizadas e histórico observado
+Conta
+Preferências/favoritos no navegador
+Perfil opcional com consentimento
+Comércio
+Saída bloqueada na demo
+Links de afiliados rastreáveis com transparência
+
+3. Posicionamento e proposta de valor
+Promessa: “Do que você ama assistir e jogar ao board game certo — com orientação para descobrir, aprender, comparar e comprar.” A conexão com entretenimento é porta de entrada, não limite do assistente.
+Para iniciantes: linguagem acessível, explicação de conceitos e recomendações com justificativas.
+Para jogadores experientes: análise de mecânicas, edições, expansões, regras, estratégias e trade-offs.
+Para compradores: comparação de edições equivalentes e preços verificados, sem inventar ofertas.
+Para usuários recorrentes: apoio durante partidas e descoberta de novas experiências.
+4. Jornada comercial
+
+Exemplo A — iniciante
+“Gosto de Duna e Civilization, mas nunca joguei algo além de UNO.” O Radar interpreta as preferências, esclarece a experiência desejada, apresenta opções acessíveis, explica diferenças e mostra ofertas apenas quando houver dados comerciais válidos.
+Exemplo B — experiente
+“Compare Brass: Birmingham e Ark Nova em interação, variabilidade e curva de aprendizado.” O Radar fornece comparação aprofundada com evidências, aponta incertezas e, se solicitado, consulta edições e preços.
+Exemplo C — durante a partida
+“Esta ação é permitida nesta edição de Root?” O Radar solicita edição/contexto, busca regras oficiais licenciadas ou autorizadas e cita trecho/página; se não encontrar evidência suficiente, não inventa regra.
+5. Escopo e diferenciação
+Pilar
+Experiência
+Benefício comercial
+DNA de entretenimento
+Filmes, séries, videogames → temas e mecânicas
+Aquisição de público fora do nicho
+Radar AI adaptativo
+Perguntas livres e profundidade contextual
+Conversão e confiança
+Especialista de mesa
+Regras, estratégias e manuais fundamentados
+Retenção pós-compra
+Decisão de compra
+Comparações, edições e preços reais
+Receita por indicação
+Preferências opcionais
+Histórico e gostos sob controle do usuário
+Personalização e retorno
+
+Fora do foco: match coletivo de grupos, checkout próprio, marketplace de vendedores e manipulação de ranking patrocinado.
+6. Modelo de receita e integridade comercial
+Fase inicial: comissão de afiliados por compras atribuídas em lojas autorizadas; dependerá de contratos e rastreamento permitido.
+Fase seguinte: parcerias comerciais transparentes, sem interferir na ordenação por menor preço válido.
+Opcional futuro: premium para recursos avançados, somente após validar disposição a pagar.
+Publicidade identificada poderá ser avaliada sem contaminar recomendações editoriais.
+Regra crítica: nunca tratar preço sintético como real, nem afirmar desconto sem histórico observado. Comparar apenas edições idênticas ou equivalentes aprovadas; informar frete e condições de pagamento.
+7. Estratégia de lançamento e validação
+Etapa
+Objetivo
+Critério de passagem proposto
+0. Confiabilidade
+Revisar dados, edições e fontes
+Amostra auditada sem erros críticos
+1. Beta IA
+LLM com catálogo e FAQ fundamentada
+Avaliação de qualidade e custo aceitável
+2. DNA
+Adicionar filmes e séries curados
+Usuários compreendem as justificativas
+3. Comercial
+Piloto com 2 fontes autorizadas e ~30 jogos
+Matching e atualização confiáveis
+4. Expansão
+Ampliar cobertura e retenção
+Indicadores sustentáveis
+
+8. Indicadores e experimentos
+Indicador
+Como medir
+Uso
+Ativação
+% de novos usuários que recebem recomendação útil
+Valor inicial
+Qualidade
+Avaliação humana de respostas corretas/fundamentadas
+Confiança
+Engajamento
+Retorno 7/30 dias e consultas pós-compra
+Retenção
+Comercial
+Cliques qualificados e compras atribuídas
+Monetização
+Cobertura
+% de jogos com dados e edição revisados
+Integridade
+Custo
+Custo médio por conversa e por recomendação
+Viabilidade
+
+Metas numéricas não estão definidas nos documentos originais. Recomenda-se estabelecer baselines no beta, definir metas por coorte e realizar experimentos A/B com amostras adequadas.
+9. Riscos e decisões pendentes
+Direitos autorais e licenças: validar uso de metadados, capas, manuais, marcas e conteúdo de filmes/séries.
+Alucinação: restringir respostas factuais de preço, estoque, edição e regras a evidências verificáveis.
+Custo de IA: orçamento, cache, limites de uso, seleção de modelos e observabilidade.
+LGPD: consentimento, minimização, retenção, exportação/exclusão quando aplicável.
+Dependência comercial: confirmar acordos de afiliados e autorização de feeds antes de projetar receita.
+Concorrência: diferenciação proposta ainda requer pesquisa de mercado atualizada.
+10. Próximas decisões do produto
+Aprovar a promessa de marca e as duas personas prioritárias.
+Escolher escopo inicial de filmes/séries e política editorial de relações.
+Definir critérios de confiança das respostas e tom do assistente.
+Validar disponibilidade de fontes de regras e dados comerciais.
+Priorizar beta de IA antes de prometer alertas, preços reais ou respostas completas de regras.

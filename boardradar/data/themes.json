@@ -1,0 +1,368 @@
+[
+  {
+    "id": "abstrato",
+    "nome": "Abstrato",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "agricultura",
+    "nome": "Agricultura",
+    "tipo": "tema",
+    "jogos_no_catalogo": 9
+  },
+  {
+    "id": "animais",
+    "nome": "Animais",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "arquitetura",
+    "nome": "Arquitetura",
+    "tipo": "tema",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "arte",
+    "nome": "Arte",
+    "tipo": "tema",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "artesanato",
+    "nome": "Artesanato",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "aventura",
+    "nome": "Aventura",
+    "tipo": "tema",
+    "jogos_no_catalogo": 13
+  },
+  {
+    "id": "civilizacoes",
+    "nome": "Civilizações",
+    "tipo": "tema",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "combate",
+    "nome": "Combate",
+    "tipo": "tema",
+    "jogos_no_catalogo": 6
+  },
+  {
+    "id": "comercio",
+    "nome": "Comércio",
+    "tipo": "tema",
+    "jogos_no_catalogo": 12
+  },
+  {
+    "id": "comida",
+    "nome": "Gastronomia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "competicao",
+    "nome": "Competição",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "construcao",
+    "nome": "Construção",
+    "tipo": "tema",
+    "jogos_no_catalogo": 11
+  },
+  {
+    "id": "contos_de_fadas",
+    "nome": "Contos de fadas",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "crime",
+    "nome": "Crime",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "crise",
+    "nome": "Crises e emergências",
+    "tipo": "tema",
+    "jogos_no_catalogo": 4
+  },
+  {
+    "id": "cyberpunk",
+    "nome": "Cyberpunk",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "dinossauros",
+    "nome": "Dinossauros",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "drama",
+    "nome": "Drama",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "economia",
+    "nome": "Economia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 19
+  },
+  {
+    "id": "energia",
+    "nome": "Energia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "espaco",
+    "nome": "Espaço",
+    "tipo": "tema",
+    "jogos_no_catalogo": 14
+  },
+  {
+    "id": "espionagem",
+    "nome": "Espionagem",
+    "tipo": "tema",
+    "jogos_no_catalogo": 4
+  },
+  {
+    "id": "esportes",
+    "nome": "Esportes",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "evolucao",
+    "nome": "Evolução",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "exploracao",
+    "nome": "Exploração",
+    "tipo": "tema",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "fantasia",
+    "nome": "Fantasia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 20
+  },
+  {
+    "id": "ficcao_cientifica",
+    "nome": "Ficção científica",
+    "tipo": "tema",
+    "jogos_no_catalogo": 16
+  },
+  {
+    "id": "geografia",
+    "nome": "Geografia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "guerra",
+    "nome": "Guerra",
+    "tipo": "tema",
+    "jogos_no_catalogo": 20
+  },
+  {
+    "id": "historia",
+    "nome": "História",
+    "tipo": "tema",
+    "jogos_no_catalogo": 31
+  },
+  {
+    "id": "historia_alternativa",
+    "nome": "História alternativa",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "humor",
+    "nome": "Humor",
+    "tipo": "tema",
+    "jogos_no_catalogo": 4
+  },
+  {
+    "id": "industria",
+    "nome": "Indústria",
+    "tipo": "tema",
+    "jogos_no_catalogo": 5
+  },
+  {
+    "id": "investigacao",
+    "nome": "Investigação",
+    "tipo": "tema",
+    "jogos_no_catalogo": 4
+  },
+  {
+    "id": "joias",
+    "nome": "Joias",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "magia",
+    "nome": "Magia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 3
+  },
+  {
+    "id": "medicina",
+    "nome": "Medicina",
+    "tipo": "tema",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "medieval",
+    "nome": "Medieval",
+    "tipo": "tema",
+    "jogos_no_catalogo": 18
+  },
+  {
+    "id": "misterio",
+    "nome": "Mistério",
+    "tipo": "tema",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "mitologia",
+    "nome": "Mitologia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 5
+  },
+  {
+    "id": "natureza",
+    "nome": "Natureza",
+    "tipo": "tema",
+    "jogos_no_catalogo": 6
+  },
+  {
+    "id": "negocios",
+    "nome": "Negócios",
+    "tipo": "tema",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "nostalgia",
+    "nome": "Nostalgia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "nostalgia_anos_80",
+    "nome": "Anos 1980 e nostalgia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "piratas",
+    "nome": "Piratas",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "politica",
+    "nome": "Política",
+    "tipo": "tema",
+    "jogos_no_catalogo": 13
+  },
+  {
+    "id": "pos_apocalipse",
+    "nome": "Pós-apocalipse",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "prehistoria",
+    "nome": "Pré-história",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "religiao",
+    "nome": "Religião",
+    "tipo": "tema",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "robos",
+    "nome": "Robôs",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "romance",
+    "nome": "Romance",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "sobrenatural",
+    "nome": "Sobrenatural",
+    "tipo": "tema",
+    "jogos_no_catalogo": 4
+  },
+  {
+    "id": "sobrevivencia",
+    "nome": "Sobrevivência",
+    "tipo": "tema",
+    "jogos_no_catalogo": 6
+  },
+  {
+    "id": "super_herois",
+    "nome": "Super-heróis",
+    "tipo": "tema",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "tecnologia",
+    "nome": "Tecnologia",
+    "tipo": "tema",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "territorio",
+    "nome": "Controle de território",
+    "tipo": "tema",
+    "jogos_no_catalogo": 4
+  },
+  {
+    "id": "terror",
+    "nome": "Terror",
+    "tipo": "tema",
+    "jogos_no_catalogo": 6
+  },
+  {
+    "id": "transportes",
+    "nome": "Transportes",
+    "tipo": "tema",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "viagem",
+    "nome": "Viagens",
+    "tipo": "tema",
+    "jogos_no_catalogo": 3
+  },
+  {
+    "id": "zumbis",
+    "nome": "Zumbis",
+    "tipo": "tema",
+    "jogos_no_catalogo": 2
+  }
+]

@@ -1,0 +1,42 @@
+.product-page{padding-bottom:32px}
+.product-page .breadcrumbs{font-size:14px;line-height:1.5;margin-bottom:24px}
+.product-page .detail-overview{align-items:start;grid-template-columns:minmax(220px,330px) minmax(0,1fr);gap:48px}
+.product-page .detail-info h1{font-size:clamp(32px,4vw,48px);line-height:1.1;margin-block:12px 20px}
+.product-page .detail-info>p{font-size:17px;line-height:1.7}
+.product-page .detail-stats{font-size:14px;gap:20px;flex-wrap:wrap;line-height:1.6;margin-block:22px}
+.product-page .notice,.product-page .chart-note{font-size:13px;line-height:1.7}
+.product-page .notice{margin-top:18px}
+.product-page .tags span{font-size:13px}
+.product-actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:20px}
+.product-page .detail-section{padding:28px;border-radius:18px;margin-block:28px}
+.product-page .detail-section h2{font-size:26px;line-height:1.3}
+.product-page .detail-section h2 small{display:block;font-size:14px;font-weight:400;margin-top:8px}
+.product-page .detail-section .button{font-size:14px;min-height:44px;padding:12px 16px}
+.product-buy-summary{background:#e6ede6;border:1px solid #c8d6c9;border-radius:16px;padding:20px;margin-top:24px;display:grid;gap:10px}
+.product-buy-summary strong{font-size:25px}
+.product-buy-summary>span,.product-buy-summary p{font-size:14px;line-height:1.6}
+.product-page .edition-select{display:flex;flex-direction:column;gap:10px;max-width:660px;font-size:15px;margin-block:20px}
+.product-page select,.product-page input{font-size:16px;max-width:100%;min-height:46px}
+.product-page .edition-select select{width:100%;padding:12px;background:#fffdf8;border:1px solid #baccc5;border-radius:10px}
+.product-wishlist{display:flex;flex-wrap:wrap;align-items:center;gap:12px;font-size:14px;line-height:1.6}
+.product-wishlist a:not(.button){text-decoration:underline;text-underline-offset:3px}
+.product-wishlist>p{width:100%}
+.offer-list{display:grid;gap:14px;margin-top:24px}
+.offer-card{display:grid;grid-template-columns:1.15fr 1fr 1.2fr auto;gap:20px;align-items:center;border:1px solid #d7ddd6;border-radius:14px;padding:20px;background:#fffdf8}
+.offer-card>div{display:flex;flex-direction:column;gap:8px;min-width:0;font-size:13px;line-height:1.5}
+.offer-source{display:flex;gap:8px;align-items:center;font-size:16px;font-weight:700}
+.offer-demo{color:#76500c}.offer-price{font-size:23px}.offer-available{color:#236449;font-weight:600}.offer-unavailable{color:#76500c}
+.product-page #ofertas,.product-page #comunidade,.product-page #comparar{scroll-margin-top:175px}
+.product-page .history-controls button{font-size:14px;min-height:44px;min-width:60px}
+.product-page .game-comparison label{font-size:15px;line-height:1.6}
+.product-page .game-comparison table{font-size:14px;line-height:1.6}
+.product-page .library-facts dl{font-size:15px;line-height:1.6}
+.product-page .library-overview h1{font-size:clamp(30px,4vw,46px);margin-block:16px}
+.product-page .library-overview>p{font-size:16px;line-height:1.7}
+.product-page .related-grid h3{font-size:15px;line-height:1.5}
+.product-page .editorial-reasons p{font-size:16px;line-height:1.7;margin-top:16px}
+.product-affinity{font-size:15px;line-height:1.7;margin-top:16px;color:#52646a}
+.product-page .library-overview{overflow-wrap:anywhere}
+@media(max-width:1100px){.offer-card{grid-template-columns:1fr 1fr}.product-page .detail-overview{gap:28px}}
+@media(max-width:800px){.product-page .detail-overview{grid-template-columns:220px minmax(0,1fr);gap:24px}.product-page .detail-section{padding:20px}.product-page .detail-section h2{font-size:23px}.product-page #ofertas,.product-page #comunidade,.product-page #comparar{scroll-margin-top:145px}}
+@media(max-width:600px){.product-page .detail-overview{grid-template-columns:1fr}.product-page .detail-overview>.game-cover{width:min(100%,280px);justify-self:center;min-height:280px}.offer-card{grid-template-columns:1fr;gap:16px}.product-actions>a{flex:1 1 200px;justify-content:center}.product-page .detail-section{padding:18px}.product-page .detail-stats{gap:12px}.product-page .community-grid{grid-template-columns:1fr}}

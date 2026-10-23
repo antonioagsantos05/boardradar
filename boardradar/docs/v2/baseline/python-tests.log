@@ -1,0 +1,23 @@
+
+test_bad_state_and_input (__main__.ConversationTests.test_bad_state_and_input) ... ok
+test_brazilian_money_and_bare_budget (__main__.ConversationTests.test_brazilian_money_and_bare_budget) ... ok
+test_context_is_not_mutated (__main__.ConversationTests.test_context_is_not_mutated) ... ok
+test_cooperative_refines_combat (__main__.ConversationTests.test_cooperative_refines_combat) ... ok
+test_declining_budget_does_not_ask_again (__main__.ConversationTests.test_declining_budget_does_not_ask_again) ... ok
+test_duration_is_not_a_budget (__main__.ConversationTests.test_duration_is_not_a_budget) ... ok
+test_explain_reuses_previous_suggestion (__main__.ConversationTests.test_explain_reuses_previous_suggestion) ... ok
+test_fighting_never_returns_generic_civilization_games (__main__.ConversationTests.test_fighting_never_returns_generic_civilization_games) ... ok
+test_invalid_number_is_clarified (__main__.ConversationTests.test_invalid_number_is_clarified) ... ok
+test_mass_effect_context_survives_followup (__main__.ConversationTests.test_mass_effect_context_survives_followup) ... ok
+test_more_returns_different_games (__main__.ConversationTests.test_more_returns_different_games) ... ok
+test_negation_excludes_cooperative_games (__main__.ConversationTests.test_negation_excludes_cooperative_games) ... ok
+test_no_results_does_not_relax_constraints (__main__.ConversationTests.test_no_results_does_not_relax_constraints) ... ok
+test_reset_and_commercial_guard (__main__.ConversationTests.test_reset_and_commercial_guard) ... ok
+test_short_answer_refines_context (__main__.ConversationTests.test_short_answer_refines_context) ... ok
+test_unknown_does_not_generate_random_recommendations (__main__.ConversationTests.test_unknown_does_not_generate_random_recommendations) ... ok
+test_yes_prompts_for_budget_and_decimal_money (__main__.ConversationTests.test_yes_prompts_for_budget_and_decimal_money) ... ok
+
+----------------------------------------------------------------------
+Ran 17 tests in 0.025s
+
+OK

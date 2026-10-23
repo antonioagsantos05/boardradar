@@ -1,0 +1,2 @@
+import { z } from 'zod';
+export const preferencesSchema=z.object({query:z.string().max(200).optional(),players:z.number().int().min(1).max(20).optional(),budget:z.number().positive().max(100000).optional(),duration:z.number().positive().max(10000).optional(),complexity:z.number().min(1).max(5).optional(),style:z.string().max(60).optional(),videogames:z.array(z.string().max(30)).max(13).optional()}).strict();

@@ -1,0 +1,69 @@
+{
+  "date": "2026-10-20",
+  "phase": "R1",
+  "status": "complete",
+  "tests": {
+    "typescript": 20,
+    "python": 327,
+    "passed": true
+  },
+  "build_and_typecheck": "passed",
+  "http_regression": "passed",
+  "user_flow_browser": "passed",
+  "responsive_scenarios": 45,
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "document_overflow_cases": 0,
+  "js_errors": [],
+  "shared_shell_unique": true,
+  "behavior_checks": [
+    "global search",
+    "guest favorites",
+    "owner confirmation and Escape",
+    "chat focus and expansion",
+    "chat retained across client navigation",
+    "unique shared shell"
+  ],
+  "backend_and_api_fingerprints_unchanged": 58,
+  "captures": 12,
+  "changed_source_files": [
+    "src/app/anuncios/page.tsx",
+    "src/app/conta/page.tsx",
+    "src/app/globals.css",
+    "src/app/layout.tsx",
+    "src/app/marketplace/page.tsx",
+    "src/app/mensagens/page.tsx",
+    "src/app/moderacao/page.tsx",
+    "src/components/BoardRadar.tsx",
+    "src/components/ChatAssistant.tsx",
+    "src/components/CommunityListings.tsx",
+    "src/components/GameDetail.tsx",
+    "src/components/layout/AppShell.tsx",
+    "src/components/layout/Footer.tsx",
+    "src/components/layout/Header.tsx",
+    "src/components/layout/MobileNavigation.tsx",
+    "src/components/layout/SearchBar.tsx",
+    "src/components/LibraryDetail.tsx",
+    "src/components/ui/Button.tsx",
+    "src/components/ui/ConfirmationDialog.tsx",
+    "src/components/ui/FormField.tsx",
+    "src/components/ui/Pagination.tsx",
+    "src/components/ui/States.tsx",
+    "src/styles/foundation.css",
+    "src/styles/layout.css",
+    "src/styles/tokens.css"
+  ],
+  "lint": "not_configured",
+  "next_phase": "R2",
+  "limitations": [
+    "Catalog remains on Home until R3",
+    "Guest favorites and edition wishlist remain separate by design",
+    "Native GET global search reloads the page; chat survives client-side links, not a full reload",
+    "No persisted chat history, provider LLM or real merchant integration"
+  ]
+}

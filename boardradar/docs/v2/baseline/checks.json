@@ -1,0 +1,77 @@
+[
+  {
+    "name": "data-validation",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/tsx/dist/cli.mjs",
+      "scripts/validate-data.ts"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.978,
+    "log": "data-validation.log"
+  },
+  {
+    "name": "typescript-tests",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/tsx/dist/cli.mjs",
+      "--test",
+      "tests/recommendation.test.ts"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.854,
+    "log": "typescript-tests.log"
+  },
+  {
+    "name": "python-tests",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\python-3.13.7\\python.exe",
+      "chatbot/test_engine.py"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.551,
+    "log": "python-tests.log"
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 4.693,
+    "log": "typecheck.log"
+  },
+  {
+    "name": "production-build",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/next/dist/bin/next",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 21.46,
+    "log": "production-build.log"
+  },
+  {
+    "name": "http-smoke",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "scripts/smoke.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.551,
+    "log": "http-smoke.log"
+  },
+  {
+    "name": "browser-chat",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "scripts/check-chat-browser.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 9.29,
+    "log": "browser-chat.log"
+  }
+]

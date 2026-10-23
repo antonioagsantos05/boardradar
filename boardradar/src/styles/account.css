@@ -1,0 +1,25 @@
+.account-redesign{padding-block:40px 56px;min-height:65vh}
+.account-redesign h1{font-size:clamp(30px,4vw,43px);line-height:1.2;margin-bottom:24px}
+.account-redesign h2{font-size:25px;line-height:1.3;margin-bottom:18px}
+.account-redesign p{font-size:15px;line-height:1.7;margin-block:18px}
+.access-page{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:start}
+.access-intro{padding-block:30px}.access-intro h1{margin-top:20px}.access-intro>a{display:inline-flex;min-height:44px;align-items:center;text-decoration:underline}
+.account-panel,.account-redesign .account-form{max-width:900px;padding:28px;background:#fffdf8;border:1px solid #d7ded4;border-radius:18px;margin-block:20px;box-shadow:none}
+.access-page .account-panel{margin-top:0}
+.account-redesign fieldset{border:0;min-width:0;padding:0}
+.account-redesign label{display:flex;flex-direction:column;gap:9px;line-height:1.6;font-size:15px;margin-block:20px}
+.account-redesign input,.account-redesign select{width:100%;max-width:100%;min-height:46px;font:inherit;font-size:16px;padding:12px;background:white;color:#16262c;border:1px solid #bfcfc4;border-radius:10px}
+.account-redesign .profile-checks{gap:12px}.account-redesign .profile-checks label{min-height:44px;margin:0;padding:10px;border-radius:10px;background:#edf1e8;font-size:14px;align-items:center}
+.account-redesign .profile-checks input,.account-redesign .profile-consent input{min-height:22px;width:22px;height:22px;flex-shrink:0;padding:0}
+.account-redesign .profile-consent{gap:12px;font-weight:400}
+.account-redesign .button,.account-redesign .ui-button{min-height:44px;font-size:14px;margin:4px 8px 4px 0}
+.account-redesign summary{font-size:20px;line-height:1.4;cursor:pointer;min-height:44px}
+.account-sections{display:flex;flex-wrap:wrap;gap:10px;margin-block:24px 32px}
+.account-sections a{display:flex;align-items:center;min-height:44px;padding:10px 14px;border-radius:10px;border:1px solid #c7d5cb;background:#fffdf8;font-size:14px}
+.account-sections a[aria-current=page]{color:#fffdf8;background:#082a35;border-color:#082a35}
+.account-shortcuts{display:flex;gap:12px;flex-wrap:wrap}
+.account-redesign dl>div{display:grid;grid-template-columns:100px minmax(0,1fr);gap:18px;margin-block:14px;font-size:16px;overflow-wrap:anywhere}
+.account-redesign dt{font-weight:700}
+.account-redesign #desejos>div{padding:18px;background:#edf1e8;border-radius:12px;margin-block:18px;overflow-wrap:anywhere}
+.account-help{color:#52646a}
+@media(max-width:800px){.access-page{grid-template-columns:1fr;gap:18px}.access-intro{padding-block:0}.account-panel,.account-redesign .account-form{padding:20px}.account-redesign{padding-top:28px}}

@@ -1,0 +1,19 @@
+{
+  "version": "knowledge-acceptance-1",
+  "cases": [
+    {"id":"deck-hyphen","query":"O que é deck-building?","first_chunk":"chunk-deckbuilding","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"deck-joined","query":"O QUE É DECKBUILDING?","first_chunk":"chunk-deckbuilding","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"cooperative","query":"O que é cooperativo?","first_chunk":"chunk-coop","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"cooperative-plural","query":"jogos cooperativos","first_chunk":"chunk-coop","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"four-x","query":"O que é 4X?","first_chunk":"chunk-4x","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"complexity","query":"O que é complexidade?","first_chunk":"chunk-complexity","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"expansions","query":"edições e expansões","first_chunk":"chunk-editions","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"entertainment","query":"DNA de entretenimento","first_chunk":"chunk-dna","confidence":"editorial_excerpt","status":"answered"},
+    {"id":"unknown","query":"O que é Zorbledoodle?","confidence":"unknown","status":"no_results"},
+    {"id":"stop-only","query":"qual a regra do jogo","confidence":"unknown","status":"no_results"},
+    {"id":"missing-game","query":"Posso atacar?","scope":{"is_rule":true},"confidence":"unknown","status":"needs_game"},
+    {"id":"missing-edition","query":"Posso atacar em Root?","scope":{"game_id":"g45","is_rule":true},"confidence":"unknown","status":"needs_edition"},
+    {"id":"no-manual","query":"Posso atacar em Root g45-pt-base?","scope":{"game_id":"g45","edition_id":"g45-pt-base","is_rule":true},"confidence":"unknown","status":"insufficient"},
+    {"id":"editorial-not-official","query":"cooperativo","scope":{"game_id":"g45","edition_id":"g45-pt-base","is_rule":true},"confidence":"unknown","status":"insufficient"}
+  ]
+}

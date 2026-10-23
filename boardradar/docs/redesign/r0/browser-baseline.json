@@ -1,0 +1,828 @@
+{
+  "date": "2026-10-20",
+  "purpose": "Read-only frontend baseline before redesign R1",
+  "fixtures": "Isolated test accounts, listings and photos; no real user data",
+  "widths": [
+    360,
+    390,
+    768,
+    1024,
+    1440
+  ],
+  "matrix": [
+    {
+      "page": "home",
+      "width": 385,
+      "scroll_width": 385,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "DIV",
+          "class": "hero-art",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-plane",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-one",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-two",
+          "position": "absolute"
+        },
+        {
+          "tag": "svg",
+          "class": {},
+          "position": "absolute"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 53,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 20134
+    },
+    {
+      "page": "jogo",
+      "width": 379,
+      "scroll_width": 379,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "position": "static"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Catan | BoardRadar",
+      "body_height": 5833
+    },
+    {
+      "page": "importado",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 2689
+    },
+    {
+      "page": "marketplace",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1478
+    },
+    {
+      "page": "entrar",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "conta",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 11,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1156
+    },
+    {
+      "page": "anuncios",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 3574
+    },
+    {
+      "page": "mensagens",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "moderacao",
+      "width": 360,
+      "scroll_width": 360,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1184
+    },
+    {
+      "page": "home",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "DIV",
+          "class": "hero-art",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-plane",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-one",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-two",
+          "position": "absolute"
+        },
+        {
+          "tag": "svg",
+          "class": {},
+          "position": "absolute"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "position": "static"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 54,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 20593
+    },
+    {
+      "page": "jogo",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "position": "static"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Catan | BoardRadar",
+      "body_height": 5734
+    },
+    {
+      "page": "importado",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 2556
+    },
+    {
+      "page": "marketplace",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1456
+    },
+    {
+      "page": "entrar",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "conta",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 11,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 998
+    },
+    {
+      "page": "anuncios",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 3528
+    },
+    {
+      "page": "mensagens",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "moderacao",
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1140
+    },
+    {
+      "page": "home",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "DIV",
+          "class": "hero-art",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-plane",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-one",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-two",
+          "position": "absolute"
+        },
+        {
+          "tag": "svg",
+          "class": {},
+          "position": "absolute"
+        },
+        {
+          "tag": "path",
+          "class": {},
+          "position": "static"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 59,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 15497
+    },
+    {
+      "page": "jogo",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "TABLE",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "THEAD",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TH",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TBODY",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "BUTTON",
+          "class": "button amber",
+          "position": "static"
+        },
+        {
+          "tag": "TR",
+          "class": "",
+          "position": "static"
+        },
+        {
+          "tag": "TD",
+          "class": "",
+          "position": "static"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Catan | BoardRadar",
+      "body_height": 4482
+    },
+    {
+      "page": "importado",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 1727
+    },
+    {
+      "page": "marketplace",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1315
+    },
+    {
+      "page": "entrar",
+      "width": 768,
+      "scroll_width": 768,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "conta",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 11,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 919
+    },
+    {
+      "page": "anuncios",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 2262
+    },
+    {
+      "page": "mensagens",
+      "width": 768,
+      "scroll_width": 768,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "moderacao",
+      "width": 768,
+      "scroll_width": 753,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1014
+    },
+    {
+      "page": "home",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "DIV",
+          "class": "hero-art",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "board-plane",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-one",
+          "position": "absolute"
+        },
+        {
+          "tag": "DIV",
+          "class": "token token-two",
+          "position": "absolute"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 65,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 14263
+    },
+    {
+      "page": "jogo",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Catan | BoardRadar",
+      "body_height": 4183
+    },
+    {
+      "page": "importado",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 1607
+    },
+    {
+      "page": "marketplace",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1335
+    },
+    {
+      "page": "entrar",
+      "width": 1024,
+      "scroll_width": 1024,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "conta",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 11,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 902
+    },
+    {
+      "page": "anuncios",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 2072
+    },
+    {
+      "page": "mensagens",
+      "width": 1024,
+      "scroll_width": 1024,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "moderacao",
+      "width": 1024,
+      "scroll_width": 1009,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 996
+    },
+    {
+      "page": "home",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "DIV",
+          "class": "board-plane",
+          "position": "absolute"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 68,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 11316
+    },
+    {
+      "page": "jogo",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Catan | BoardRadar",
+      "body_height": 4033
+    },
+    {
+      "page": "importado",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 1425
+    },
+    {
+      "page": "marketplace",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1318
+    },
+    {
+      "page": "entrar",
+      "width": 1440,
+      "scroll_width": 1440,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "conta",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 11,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 902
+    },
+    {
+      "page": "anuncios",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 2003
+    },
+    {
+      "page": "mensagens",
+      "width": 1440,
+      "scroll_width": 1440,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 0,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 900
+    },
+    {
+      "page": "moderacao",
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 996
+    }
+  ],
+  "chat": {
+    "dialog_role": null,
+    "aria_modal": null,
+    "focused_input": true
+  },
+  "js_errors": []
+}

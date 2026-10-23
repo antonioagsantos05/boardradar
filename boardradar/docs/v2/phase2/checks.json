@@ -1,0 +1,85 @@
+[
+  {
+    "name": "data-validation",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/tsx/dist/cli.mjs",
+      "scripts/validate-data.ts"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.836,
+    "log": "data-validation.log"
+  },
+  {
+    "name": "typescript-tests",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/tsx/dist/cli.mjs",
+      "--test",
+      "tests\\phase2.test.ts",
+      "tests\\recommendation.test.ts"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.902,
+    "log": "typescript-tests.log"
+  },
+  {
+    "name": "python-tests",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\python-3.13.7\\python.exe",
+      "-m",
+      "unittest",
+      "discover",
+      "-s",
+      "chatbot",
+      "-p",
+      "test_*.py",
+      "-v"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 0.74,
+    "log": "python-tests.log"
+  },
+  {
+    "name": "typecheck",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/typescript/bin/tsc",
+      "--noEmit"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 2.007,
+    "log": "typecheck.log"
+  },
+  {
+    "name": "build",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "node_modules/next/dist/bin/next",
+      "build"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 13.87,
+    "log": "build.log"
+  },
+  {
+    "name": "http-smoke",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "scripts/smoke.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 5.601,
+    "log": "http-smoke.log"
+  },
+  {
+    "name": "browser",
+    "command": [
+      "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+      "scripts/check-chat-browser.mjs"
+    ],
+    "exit_code": 0,
+    "elapsed_seconds": 8.873,
+    "log": "browser.log"
+  }
+]

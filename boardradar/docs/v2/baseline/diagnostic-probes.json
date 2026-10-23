@@ -1,0 +1,184 @@
+[
+  {
+    "id": "budget-natural",
+    "message": "Tenho 200 reais e quero algo para jogar com minha família.",
+    "target_behavior": "Capturar teto de 20000 centavos; lacuna conhecida no parser atual.",
+    "current_result": {
+      "text": "Encontrei opções de família. Quantas pessoas vão jogar?",
+      "state": {
+        "preferences": {},
+        "interests": [
+          "família"
+        ],
+        "excluded": [],
+        "last_ids": [
+          "g10",
+          "g14",
+          "g13"
+        ],
+        "waiting_for": "players",
+        "budget_unlimited": false
+      },
+      "preferences": {},
+      "ids": [
+        "g10",
+        "g14",
+        "g13"
+      ],
+      "recommendations": [
+        {
+          "id": "g10",
+          "name": "Dobble (Spot It!)",
+          "reason": "Combina família. 2–8 jogadores, cerca de 15 min; metadados preliminares.",
+          "price_cents": 14460,
+          "score": 48
+        },
+        {
+          "id": "g14",
+          "name": "Kingdomino",
+          "reason": "Combina família. 2–4 jogadores, cerca de 15 min; metadados preliminares.",
+          "price_cents": 17780,
+          "score": 48
+        },
+        {
+          "id": "g13",
+          "name": "Sushi Go!",
+          "reason": "Combina família. 2–5 jogadores, cerca de 15 min; metadados preliminares.",
+          "price_cents": 16950,
+          "score": 48
+        }
+      ],
+      "suggestions": [
+        "2 pessoas",
+        "4 pessoas",
+        "Vou jogar solo"
+      ],
+      "is_demo": true,
+      "engine": "python-catalog"
+    },
+    "classification": "diagnostic; not an acceptance pass"
+  },
+  {
+    "id": "comparison",
+    "message": "Compare Root com Scythe.",
+    "target_behavior": "Comparação estruturada entre os dois jogos; não implementada no chat.",
+    "current_result": {
+      "text": "Vamos olhar mais de perto. Estas são as informações disponíveis no catálogo; abra a ficha para ver os detalhes e as ofertas DEMO.",
+      "state": {
+        "preferences": {},
+        "interests": [],
+        "excluded": [],
+        "last_ids": [],
+        "waiting_for": null,
+        "budget_unlimited": false
+      },
+      "preferences": {},
+      "ids": [
+        "g28",
+        "g45"
+      ],
+      "recommendations": [
+        {
+          "id": "g28",
+          "name": "Scythe",
+          "reason": "Explore estratégia / território em Scythe. Uma seleção para quem gosta de território, gestão, estratégia. Consulte as regras da edição antes de escolher sua próxima partida. Jogadores: 1–5; duração aproximada: 115 min. Dados preliminares.",
+          "price_cents": 54360
+        },
+        {
+          "id": "g45",
+          "name": "Root",
+          "reason": "Explore controle de área / assimetria em Root. Uma seleção para quem gosta de território, estratégia, combate. Consulte as regras da edição antes de escolher sua próxima partida. Jogadores: 2–4; duração aproximada: 90 min. Dados preliminares.",
+          "price_cents": 76630
+        }
+      ],
+      "suggestions": [
+        "Outras opções",
+        "Mais barato",
+        "Até 1 hora"
+      ],
+      "is_demo": true,
+      "engine": "python-catalog"
+    },
+    "classification": "diagnostic; not an acceptance pass"
+  },
+  {
+    "id": "rule-evidence",
+    "message": "Qual regra de combate posso usar nesta edição de Root?",
+    "target_behavior": "Pedir edição e evidência; não confundir descrição de catálogo com regra oficial.",
+    "current_result": {
+      "text": "Vamos olhar mais de perto. Estas são as informações disponíveis no catálogo; abra a ficha para ver os detalhes e as ofertas DEMO.",
+      "state": {
+        "preferences": {},
+        "interests": [
+          "combate"
+        ],
+        "excluded": [],
+        "last_ids": [],
+        "waiting_for": null,
+        "budget_unlimited": false
+      },
+      "preferences": {},
+      "ids": [
+        "g45"
+      ],
+      "recommendations": [
+        {
+          "id": "g45",
+          "name": "Root",
+          "reason": "Explore controle de área / assimetria em Root. Uma seleção para quem gosta de território, estratégia, combate. Consulte as regras da edição antes de escolher sua próxima partida. Jogadores: 2–4; duração aproximada: 90 min. Dados preliminares.",
+          "price_cents": 76630
+        }
+      ],
+      "suggestions": [
+        "Outras opções",
+        "Mais barato",
+        "Até 1 hora"
+      ],
+      "is_demo": true,
+      "engine": "python-catalog"
+    },
+    "classification": "diagnostic; not an acceptance pass"
+  },
+  {
+    "id": "named-game-constraints",
+    "message": "Recomende Gloomhaven para 8 pessoas até R$ 1",
+    "target_behavior": "Não apresentar recomendação elegível incompatível com jogadores/orçamento.",
+    "current_result": {
+      "text": "Vamos olhar mais de perto. Estas são as informações disponíveis no catálogo; abra a ficha para ver os detalhes e as ofertas DEMO.",
+      "state": {
+        "preferences": {
+          "players": 8,
+          "budget": 1.0
+        },
+        "interests": [],
+        "excluded": [],
+        "last_ids": [],
+        "waiting_for": null,
+        "budget_unlimited": false
+      },
+      "preferences": {
+        "players": 8,
+        "budget": 1.0
+      },
+      "ids": [
+        "g31"
+      ],
+      "recommendations": [
+        {
+          "id": "g31",
+          "name": "Gloomhaven",
+          "reason": "Explore fantasia / combate tático em Gloomhaven. Uma seleção para quem gosta de fantasia, tático, cooperativo. Consulte as regras da edição antes de escolher sua próxima partida. Jogadores: 1–4; duração aproximada: 120 min. Dados preliminares.",
+          "price_cents": 58290
+        }
+      ],
+      "suggestions": [
+        "Outras opções",
+        "Mais barato",
+        "Até 1 hora"
+      ],
+      "is_demo": true,
+      "engine": "python-catalog"
+    },
+    "classification": "diagnostic; not an acceptance pass"
+  }
+]

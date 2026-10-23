@@ -1,0 +1,280 @@
+{
+  "O que e deck-building?": {
+    "text": "Deck-building é uma mecânica em que o conjunto de cartas do jogador é desenvolvido durante a partida. Não é sinônimo de jogo de cartas colecionáveis, cuja montagem do baralho pode ocorrer antes de jogar.",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792497518,
+        "expires_at": 1792499318
+      },
+      "last_topic": "chunk-deckbuilding"
+    },
+    "preferences": {},
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "O que é deck-building?",
+      "O que é cooperativo?",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "information",
+    "interpretation": {
+      "intent": "information",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": null,
+        "preferred_tags": [
+          "cartas"
+        ],
+        "excluded_tags": [],
+        "game_ids": [],
+        "edition_ids": [],
+        "videogame_ids": [],
+        "media_ids": [],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.8,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    },
+    "sources": [
+      {
+        "source_id": "radar-editorial-2",
+        "chunk_id": "chunk-deckbuilding",
+        "title": "Guia editorial BoardRadar 2.0",
+        "section": "Conceito: deck-building",
+        "page": null,
+        "game_id": null,
+        "edition_id": null,
+        "version": "2.0",
+        "date": "2026-10-19",
+        "license": "project-owned",
+        "url": null,
+        "authority": "editorial",
+        "excerpt": "Deck-building é uma mecânica em que o conjunto de cartas do jogador é desenvolvido durante a partida. Não é sinônimo de jogo de cartas colecionáveis, cuja montagem do baralho pode ocorrer antes de jogar.",
+        "content_sha256": "d940763d8292b5924284a42f97ac6dd8c013e9e607c7fafaa143ea38887bc01b"
+      }
+    ],
+    "answer_confidence": "editorial_excerpt",
+    "knowledge_status": "answered"
+  },
+  "O que e cooperativo?": {
+    "text": "Em jogos cooperativos, os jogadores normalmente compartilham um objetivo de equipe. A descrição exata de vitória, derrota e ações permitidas depende do manual e da edição.",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792497518,
+        "expires_at": 1792499318
+      },
+      "last_topic": "chunk-coop"
+    },
+    "preferences": {},
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "O que é deck-building?",
+      "O que é cooperativo?",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "information",
+    "interpretation": {
+      "intent": "information",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": "cooperative",
+        "preferred_tags": [
+          "cooperativo"
+        ],
+        "excluded_tags": [],
+        "game_ids": [],
+        "edition_ids": [],
+        "videogame_ids": [],
+        "media_ids": [],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.8,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    },
+    "sources": [
+      {
+        "source_id": "radar-editorial-2",
+        "chunk_id": "chunk-coop",
+        "title": "Guia editorial BoardRadar 2.0",
+        "section": "Conceito: cooperativo",
+        "page": null,
+        "game_id": null,
+        "edition_id": null,
+        "version": "2.0",
+        "date": "2026-10-19",
+        "license": "project-owned",
+        "url": null,
+        "authority": "editorial",
+        "excerpt": "Em jogos cooperativos, os jogadores normalmente compartilham um objetivo de equipe. A descrição exata de vitória, derrota e ações permitidas depende do manual e da edição.",
+        "content_sha256": "c67d4d6a8291246b514f599b38f9bde8f32378354af0962429ab4dcc69cbc9e5"
+      }
+    ],
+    "answer_confidence": "editorial_excerpt",
+    "knowledge_status": "answered"
+  },
+  "Posso atacar em Root g45-pt-base?": {
+    "text": "Ainda não tenho evidência documental autorizada suficiente para essa ação nessa edição. Preciso de um manual ou FAQ autorizado e pertinente; não vou inventar regras ou páginas.",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792497518,
+        "expires_at": 1792499318
+      },
+      "subject_ids": [
+        "g45"
+      ],
+      "subject_edition_ids": [
+        "g45-pt-base"
+      ]
+    },
+    "preferences": {},
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "O que é deck-building?",
+      "O que é cooperativo?",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "rule",
+    "interpretation": {
+      "intent": "rule",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": null,
+        "preferred_tags": [],
+        "excluded_tags": [],
+        "game_ids": [
+          "g45"
+        ],
+        "edition_ids": [
+          "g45-pt-base"
+        ],
+        "videogame_ids": [],
+        "media_ids": [],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.95,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    },
+    "sources": [],
+    "answer_confidence": "unknown",
+    "knowledge_status": "insufficient"
+  },
+  "O que e Zorbledoodle?": {
+    "text": "Não encontrei evidência suficiente na base local para essa pergunta. Tente um conceito como deck-building, cooperativo ou 4X.",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792497518,
+        "expires_at": 1792499318
+      }
+    },
+    "preferences": {},
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "O que é deck-building?",
+      "O que é cooperativo?",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "information",
+    "interpretation": {
+      "intent": "information",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": null,
+        "preferred_tags": [],
+        "excluded_tags": [],
+        "game_ids": [],
+        "edition_ids": [],
+        "videogame_ids": [],
+        "media_ids": [],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.0,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    },
+    "sources": [],
+    "answer_confidence": "unknown",
+    "knowledge_status": "no_results"
+  }
+}

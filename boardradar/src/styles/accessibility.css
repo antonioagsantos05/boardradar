@@ -1,0 +1,17 @@
+.site-brand .brand b,.site-footer .brand b{color:#995600}
+.app-shell .card-category,.app-shell .card-meta,.app-shell .price-line>span,.app-shell .chart-note,.app-shell .breadcrumbs,.app-shell .detail-info>p,.app-shell .detail-section h2 small,.app-shell .video-layout p,.app-shell .privacy-note,.app-shell .text-button.muted,.app-shell .chat-disclaimer,.app-shell .chat-reset{color:#4d6259}
+.app-shell .text-button{color:#85500a}
+.app-shell .community-card>.eyebrow{color:#735019;font-size:13px;letter-spacing:.04em;line-height:1.6}
+.app-shell .detail-info>.notice{color:#67501f}
+.app-shell .chart-label{fill:#4d6259;font-size:12px}
+.app-shell .card-category,.app-shell .price-line>span{font-size:12px}
+.app-shell .breadcrumbs{font-size:14px}
+.app-shell .account-form fieldset{min-width:0;max-width:100%}
+.app-shell .account-columns>*{min-width:0}
+.app-shell .account-form input,.app-shell .account-form select,.app-shell .account-form textarea{max-width:100%}
+.app-shell .account-game,.app-shell .account-top{overflow-wrap:anywhere}
+.app-shell .chat-recommendation p,.app-shell .chat-recommendation small{color:#41594d}
+.app-shell .chat-recommendation span{color:#735019}
+.app-shell #page-content{scroll-margin-top:var(--header-offset);min-height:calc(100dvh - var(--header-offset))}
+.listing-gallery img{aspect-ratio:4/3;height:auto}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto!important}.app-shell *{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important;scroll-behavior:auto!important}}

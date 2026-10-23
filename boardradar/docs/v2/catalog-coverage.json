@@ -1,0 +1,20 @@
+{
+  "source_sha256": "206e4f2d8d37df131e5fc343d7867bd4f3115cc916e254d4eb3853f69b81bd10",
+  "records": 10682,
+  "unique_bgg_ids": 10682,
+  "missing": {
+    "categories": 95,
+    "mechanics": 952,
+    "description": 0,
+    "complexity": 10438,
+    "min_players": 31,
+    "max_players": 79,
+    "max_minutes": 358
+  },
+  "unclassified_format": 10436,
+  "limits": [
+    "Historical snapshots, not live BGG data",
+    "No official rules or commercial offers in this index",
+    "Unknown product format is not confirmed base game"
+  ]
+}

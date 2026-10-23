@@ -1,0 +1,5 @@
+import Button from './Button';
+export default function Pagination({page,pages,onChange,disabled=false,label='Paginação',numbered=false}:{page:number;pages:number;onChange:(page:number)=>void;disabled?:boolean;label?:string;numbered?:boolean}){
+ const values=[...new Set([1,...Array.from({length:5},(_,i)=>page+i-2).filter(n=>n>=1&&n<=pages),pages])].sort((a,b)=>a-b);
+ return <nav className="ui-pagination" aria-label={label}><Button variant="secondary" disabled={disabled||page<=1} onClick={()=>onChange(page-1)}>Anterior</Button>{numbered&&<div className="ui-pagination-numbers">{values.map((n,i)=><span key={n}>{i>0&&n-values[i-1]>1&&<span aria-hidden="true">…</span>}<Button variant={n===page?'primary':'secondary'} aria-current={n===page?'page':undefined} aria-label={'Página '+n} disabled={disabled} onClick={()=>onChange(n)}>{n}</Button></span>)}</div>}<span aria-live="polite">Página {page} de {pages}</span><Button variant="secondary" disabled={disabled||page>=pages} onClick={()=>onChange(page+1)}>Próxima</Button></nav>;
+}

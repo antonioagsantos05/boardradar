@@ -1,0 +1,164 @@
+[
+  {
+    "id": "abstrato",
+    "nome": "Estratégia abstrata",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "aventura",
+    "nome": "Aventura",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 0
+  },
+  {
+    "id": "blefe",
+    "nome": "Blefe",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "campanha",
+    "nome": "Campanha contínua",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "colecao",
+    "nome": "Coleção",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 3
+  },
+  {
+    "id": "combate",
+    "nome": "Combate",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 7
+  },
+  {
+    "id": "competicao",
+    "nome": "Competição",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 8
+  },
+  {
+    "id": "comunicacao",
+    "nome": "Comunicação",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "conflito",
+    "nome": "Confronto",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 19
+  },
+  {
+    "id": "construcao",
+    "nome": "Construção de motor/baralho",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 6
+  },
+  {
+    "id": "cooperacao",
+    "nome": "Cooperação",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 19
+  },
+  {
+    "id": "dados",
+    "nome": "Dados",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "deducao",
+    "nome": "Dedução",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 5
+  },
+  {
+    "id": "destreza",
+    "nome": "Destreza",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "diplomacia",
+    "nome": "Diplomacia",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 3
+  },
+  {
+    "id": "duelo",
+    "nome": "Duelo",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 14
+  },
+  {
+    "id": "equipe",
+    "nome": "Jogo em equipes",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 2
+  },
+  {
+    "id": "estrategia",
+    "nome": "Estratégia",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 73
+  },
+  {
+    "id": "exploracao",
+    "nome": "Exploração",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 8
+  },
+  {
+    "id": "familia",
+    "nome": "Jogo familiar",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 5
+  },
+  {
+    "id": "gestao",
+    "nome": "Gestão de recursos",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 48
+  },
+  {
+    "id": "leilao",
+    "nome": "Leilão",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "miniaturas",
+    "nome": "Miniaturas",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "narrativa",
+    "nome": "Narrativa",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 8
+  },
+  {
+    "id": "negociacao",
+    "nome": "Negociação",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "sobrevivencia",
+    "nome": "Sobrevivência",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  },
+  {
+    "id": "solo",
+    "nome": "Jogo solo",
+    "tipo": "experiencia",
+    "jogos_no_catalogo": 1
+  }
+]

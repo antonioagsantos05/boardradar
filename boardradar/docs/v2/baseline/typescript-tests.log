@@ -1,0 +1,47 @@
+TAP version 13
+# Subtest: restrições de jogadores prevalecem sobre afinidade
+ok 1 - restrições de jogadores prevalecem sobre afinidade
+  ---
+  duration_ms: 8.468
+  type: 'test'
+  ...
+# Subtest: orçamento não transforma falta de oferta em zero
+ok 2 - orçamento não transforma falta de oferta em zero
+  ---
+  duration_ms: 2.3322
+  type: 'test'
+  ...
+# Subtest: busca ignora acentos e aceita aliases
+ok 3 - busca ignora acentos e aceita aliases
+  ---
+  duration_ms: 1.7861
+  type: 'test'
+  ...
+# Subtest: ofertas ficam restritas à edição correta
+ok 4 - ofertas ficam restritas à edição correta
+  ---
+  duration_ms: 0.3955
+  type: 'test'
+  ...
+# Subtest: datas inválidas, antigas e futuras não são atuais
+ok 5 - datas inválidas, antigas e futuras não são atuais
+  ---
+  duration_ms: 0.2108
+  type: 'test'
+  ...
+# Subtest: XCOM e Mass Effect têm justificativa editorial
+ok 6 - XCOM e Mass Effect têm justificativa editorial
+  ---
+  duration_ms: 0.411
+  type: 'test'
+  ...
+1..6
+# tests 6
+# suites 0
+# pass 6
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 445.0467
+

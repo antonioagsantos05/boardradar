@@ -1,0 +1,131 @@
+TAP version 13
+# Subtest: invariante compartilhada: players-4
+ok 1 - invariante compartilhada: players-4
+  ---
+  duration_ms: 10.4004
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: players-8
+ok 2 - invariante compartilhada: players-8
+  ---
+  duration_ms: 0.2239
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: players-2
+ok 3 - invariante compartilhada: players-2
+  ---
+  duration_ms: 0.313
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: solo
+ok 4 - invariante compartilhada: solo
+  ---
+  duration_ms: 0.1091
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: time-30
+ok 5 - invariante compartilhada: time-30
+  ---
+  duration_ms: 0.1435
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: tiny-budget
+ok 6 - invariante compartilhada: tiny-budget
+  ---
+  duration_ms: 3.4141
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: budget-150
+ok 7 - invariante compartilhada: budget-150
+  ---
+  duration_ms: 1.9444
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: without-offer
+ok 8 - invariante compartilhada: without-offer
+  ---
+  duration_ms: 2.0221
+  type: 'test'
+  ...
+# Subtest: invariante compartilhada: combined
+ok 9 - invariante compartilhada: combined
+  ---
+  duration_ms: 0.8368
+  type: 'test'
+  ...
+# Subtest: conversão de orçamento preserva centavos sem arredondar teto para cima
+ok 10 - conversão de orçamento preserva centavos sem arredondar teto para cima
+  ---
+  duration_ms: 0.439
+  type: 'test'
+  ...
+# Subtest: oferta elegível exige dados comerciais íntegros
+ok 11 - oferta elegível exige dados comerciais íntegros
+  ---
+  duration_ms: 0.158
+  type: 'test'
+  ...
+# Subtest: validade de oferta respeita limite e rejeita data sem timezone ou impossível
+ok 12 - validade de oferta respeita limite e rejeita data sem timezone ou impossível
+  ---
+  duration_ms: 0.0879
+  type: 'test'
+  ...
+# Subtest: perfil TypeScript mantém score anterior e informa versão
+ok 13 - perfil TypeScript mantém score anterior e informa versão
+  ---
+  duration_ms: 0.4425
+  type: 'test'
+  ...
+# Subtest: preço nunca é consultado na edição de outro jogo
+ok 14 - preço nunca é consultado na edição de outro jogo
+  ---
+  duration_ms: 0.4973
+  type: 'test'
+  ...
+# Subtest: restrições de jogadores prevalecem sobre afinidade
+ok 15 - restrições de jogadores prevalecem sobre afinidade
+  ---
+  duration_ms: 13.25
+  type: 'test'
+  ...
+# Subtest: orçamento não transforma falta de oferta em zero
+ok 16 - orçamento não transforma falta de oferta em zero
+  ---
+  duration_ms: 7.8362
+  type: 'test'
+  ...
+# Subtest: busca ignora acentos e aceita aliases
+ok 17 - busca ignora acentos e aceita aliases
+  ---
+  duration_ms: 0.6168
+  type: 'test'
+  ...
+# Subtest: ofertas ficam restritas à edição correta
+ok 18 - ofertas ficam restritas à edição correta
+  ---
+  duration_ms: 0.1617
+  type: 'test'
+  ...
+# Subtest: datas inválidas, antigas e futuras não são atuais
+ok 19 - datas inválidas, antigas e futuras não são atuais
+  ---
+  duration_ms: 0.1405
+  type: 'test'
+  ...
+# Subtest: XCOM e Mass Effect têm justificativa editorial
+ok 20 - XCOM e Mass Effect têm justificativa editorial
+  ---
+  duration_ms: 0.5635
+  type: 'test'
+  ...
+1..20
+# tests 20
+# suites 0
+# pass 20
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 556.188
+

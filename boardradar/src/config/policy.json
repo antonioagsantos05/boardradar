@@ -1,0 +1,14 @@
+{
+  "version": "2.0-phase5.0",
+  "demo_mode": true,
+  "max_offer_age_days": 7,
+  "compare_editions": "same_internal_id",
+  "money_unit": "integer_cents",
+  "max_chat_message": 1000,
+  "ranking": {
+    "version": "1.1-preserved",
+    "weights": {"themes": 25, "style": 25, "videogame": 25, "complexity": 15, "editorial": 10},
+    "python": {"complexity": "prefer_lower_with_explicit_max", "combat_tactical": 12, "combat_war": 8, "combat_cooperative": 4, "combat_collection_penalty": 8},
+    "typescript": {"complexity": "distance_to_preference", "default_complexity_affinity": 0.5, "combat_bonus": 0}
+  }
+}

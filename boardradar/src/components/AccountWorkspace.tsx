@@ -1,0 +1,4 @@
+import type {ReactNode} from "react";
+import {UserRound} from "lucide-react";
+import AccountNavigation from "./AccountNavigation";
+export default function AccountWorkspace({title,description,active,action,children,className=""}:{title:string;description:string;active?:string;action?:ReactNode;children:ReactNode;className?:string}){return <main className={`container account-redesign account-hub account-module ${className}`}><header className="account-heading account-module-heading"><div><span className="eyebrow dark">SEU ESPAÇO NO BOARDRADAR</span><h1>{title}</h1><p>{description}</p></div>{action||<span className="account-heading-icon" aria-hidden="true"><UserRound size={30}/></span>}</header><div className="account-workspace"><AccountNavigation active={active}/><div className="account-workspace-content">{children}</div></div></main>;}

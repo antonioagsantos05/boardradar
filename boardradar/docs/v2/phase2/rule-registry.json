@@ -1,0 +1,202 @@
+{
+  "policy_version": "2.0-phase2.1",
+  "ranking_version": "1.1-preserved",
+  "candidate_rules": [
+    {
+      "id": "SEC-CATALOG-001",
+      "version": "1.0",
+      "layer": "SECURITY",
+      "priority": 10,
+      "depends_on": [],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Falha estrutural ou referencial impede recomendações comerciais."
+    },
+    {
+      "id": "USR-PLAYERS-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 10,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [
+        "no_player_constraint"
+      ],
+      "conflicts_with": [],
+      "description": "Quantidade explícita de jogadores é obrigatória."
+    },
+    {
+      "id": "USR-DURATION-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 20,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [
+        "no_duration_constraint"
+      ],
+      "conflicts_with": [],
+      "description": "Não exceder o tempo máximo informado."
+    },
+    {
+      "id": "USR-BUDGET-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 30,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [
+        "no_budget_limit"
+      ],
+      "conflicts_with": [],
+      "description": "Preço ausente não é zero; teto monetário não é arredondado para cima."
+    },
+    {
+      "id": "USR-COMPLEXITY-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 40,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Preservar limite de complexidade do perfil Python existente."
+    },
+    {
+      "id": "USR-MODE-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 50,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": ""
+    },
+    {
+      "id": "USR-EXCLUDED-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 60,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": ""
+    },
+    {
+      "id": "USR-INTEREST-001",
+      "version": "1.0",
+      "layer": "USER_CONSTRAINT",
+      "priority": 70,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Preservar estilos explícitos exigidos pelo perfil atual."
+    },
+    {
+      "id": "CMP-EDITION-001",
+      "version": "1.0",
+      "layer": "COMPATIBILITY",
+      "priority": 10,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Preço exibido na recomendação pertence à edição escolhida, nunca mistura expansões."
+    },
+    {
+      "id": "PREF-AFFINITY-001",
+      "version": "1.0",
+      "layer": "PREFERENCE",
+      "priority": 10,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Preservar seleção editorial de candidatos do recomendador Python legado."
+    },
+    {
+      "id": "RANK-SCORE-001",
+      "version": "1.0",
+      "layer": "RANKING",
+      "priority": 10,
+      "depends_on": [
+        "SEC-CATALOG-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Pontuar somente candidatos aprovados pelas regras anteriores."
+    }
+  ],
+  "offer_rules": [
+    {
+      "id": "SEC-OFFER-001",
+      "version": "1.0",
+      "layer": "SECURITY",
+      "priority": 10,
+      "depends_on": [],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Preço positivo em centavos inteiros seguros no contrato JSON e moeda BRL."
+    },
+    {
+      "id": "RN-024-OFFER",
+      "version": "1.0",
+      "layer": "BUSINESS",
+      "priority": 10,
+      "depends_on": [
+        "SEC-OFFER-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Somente registros demonstrativos nesta POC."
+    },
+    {
+      "id": "RN-007-OFFER",
+      "version": "1.0",
+      "layer": "BUSINESS",
+      "priority": 20,
+      "depends_on": [
+        "SEC-OFFER-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Oferta válida por sete dias; datas futuras/sem timezone são recusadas."
+    },
+    {
+      "id": "RN-008-STOCK",
+      "version": "1.0",
+      "layer": "BUSINESS",
+      "priority": 30,
+      "depends_on": [
+        "SEC-OFFER-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Oferta indisponível não é elegível."
+    },
+    {
+      "id": "RN-005-OFFER",
+      "version": "1.0",
+      "layer": "COMPATIBILITY",
+      "priority": 10,
+      "depends_on": [
+        "SEC-OFFER-001"
+      ],
+      "exceptions": [],
+      "conflicts_with": [],
+      "description": "Não agregar edições diferentes nem comparar produto de outro jogo."
+    }
+  ]
+}

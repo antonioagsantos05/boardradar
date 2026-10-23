@@ -1,0 +1,11 @@
+'use client';
+import {useEffect,useState} from 'react';
+import Link from 'next/link';
+import {Heart} from 'lucide-react';
+import Button from './ui/Button';
+export default function EditionWishlist({editionId,returnTo='/favoritos'}:{editionId:string;returnTo?:string}){
+ const [state,setState]=useState<'loading'|'guest'|'ready'|'error'>('loading');const [saved,setSaved]=useState(false);const [busy,setBusy]=useState(false);const [notice,setNotice]=useState('');
+ useEffect(()=>{const abort=new AbortController();async function load(){try{const r=await fetch('/api/account',{signal:abort.signal,cache:'no-store'});const body=await r.json();if(abort.signal.aborted)return;if(r.status===401){setState('guest');return}if(!r.ok)throw Error();setSaved(body.wishlist?.some((w:{edition_id:string})=>w.edition_id===editionId)||false);setState('ready')}catch{if(!abort.signal.aborted)setState('error')}}void load();window.addEventListener('boardradar-session-changed',load);return()=>{abort.abort();window.removeEventListener('boardradar-session-changed',load)}},[editionId]);
+ async function save(){setBusy(true);setNotice('');try{const r=await fetch('/api/account',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({action:'save_wishlist',data:{edition_id:editionId}})});const body=await r.json();if(r.status===401){setState('guest');throw Error('Entre em sua conta para salvar esta edição.')}if(!r.ok)throw Error(body.error||'Não foi possível salvar.');setSaved(true);setNotice('Edição salva na wishlist. Alertas e preço-alvo são configurados na sua conta.')}catch(e){setNotice(e instanceof Error?e.message:'Erro ao salvar.')}finally{setBusy(false)}}
+ return <div className="product-wishlist">{state==='loading'?<p role="status">Consultando sua wishlist…</p>:state==='guest'?<Link className="button light" href={'/entrar?next='+encodeURIComponent(returnTo)}><Heart size={17}/>Entrar para salvar esta edição</Link>:state==='error'?<p role="alert">Wishlist indisponível. <Link href="/favoritos">Consultar minha conta</Link></p>:<><Button variant="secondary" disabled={busy||saved} onClick={()=>void save()}><Heart size={17}/>{saved?'Edição salva na wishlist':busy?'Salvando…':'Salvar esta edição'}</Button>{saved&&<Link href="/favoritos">Gerenciar wishlist e alertas</Link>}</>}{notice&&<p role="status">{notice}</p>}</div>;
+}

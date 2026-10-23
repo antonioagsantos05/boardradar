@@ -1,0 +1,15 @@
+{
+  "version": "phase2.1",
+  "now": "2026-10-19T12:00:00Z",
+  "cases": [
+    {"id":"players-4","preferences":{"players":4},"include":["g1","g31"],"exclude":["g23","g60"]},
+    {"id":"players-8","preferences":{"players":8},"include":["g10","g11"],"exclude":["g1","g31"]},
+    {"id":"players-2","preferences":{"players":2},"include":["g2","g23"],"exclude":["g1","g7"]},
+    {"id":"solo","preferences":{"players":1},"include":["g16","g31"],"exclude":["g1","g23"]},
+    {"id":"time-30","preferences":{"duration":30},"include":["g7","g10"],"exclude":["g1","g31"]},
+    {"id":"tiny-budget","preferences":{"budget":1},"empty":true},
+    {"id":"budget-150","preferences":{"budget":150},"include":["g1","g2"],"exclude":["g31","g59"]},
+    {"id":"without-offer","preferences":{"budget":10000},"include":["g1"],"exclude":["g59"]},
+    {"id":"combined","preferences":{"players":4,"duration":60,"budget":200},"include":["g2","g3"],"exclude":["g1","g23","g31"]}
+  ]
+}

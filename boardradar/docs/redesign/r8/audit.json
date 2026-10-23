@@ -1,0 +1,2003 @@
+{
+  "date": "2026-10-20T18:46:02.086Z",
+  "environment": "Chrome headless, localhost, no CPU or network throttling; one browser per run. Not field Web Vitals.",
+  "matrix": [
+    {
+      "page": "catalogo",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 16,
+      "title": "Catálogo de jogos | BoardRadar",
+      "body_height": 8318,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 88,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 6.9000000059604645,
+            "dom_content_loaded_ms": 29,
+            "load_ms": 47.5
+          }
+        ],
+        "resources": {
+          "count": 28,
+          "transfer_bytes": 20976,
+          "decoded_bytes": 886445
+        },
+        "seo": {
+          "description": "Explore o catálogo editorial e registros BGG com filtros de jogadores, duração e formato.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/jogos"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 72
+          }
+        ],
+        "passes": 44
+      }
+    },
+    {
+      "page": "busca",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 11,
+      "title": "Buscar jogos | BoardRadar",
+      "body_height": 8402,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 124,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 64.40000000596046,
+            "dom_content_loaded_ms": 76.09999999403954,
+            "load_ms": 91.09999999403954
+          }
+        ],
+        "resources": {
+          "count": 28,
+          "transfer_bytes": 21929,
+          "decoded_bytes": 887118
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 72
+          }
+        ],
+        "passes": 44
+      }
+    },
+    {
+      "page": "vender-visitante",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Vender um jogo | BoardRadar",
+      "body_height": 1350,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 96,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2,
+            "dom_content_loaded_ms": 15.299999997019768,
+            "load_ms": 30.400000005960464
+          }
+        ],
+        "resources": {
+          "count": 33,
+          "transfer_bytes": 14714,
+          "decoded_bytes": 860575
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "vender",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "Vender um jogo | BoardRadar",
+      "body_height": 1864,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 132,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3,
+            "dom_content_loaded_ms": 21.100000008940697,
+            "load_ms": 35.79999999701977
+          }
+        ],
+        "resources": {
+          "count": 33,
+          "transfer_bytes": 16222,
+          "decoded_bytes": 870776
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 45
+      }
+    },
+    {
+      "page": "meus-anuncios",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 4,
+      "title": "Meus anúncios | BoardRadar",
+      "body_height": 3294,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 48,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3.5,
+            "dom_content_loaded_ms": 13.799999997019768,
+            "load_ms": 29.299999997019768
+          }
+        ],
+        "resources": {
+          "count": 32,
+          "transfer_bytes": 15258,
+          "decoded_bytes": 865394
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "link-in-text-block",
+            "nodes": 1
+          }
+        ],
+        "passes": 46
+      }
+    },
+    {
+      "page": "anuncio-publico",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Anúncio da comunidade | BoardRadar",
+      "body_height": 2198,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 136,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 20.799999997019768,
+            "dom_content_loaded_ms": 33,
+            "load_ms": 56.6000000089407
+          }
+        ],
+        "resources": {
+          "count": 30,
+          "transfer_bytes": 12771,
+          "decoded_bytes": 853987
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "link-in-text-block",
+            "nodes": 1
+          }
+        ],
+        "passes": 46
+      }
+    },
+    {
+      "page": "entrar-novo",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "Entrar | BoardRadar",
+      "body_height": 1449,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 56,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.1000000089406967,
+            "dom_content_loaded_ms": 15.100000008940697,
+            "load_ms": 28.900000005960464
+          }
+        ],
+        "resources": {
+          "count": 28,
+          "transfer_bytes": 11343,
+          "decoded_bytes": 844870
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "cadastro",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "Criar conta | BoardRadar",
+      "body_height": 1692,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 60,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3.4000000059604645,
+            "dom_content_loaded_ms": 16.599999994039536,
+            "load_ms": 32.5
+          }
+        ],
+        "resources": {
+          "count": 28,
+          "transfer_bytes": 11330,
+          "decoded_bytes": 844844
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 44
+      }
+    },
+    {
+      "page": "conta-nova",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Minha conta | BoardRadar",
+      "body_height": 1350,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 92,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 5,
+            "dom_content_loaded_ms": 16.400000005960464,
+            "load_ms": 32.29999999701977
+          }
+        ],
+        "resources": {
+          "count": 44,
+          "transfer_bytes": 23282,
+          "decoded_bytes": 901020
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 44
+      }
+    },
+    {
+      "page": "onboarding",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 24,
+      "title": "Seu perfil | BoardRadar",
+      "body_height": 2695,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 96,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.9000000059604645,
+            "dom_content_loaded_ms": 14.400000005960464,
+            "load_ms": 27.900000005960464
+          }
+        ],
+        "resources": {
+          "count": 29,
+          "transfer_bytes": 11793,
+          "decoded_bytes": 841248
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 45
+      }
+    },
+    {
+      "page": "favoritos",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Favoritos | BoardRadar",
+      "body_height": 1691,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 92,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2,
+            "dom_content_loaded_ms": 13.400000005960464,
+            "load_ms": 29
+          }
+        ],
+        "resources": {
+          "count": 27,
+          "transfer_bytes": 10323,
+          "decoded_bytes": 836548
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 45
+      }
+    },
+    {
+      "page": "radar",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "BUTTON",
+          "class": "",
+          "position": "static"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Radar: descubra sua próxima partida | BoardRadar",
+      "body_height": 1632,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 64,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.699999988079071,
+            "dom_content_loaded_ms": 15,
+            "load_ms": 31.299999997019768
+          }
+        ],
+        "resources": {
+          "count": 23,
+          "transfer_bytes": 7912,
+          "decoded_bytes": 837223
+        },
+        "seo": {
+          "description": "Converse com o Radar para descobrir e comparar jogos de tabuleiro a partir do catálogo local.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/radar-ai"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "home",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 12,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 6148,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 68,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.2000000029802322,
+            "dom_content_loaded_ms": 18.200000002980232,
+            "load_ms": 54.20000000298023
+          }
+        ],
+        "resources": {
+          "count": 21,
+          "transfer_bytes": 6835,
+          "decoded_bytes": 817672
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro, compare ofertas DEMO e explore anúncios da comunidade.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 41
+          }
+        ],
+        "passes": 47
+      }
+    },
+    {
+      "page": "jogo",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 4,
+      "title": "Catan | BoardRadar",
+      "body_height": 8583,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 100,
+        "cls": 0,
+        "long_tasks_ms": 55,
+        "navigation": [
+          {
+            "ttfb_ms": 3.4000000059604645,
+            "dom_content_loaded_ms": 14.5,
+            "load_ms": 87.29999999701977
+          }
+        ],
+        "resources": {
+          "count": 27,
+          "transfer_bytes": 44950,
+          "decoded_bytes": 900152
+        },
+        "seo": {
+          "description": "Construa estradas, povoados e cidades em uma ilha, negociando recursos com os outros participantes. O jogo-base tem sua própria configuração; expansões para mai",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/jogos/catan"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 24
+          }
+        ],
+        "passes": 51
+      }
+    },
+    {
+      "page": "importado",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 4322,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 100,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 45.79999999701977,
+            "dom_content_loaded_ms": 56.70000000298023,
+            "load_ms": 77.90000000596046
+          }
+        ],
+        "resources": {
+          "count": 24,
+          "transfer_bytes": 13654,
+          "decoded_bytes": 869756
+        },
+        "seo": {
+          "description": "Die Macher is a game about seven sequential political races in different regions of Germany. Players are in charge of national political parties, and must manag",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/jogos/bgg-1-die-macher"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 47
+      }
+    },
+    {
+      "page": "marketplace",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 2175,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 360,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.699999988079071,
+            "dom_content_loaded_ms": 14.299999997019768,
+            "load_ms": 29.600000008940697
+          }
+        ],
+        "resources": {
+          "count": 27,
+          "transfer_bytes": 11469,
+          "decoded_bytes": 846498
+        },
+        "seo": {
+          "description": "Explore anúncios de jogos da comunidade, confira edição e conservação e converse com vendedores.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/marketplace"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 46
+      }
+    },
+    {
+      "page": "entrar",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Minha conta | BoardRadar",
+      "body_height": 1492,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 48,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3,
+            "dom_content_loaded_ms": 12.900000005960464,
+            "load_ms": 32.5
+          }
+        ],
+        "resources": {
+          "count": 21,
+          "transfer_bytes": 6206,
+          "decoded_bytes": 832633
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "conta",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 25,
+      "title": "Minha conta | BoardRadar",
+      "body_height": 1860,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 80,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.4000000059604645,
+            "dom_content_loaded_ms": 13.5,
+            "load_ms": 29.600000008940697
+          }
+        ],
+        "resources": {
+          "count": 34,
+          "transfer_bytes": 15193,
+          "decoded_bytes": 877663
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "anuncios",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "Anúncios | BoardRadar",
+      "body_height": 4653,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 48,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.4000000059604645,
+            "dom_content_loaded_ms": 14.600000008940697,
+            "load_ms": 31
+          }
+        ],
+        "resources": {
+          "count": 29,
+          "transfer_bytes": 12626,
+          "decoded_bytes": 863088
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          },
+          {
+            "id": "link-in-text-block",
+            "nodes": 1
+          }
+        ],
+        "passes": 46
+      }
+    },
+    {
+      "page": "mensagens",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Conversas | BoardRadar",
+      "body_height": 1492,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 60,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3.5,
+            "dom_content_loaded_ms": 17.700000002980232,
+            "load_ms": 34.6000000089407
+          }
+        ],
+        "resources": {
+          "count": 25,
+          "transfer_bytes": 8874,
+          "decoded_bytes": 838491
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 42
+      }
+    },
+    {
+      "page": "moderacao",
+      "requested_width": 390,
+      "width": 390,
+      "scroll_width": 390,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Moderação | BoardRadar",
+      "body_height": 1816,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 104,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 59.900000005960464,
+            "dom_content_loaded_ms": 72.29999999701977,
+            "load_ms": 94.70000000298023
+          }
+        ],
+        "resources": {
+          "count": 28,
+          "transfer_bytes": 11004,
+          "decoded_bytes": 843560
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 44
+      }
+    },
+    {
+      "page": "catalogo",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Catálogo de jogos | BoardRadar",
+      "body_height": 6343,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 80,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 6.300000011920929,
+            "dom_content_loaded_ms": 22.700000002980232,
+            "load_ms": 40.400000005960464
+          }
+        ],
+        "resources": {
+          "count": 36,
+          "transfer_bytes": 30176,
+          "decoded_bytes": 904179
+        },
+        "seo": {
+          "description": "Explore o catálogo editorial e registros BGG com filtros de jogadores, duração e formato.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/jogos"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 71
+          }
+        ],
+        "passes": 45
+      }
+    },
+    {
+      "page": "busca",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Buscar jogos | BoardRadar",
+      "body_height": 6387,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 64,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.5999999940395355,
+            "dom_content_loaded_ms": 13.200000002980232,
+            "load_ms": 29.5
+          }
+        ],
+        "resources": {
+          "count": 36,
+          "transfer_bytes": 31405,
+          "decoded_bytes": 905587
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 72
+          }
+        ],
+        "passes": 45
+      }
+    },
+    {
+      "page": "vender-visitante",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Vender um jogo | BoardRadar",
+      "body_height": 1186,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 104,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3.4000000059604645,
+            "dom_content_loaded_ms": 18,
+            "load_ms": 37.6000000089407
+          }
+        ],
+        "resources": {
+          "count": 32,
+          "transfer_bytes": 14233,
+          "decoded_bytes": 860362
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "vender",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "Vender um jogo | BoardRadar",
+      "body_height": 1466,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 100,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.1000000089406967,
+            "dom_content_loaded_ms": 13.900000005960464,
+            "load_ms": 30.100000008940697
+          }
+        ],
+        "resources": {
+          "count": 34,
+          "transfer_bytes": 16703,
+          "decoded_bytes": 870989
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 45
+      }
+    },
+    {
+      "page": "meus-anuncios",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 4,
+      "title": "Meus anúncios | BoardRadar",
+      "body_height": 2655,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 44,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.5,
+            "dom_content_loaded_ms": 14,
+            "load_ms": 30.5
+          }
+        ],
+        "resources": {
+          "count": 40,
+          "transfer_bytes": 20748,
+          "decoded_bytes": 889801
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 46
+      }
+    },
+    {
+      "page": "anuncio-publico",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Anúncio da comunidade | BoardRadar",
+      "body_height": 1570,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 120,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 10.899999991059303,
+            "dom_content_loaded_ms": 23.099999994039536,
+            "load_ms": 40.79999999701977
+          }
+        ],
+        "resources": {
+          "count": 39,
+          "transfer_bytes": 21450,
+          "decoded_bytes": 904572
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "link-in-text-block",
+            "nodes": 1
+          }
+        ],
+        "passes": 46
+      }
+    },
+    {
+      "page": "entrar-novo",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "Entrar | BoardRadar",
+      "body_height": 1186,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 68,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.3999999910593033,
+            "dom_content_loaded_ms": 17,
+            "load_ms": 32.900000005960464
+          }
+        ],
+        "resources": {
+          "count": 34,
+          "transfer_bytes": 16365,
+          "decoded_bytes": 864028
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "cadastro",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "Criar conta | BoardRadar",
+      "body_height": 1279,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 48,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.2999999970197678,
+            "dom_content_loaded_ms": 11.5,
+            "load_ms": 27.700000002980232
+          }
+        ],
+        "resources": {
+          "count": 29,
+          "transfer_bytes": 12408,
+          "decoded_bytes": 840063
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 44
+      }
+    },
+    {
+      "page": "conta-nova",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Minha conta | BoardRadar",
+      "body_height": 1186,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 52,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.2999999970197678,
+            "dom_content_loaded_ms": 12.600000008940697,
+            "load_ms": 27.400000005960464
+          }
+        ],
+        "resources": {
+          "count": 44,
+          "transfer_bytes": 23278,
+          "decoded_bytes": 901015
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 44
+      }
+    },
+    {
+      "page": "onboarding",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 24,
+      "title": "Seu perfil | BoardRadar",
+      "body_height": 1992,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 72,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.7999999970197678,
+            "dom_content_loaded_ms": 15,
+            "load_ms": 32.79999999701977
+          }
+        ],
+        "resources": {
+          "count": 32,
+          "transfer_bytes": 13857,
+          "decoded_bytes": 852461
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 45
+      }
+    },
+    {
+      "page": "favoritos",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Favoritos | BoardRadar",
+      "body_height": 1460,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 56,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.5,
+            "dom_content_loaded_ms": 14.100000008940697,
+            "load_ms": 32.29999999701977
+          }
+        ],
+        "resources": {
+          "count": 32,
+          "transfer_bytes": 13857,
+          "decoded_bytes": 852461
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 45
+      }
+    },
+    {
+      "page": "radar",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Radar: descubra sua próxima partida | BoardRadar",
+      "body_height": 1512,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 40,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.699999988079071,
+            "dom_content_loaded_ms": 13.5,
+            "load_ms": 31.200000002980232
+          }
+        ],
+        "resources": {
+          "count": 28,
+          "transfer_bytes": 11923,
+          "decoded_bytes": 839845
+        },
+        "seo": {
+          "description": "Converse com o Radar para descobrir e comparar jogos de tabuleiro a partir do catálogo local.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/radar-ai"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 8
+          }
+        ],
+        "passes": 43
+      }
+    },
+    {
+      "page": "home",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [
+        {
+          "tag": "DIV",
+          "class": "board-plane",
+          "position": "absolute"
+        }
+      ],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 4233,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 72,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.800000011920929,
+            "dom_content_loaded_ms": 17,
+            "load_ms": 56.29999999701977
+          }
+        ],
+        "resources": {
+          "count": 30,
+          "transfer_bytes": 12883,
+          "decoded_bytes": 840505
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro, compare ofertas DEMO e explore anúncios da comunidade.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 46
+          }
+        ],
+        "passes": 47
+      }
+    },
+    {
+      "page": "jogo",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 4,
+      "title": "Catan | BoardRadar",
+      "body_height": 5397,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 48,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.9000000059604645,
+            "dom_content_loaded_ms": 17,
+            "load_ms": 46.30000001192093
+          }
+        ],
+        "resources": {
+          "count": 34,
+          "transfer_bytes": 49980,
+          "decoded_bytes": 905144
+        },
+        "seo": {
+          "description": "Construa estradas, povoados e cidades em uma ilha, negociando recursos com os outros participantes. O jogo-base tem sua própria configuração; expansões para mai",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/jogos/catan"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 24
+          }
+        ],
+        "passes": 51
+      }
+    },
+    {
+      "page": "importado",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Die Macher | BoardRadar",
+      "body_height": 2344,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 40,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.9000000059604645,
+            "dom_content_loaded_ms": 15.799999997019768,
+            "load_ms": 36.599999994039536
+          }
+        ],
+        "resources": {
+          "count": 30,
+          "transfer_bytes": 17665,
+          "decoded_bytes": 874029
+        },
+        "seo": {
+          "description": "Die Macher is a game about seven sequential political races in different regions of Germany. Players are in charge of national political parties, and must manag",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/jogos/bgg-1-die-macher"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 47
+      }
+    },
+    {
+      "page": "marketplace",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 2,
+      "title": "BoardRadar — descubra seu próximo jogo",
+      "body_height": 1847,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 36,
+        "cls": 0,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.7000000029802322,
+            "dom_content_loaded_ms": 12.299999997019768,
+            "load_ms": 31
+          }
+        ],
+        "resources": {
+          "count": 35,
+          "transfer_bytes": 17516,
+          "decoded_bytes": 861770
+        },
+        "seo": {
+          "description": "Explore anúncios de jogos da comunidade, confira edição e conservação e converse com vendedores.",
+          "robots": "noindex, nofollow",
+          "canonical": "http://127.0.0.1:3000/marketplace"
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 46
+      }
+    },
+    {
+      "page": "entrar",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Minha conta | BoardRadar",
+      "body_height": 1336,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 36,
+        "cls": 0.00014941431551588523,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 1.7000000029802322,
+            "dom_content_loaded_ms": 12.899999991059303,
+            "load_ms": 32
+          }
+        ],
+        "resources": {
+          "count": 33,
+          "transfer_bytes": 14233,
+          "decoded_bytes": 875952
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "conta",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 25,
+      "title": "Minha conta | BoardRadar",
+      "body_height": 1480,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 56,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.7999999970197678,
+            "dom_content_loaded_ms": 14.600000008940697,
+            "load_ms": 32.400000005960464
+          }
+        ],
+        "resources": {
+          "count": 41,
+          "transfer_bytes": 19695,
+          "decoded_bytes": 894009
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [],
+        "passes": 43
+      }
+    },
+    {
+      "page": "anuncios",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 6,
+      "title": "Anúncios | BoardRadar",
+      "body_height": 2651,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 108,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 3.4000000059604645,
+            "dom_content_loaded_ms": 15.900000005960464,
+            "load_ms": 33.29999999701977
+          }
+        ],
+        "resources": {
+          "count": 40,
+          "transfer_bytes": 20748,
+          "decoded_bytes": 889801
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 3
+          }
+        ],
+        "passes": 47
+      }
+    },
+    {
+      "page": "mensagens",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 1,
+      "title": "Conversas | BoardRadar",
+      "body_height": 1336,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 40,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.7000000029802322,
+            "dom_content_loaded_ms": 14.099999994039536,
+            "load_ms": 32.099999994039536
+          }
+        ],
+        "resources": {
+          "count": 35,
+          "transfer_bytes": 15413,
+          "decoded_bytes": 873397
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 42
+      }
+    },
+    {
+      "page": "moderacao",
+      "requested_width": 1440,
+      "width": 1440,
+      "scroll_width": 1425,
+      "overflow": false,
+      "overflow_elements": [],
+      "h1_count": 1,
+      "unnamed_controls": [],
+      "controls_below_24px": 3,
+      "title": "Moderação | BoardRadar",
+      "body_height": 1493,
+      "header_count": 1,
+      "footer_count": 1,
+      "search_count": 1,
+      "vitals": {
+        "lcp": 40,
+        "cls": 0.0006449278752436648,
+        "long_tasks_ms": 0,
+        "navigation": [
+          {
+            "ttfb_ms": 2.7999999970197678,
+            "dom_content_loaded_ms": 14.300000011920929,
+            "load_ms": 31
+          }
+        ],
+        "resources": {
+          "count": 38,
+          "transfer_bytes": 17543,
+          "decoded_bytes": 878466
+        },
+        "seo": {
+          "description": "Descubra jogos de tabuleiro a partir dos seus videogames favoritos. POC com ofertas demonstrativas.",
+          "robots": "noindex, nofollow",
+          "canonical": ""
+        }
+      },
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          }
+        ],
+        "passes": 44
+      }
+    }
+  ],
+  "stateAudits": [
+    {
+      "page": "radar-com-fontes-e-recomendacoes",
+      "a11y": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "page": "radar-expandido",
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 73
+          }
+        ]
+      }
+    },
+    {
+      "page": "filtros-mobile",
+      "a11y": {
+        "violations": [],
+        "incomplete": []
+      }
+    },
+    {
+      "page": "confirmacao",
+      "a11y": {
+        "violations": [],
+        "incomplete": [
+          {
+            "id": "color-contrast",
+            "nodes": 1
+          },
+          {
+            "id": "link-in-text-block",
+            "nodes": 1
+          }
+        ]
+      }
+    }
+  ],
+  "latencies": {
+    "/api/catalog?page_size=24": {
+      "first_sample_ms": 3.8013999999966472,
+      "p50_ms": 3.88289999999688,
+      "p95_ms": 4.790399999998044,
+      "samples": 20
+    },
+    "/api/catalog?q=Catan&players=4": {
+      "first_sample_ms": 8.798800000004121,
+      "p50_ms": 11.007599999997183,
+      "p95_ms": 12.411900000006426,
+      "samples": 20
+    },
+    "/api/library?q=Azul": {
+      "first_sample_ms": 10.538200000009965,
+      "p50_ms": 8.649499999999534,
+      "p95_ms": 10.164400000008754,
+      "samples": 20
+    }
+  },
+  "js_errors": []
+}

@@ -1,0 +1,287 @@
+[
+  {
+    "file": "chatbot/engine.py",
+    "bytes": 19616,
+    "sha256": "95e0141e59e998d91b71c822808cb5af2ddb788ca505ecc3dd952748e2540eb6"
+  },
+  {
+    "file": "chatbot/knowledge.py",
+    "bytes": 1937,
+    "sha256": "e4407b20d4cdb0294ebdccd7182dea14f9ae4b5c0398952a72e6e18e1e3b77f8"
+  },
+  {
+    "file": "chatbot/server.py",
+    "bytes": 2632,
+    "sha256": "fde09bb94458e589add5949955ce5c56a6fa1d542899bf278b70047f45c4ebd6"
+  },
+  {
+    "file": "chatbot/test_engine.py",
+    "bytes": 5638,
+    "sha256": "2bc4fb0a90a000ae1e63b1bc5409abf847bcc462725701e7997bf06110db35a1"
+  },
+  {
+    "file": "chatbot/tools.py",
+    "bytes": 3767,
+    "sha256": "badc9915b82f9fdf397af9828c332df2e16048f597a469c0aedb6e8c481b96fb"
+  },
+  {
+    "file": "docs/decisoes.md",
+    "bytes": 3628,
+    "sha256": "b34b147883147edd1caea32db2d7dc614f06499370b4ac160673c916d50cf1ef"
+  },
+  {
+    "file": "docs/v2/AUDITORIA_FASE_1.md",
+    "bytes": 12541,
+    "sha256": "47995de8eadfcabe5ab77d029cfcf2dc0ddc8059105f5dc0dc96d8026903922e"
+  },
+  {
+    "file": "docs/v2/PLANO_POR_FASES.md",
+    "bytes": 7510,
+    "sha256": "ec11277bc90edfa077b17772748a02827972d92c230a79151f22769746ba7dcb"
+  },
+  {
+    "file": "docs/v2/REQUISITOS_USUARIO.md",
+    "bytes": 12603,
+    "sha256": "589f38dc69569efd9a4515fc9fa4e145cb515868afe981745c88ef6adec890ee"
+  },
+  {
+    "file": "next-env.d.ts",
+    "bytes": 295,
+    "sha256": "1b59d4c6b83807db275d43f3cf2cc8e9323f465fab764eea091cc5becd5bad37"
+  },
+  {
+    "file": "next.config.ts",
+    "bytes": 122,
+    "sha256": "7222a3eb40ce694033ffe5b8f8b277683c302396b818e51b633a99b778a49e1c"
+  },
+  {
+    "file": "package-lock.json",
+    "bytes": 49406,
+    "sha256": "942e1707cca47300118db4ca84822c4c3ef82708cf9d7631d5d26584aab34fef"
+  },
+  {
+    "file": "package.json",
+    "bytes": 757,
+    "sha256": "e61622950851cee34d69e8aa5f553a103fce85e0954233f0590959f981a4985a"
+  },
+  {
+    "file": "README.md",
+    "bytes": 7104,
+    "sha256": "6314d77e95f21eccb65999b7e43ecda5368cc459238b29f05e71428d95443f7f"
+  },
+  {
+    "file": "scripts/audit-phase1.py",
+    "bytes": 8285,
+    "sha256": "d5b6e8ffbb654cd6e142289071f3fc1da168d3c8d2cd1ff1f77706c7f7a246f9"
+  },
+  {
+    "file": "scripts/check-chat-browser.mjs",
+    "bytes": 5905,
+    "sha256": "6c7dad3d6bfaf78489cc86107f80cee8162003807936703f0752f163edeb1bb9"
+  },
+  {
+    "file": "scripts/generate-document.py",
+    "bytes": 14673,
+    "sha256": "1b526b8463ddff79ba2c850dff3b7180e825b8a8d047f9df653928a64401a6c9"
+  },
+  {
+    "file": "scripts/run.mjs",
+    "bytes": 2244,
+    "sha256": "739a399bb536ca66fab5bf1b6a6eca289fe596493e05e410bcad39b0c6036321"
+  },
+  {
+    "file": "scripts/seed-v2.py",
+    "bytes": 5470,
+    "sha256": "993769f8bfd77ce9c438c29e01e83e8570dc00bfe9c2b41593875a59168f1a2c"
+  },
+  {
+    "file": "scripts/seed.ts",
+    "bytes": 8998,
+    "sha256": "15246546373b2a9be6b964bb7817c26d2dc91f2a77e59f0df617a8814f0452fe"
+  },
+  {
+    "file": "scripts/smoke.mjs",
+    "bytes": 3608,
+    "sha256": "f5d65726a05c47d349e2d3e3fe0d0894c9aff9d8f9dbbb2868e75fd8a202abce"
+  },
+  {
+    "file": "scripts/test-python.mjs",
+    "bytes": 529,
+    "sha256": "01a5dc736a8c4d4218145786be88c039a21ea03353db0c6292a1bdfef12ba56d"
+  },
+  {
+    "file": "scripts/validate-data.ts",
+    "bytes": 2934,
+    "sha256": "cf1e9bb1189943f3d66acc562cfe20850e1f3f316db2e005ed3d01b66d9af1c9"
+  },
+  {
+    "file": "src/app/api/chat/route.ts",
+    "bytes": 2395,
+    "sha256": "621a7ea91cc328e4891dff9aa4973096ca55cb3019c66aee6db0d0ea2c9b1ea6"
+  },
+  {
+    "file": "src/app/api/games/[id]/offers/route.ts",
+    "bytes": 643,
+    "sha256": "1b8333d3e33613aa66c12ad13bfc8bc3ed09c5423a0afb01d71d998a728e8d00"
+  },
+  {
+    "file": "src/app/api/games/[id]/price-history/route.ts",
+    "bytes": 751,
+    "sha256": "a41ed21af415694e3db61aede32ce51e197434630bdee128ed0e9f376ce87d6a"
+  },
+  {
+    "file": "src/app/api/games/[id]/route.ts",
+    "bytes": 318,
+    "sha256": "53eaad0f126eb0791a801164fa28de80d31837d7bf44f2bc3cbac7e741c72efd"
+  },
+  {
+    "file": "src/app/api/games/route.ts",
+    "bytes": 389,
+    "sha256": "b6c42e578e6915361378c42c638fff67481cdbad156d23440dfdb3740d8d2a6e"
+  },
+  {
+    "file": "src/app/api/recommendations/route.ts",
+    "bytes": 457,
+    "sha256": "f26a8f42e22df321d27e21884c459b84b4a56134074271b48549e43c2e87a047"
+  },
+  {
+    "file": "src/app/globals.css",
+    "bytes": 22788,
+    "sha256": "46d042790964f8355f539649f240bead4c0f3c1d459f5fb0f72bd91768e3eb3b"
+  },
+  {
+    "file": "src/app/jogos/[slug]/page.tsx",
+    "bytes": 668,
+    "sha256": "c94515dd3b9329e06cb521be0856a156a2ae6d73c4816dc7ad1ae9e450ab6d38"
+  },
+  {
+    "file": "src/app/layout.tsx",
+    "bytes": 410,
+    "sha256": "22ca296856f651066abbafbac950a51285669c096904144d86db031b34d6216f"
+  },
+  {
+    "file": "src/app/not-found.tsx",
+    "bytes": 310,
+    "sha256": "916b3f73b4bb25c3f2d98242085d3c7ba62d291930c1e63484c6037138aa0235"
+  },
+  {
+    "file": "src/app/out/[offerId]/route.ts",
+    "bytes": 156,
+    "sha256": "6a78b3d004cf9ae4ad3145bee50e9774b8b8d1ec98880ad56c452eddb96d8e61"
+  },
+  {
+    "file": "src/app/page.tsx",
+    "bytes": 103,
+    "sha256": "c340cccf65d3b5ee658049d5f645a71994969ee56034161b6789ba292c854cc7"
+  },
+  {
+    "file": "src/components/BoardRadar.tsx",
+    "bytes": 12475,
+    "sha256": "49d65ba18bfed7efb8486e61421cb00bb7890cafe6031c79d6a810f920dc977e"
+  },
+  {
+    "file": "src/components/Brand.tsx",
+    "bytes": 573,
+    "sha256": "4b14ae098d7321b26cc8c146e00218d6b94d99c3b348a3b2b88cf80bc02b95a9"
+  },
+  {
+    "file": "src/components/ChatAssistant.tsx",
+    "bytes": 5510,
+    "sha256": "0be7e9383d1a660ab736c441284da2703e5e3e15884bb2c18c977aa241bfe83c"
+  },
+  {
+    "file": "src/components/GameDetail.tsx",
+    "bytes": 8264,
+    "sha256": "5a4caae23e967ff554f72358b85c67dad71165fdd8cf34d27b646bfa2986e5b8"
+  },
+  {
+    "file": "src/data/game-relations.json",
+    "bytes": 10857,
+    "sha256": "90919586883b3b8f0ae32553395c8026f52b9acbdea791a271ead475515f4e0b"
+  },
+  {
+    "file": "src/data/games.json",
+    "bytes": 56205,
+    "sha256": "997364c7923704cd3e88ac8644ec24a4db7a558a00782850bf91ffaf2a228ad1"
+  },
+  {
+    "file": "src/data/knowledge-chunks.json",
+    "bytes": 3202,
+    "sha256": "bc24e1f762edd1d12b74e3314cc1645ee2082349ef045f00efa97cdd0242da77"
+  },
+  {
+    "file": "src/data/knowledge-sources.json",
+    "bytes": 369,
+    "sha256": "f9f876e447831f9c3ab20276ec50d0b9a8cc1bca016a0b930bc50fc763f7a253"
+  },
+  {
+    "file": "src/data/media-game-relations.json",
+    "bytes": 21436,
+    "sha256": "18f736ec4a6a51ac808e6dbf301e90cf920be09755fd98861b7f4839fee577d8"
+  },
+  {
+    "file": "src/data/media-works.json",
+    "bytes": 9520,
+    "sha256": "dadfc2249714e3c4706369f4822f608b18ccad7106b26c393452ad5d54c2ba57"
+  },
+  {
+    "file": "src/data/offers.json",
+    "bytes": 60081,
+    "sha256": "d104491c9e70964e313775467b845be74861c9ac617b2c376538b51112713000"
+  },
+  {
+    "file": "src/data/policy.json",
+    "bytes": 182,
+    "sha256": "41c00cdf3a917fb3119daf1f00fc65fe6479046c204c46cdf4bf074684d5f632"
+  },
+  {
+    "file": "src/data/price-history.json",
+    "bytes": 2287692,
+    "sha256": "582954f1894a05a3789e0a817620362a7f063b77fc57d22be5144fef4cd26988"
+  },
+  {
+    "file": "src/data/stores.json",
+    "bytes": 767,
+    "sha256": "9f5143dbe1572e988c31a42d3f4cf706b863f91536bae8f2097f656b862dea42"
+  },
+  {
+    "file": "src/data/videogames.json",
+    "bytes": 2200,
+    "sha256": "7a73a70dcf7df209e2e7925530b247772db75a3494dc5e2c04ef435367f98d51"
+  },
+  {
+    "file": "src/domain/models.ts",
+    "bytes": 690,
+    "sha256": "9db97d17d4f38538438e16bc6e00d83c37effb8efc76638d7a9d54bcc0e266f6"
+  },
+  {
+    "file": "src/domain/preferences.ts",
+    "bytes": 412,
+    "sha256": "ebf4c11bb2a2eb3b5b0d4617ba126c2229983ce519dd0ca8acd2d32ac4dbcd91"
+  },
+  {
+    "file": "src/domain/recommendation.ts",
+    "bytes": 2365,
+    "sha256": "15efb7e245f5b0d96525bd6ccd7b1f0fc53de6dd9bf54e2166a3612037adb07c"
+  },
+  {
+    "file": "src/repositories/catalog.ts",
+    "bytes": 665,
+    "sha256": "6e3bce90fb62b4e72ff22c995e9eb752ef29e4f86d62442f0e9b2551b029b01d"
+  },
+  {
+    "file": "src/repositories/history.ts",
+    "bytes": 156,
+    "sha256": "a47def6ae6a5e72bd6b12903483aab104746a9e0d82c3fa925ce1b5cd2112631"
+  },
+  {
+    "file": "tests/recommendation.test.ts",
+    "bytes": 1547,
+    "sha256": "8b8a841fd5ee92f99fa2712357073923007be17ee0696c7d175781206843ea7d"
+  },
+  {
+    "file": "tsconfig.json",
+    "bytes": 703,
+    "sha256": "f70b288c3af6635001481b32d8f9d12df250fd446d0943b6ed31294cdafd9428"
+  }
+]

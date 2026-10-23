@@ -1,0 +1,16 @@
+INTERESTS={
+ 'combate':('luta','lutas','lutar','combate','batalha','batalhas','porrada','fighting','tekken','street fighter','mortal kombat'),
+ 'terror':('terror','horror','zumbi','zumbis','assustador'),
+ 'fantasia':('fantasia','magia','dragoes','medieval','rpg'),
+ 'exploração':('exploracao','explorar','mundo aberto'),
+ 'ficção científica':('espaco','espacial','ficcao cientifica','sci-fi'),
+ 'construção':('construcao','construir','cidade','cidades'),
+ 'estratégia':('estrategia','estrategico','estrategica','tatico','tatica'),
+ 'cartas':('cartas','deck','deckbuilding','deck-building'),
+ 'família':('familia','familiar','criancas'),
+ 'dedução':('deducao','investigacao','misterio'),
+ 'civilizações':('civilizacao','civilizacoes','imperios'),
+ 'natureza':('natureza','animais','passaros'),
+ 'gestão':('gestao','gerenciar','gerenciamento','recursos'),
+ 'cooperativo':('cooperativo','cooperativos','cooperativa','cooperativas','cooperacao','co-op','coop','juntos'),
+}

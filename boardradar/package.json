@@ -1,0 +1,35 @@
+{
+  "name": "boardradar",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "node scripts/run.mjs --dev",
+    "build": "next build",
+    "start": "node scripts/run.mjs",
+    "validate-data": "node scripts/validate-active-catalog.mjs",
+    "test": "tsx --test tests/*.test.ts && node scripts/test-python.mjs",
+    "typecheck": "tsc --noEmit",
+    "test:python": "node scripts/test-python.mjs",
+    "check:ui": "node scripts/check-product-refinement.mjs",
+    "audit:ui": "node scripts/audit-product-refinement.mjs --strict",
+    "seed:community-demo": "node scripts/seed-community-demo.mjs",
+    "test:v3": "node scripts/test-v3.mjs",
+    "check:v3": "node scripts/smoke-v3.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "^0.468.0",
+    "next": "^16.4.2",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "sharp": "0.35.5",
+    "zod": "^3.24.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "axe-core": "4.10.3",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}

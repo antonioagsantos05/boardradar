@@ -1,0 +1,146 @@
+{
+  "fixture_version": "knowledge-acceptance-1",
+  "index_version": "lexical-weighted-1",
+  "content_sha256": "735774b9ce4ddaee4fd0b15a6614179f4ef57321169386fc5027efd2c76414f0",
+  "source_count": 1,
+  "chunk_count": 8,
+  "case_count": 14,
+  "passed_count": 14,
+  "results": [
+    {
+      "id": "deck-hyphen",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-deckbuilding"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "deck-joined",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-deckbuilding"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "cooperative",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-coop"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "cooperative-plural",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-coop"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "four-x",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-4x"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "complexity",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-complexity"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "expansions",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-editions",
+        "chunk-coop",
+        "chunk-manual"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "entertainment",
+      "passed": true,
+      "chunk_ids": [
+        "chunk-dna"
+      ],
+      "citations_resolve": true,
+      "answer_confidence": "editorial_excerpt",
+      "status": "answered"
+    },
+    {
+      "id": "unknown",
+      "passed": true,
+      "chunk_ids": [],
+      "citations_resolve": true,
+      "answer_confidence": "unknown",
+      "status": "no_results"
+    },
+    {
+      "id": "stop-only",
+      "passed": true,
+      "chunk_ids": [],
+      "citations_resolve": true,
+      "answer_confidence": "unknown",
+      "status": "no_results"
+    },
+    {
+      "id": "missing-game",
+      "passed": true,
+      "chunk_ids": [],
+      "citations_resolve": true,
+      "answer_confidence": "unknown",
+      "status": "needs_game"
+    },
+    {
+      "id": "missing-edition",
+      "passed": true,
+      "chunk_ids": [],
+      "citations_resolve": true,
+      "answer_confidence": "unknown",
+      "status": "needs_edition"
+    },
+    {
+      "id": "no-manual",
+      "passed": true,
+      "chunk_ids": [],
+      "citations_resolve": true,
+      "answer_confidence": "unknown",
+      "status": "insufficient"
+    },
+    {
+      "id": "editorial-not-official",
+      "passed": true,
+      "chunk_ids": [],
+      "citations_resolve": true,
+      "answer_confidence": "unknown",
+      "status": "insufficient"
+    }
+  ],
+  "limits": [
+    "Fixed editorial acceptance set, not general rule-answer accuracy",
+    "No official manuals in deployed corpus",
+    "No latency/SLA measurement"
+  ]
+}

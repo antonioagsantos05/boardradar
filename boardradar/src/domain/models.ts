@@ -1,0 +1,3 @@
+﻿export interface Game { research?:{checked_at:string;sources:{title:string;url:string}[]}; id:string; slug:string; name:string; aliases:string[]; category:string; players:{min:number;max:number}; duration:number; complexity:number; tags:string[]; description:string; color:string; editorialQuality:number; provenance:{source:string;status:string}; editions:{id:string;name:string;language:string;type:string}[] }
+export interface Offer { id:string; edition_id:string; store_id:string; price_cents:number; currency:string; condition:string; availability:string; checked_at:string; is_demo:boolean }
+export interface Preferences { query?:string; players?:number; budget?:number; duration?:number; complexity?:number; style?:string; videogames?:string[] }

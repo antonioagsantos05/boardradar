@@ -1,0 +1,59 @@
+
+test_bad_state_and_input (test_engine.ConversationTests.test_bad_state_and_input) ... ok
+test_brazilian_money_and_bare_budget (test_engine.ConversationTests.test_brazilian_money_and_bare_budget) ... ok
+test_context_is_not_mutated (test_engine.ConversationTests.test_context_is_not_mutated) ... ok
+test_cooperative_refines_combat (test_engine.ConversationTests.test_cooperative_refines_combat) ... ok
+test_declining_budget_does_not_ask_again (test_engine.ConversationTests.test_declining_budget_does_not_ask_again) ... ok
+test_duration_is_not_a_budget (test_engine.ConversationTests.test_duration_is_not_a_budget) ... ok
+test_explain_reuses_previous_suggestion (test_engine.ConversationTests.test_explain_reuses_previous_suggestion) ... ok
+test_fighting_never_returns_generic_civilization_games (test_engine.ConversationTests.test_fighting_never_returns_generic_civilization_games) ... ok
+test_invalid_number_is_clarified (test_engine.ConversationTests.test_invalid_number_is_clarified) ... ok
+test_mass_effect_context_survives_followup (test_engine.ConversationTests.test_mass_effect_context_survives_followup) ... ok
+test_more_returns_different_games (test_engine.ConversationTests.test_more_returns_different_games) ... ok
+test_negation_excludes_cooperative_games (test_engine.ConversationTests.test_negation_excludes_cooperative_games) ... ok
+test_no_results_does_not_relax_constraints (test_engine.ConversationTests.test_no_results_does_not_relax_constraints) ... ok
+test_reset_and_commercial_guard (test_engine.ConversationTests.test_reset_and_commercial_guard) ... ok
+test_short_answer_refines_context (test_engine.ConversationTests.test_short_answer_refines_context) ... ok
+test_unknown_does_not_generate_random_recommendations (test_engine.ConversationTests.test_unknown_does_not_generate_random_recommendations) ... ok
+test_yes_prompts_for_budget_and_decimal_money (test_engine.ConversationTests.test_yes_prompts_for_budget_and_decimal_money) ... ok
+test_budget_conversion_never_rounds_up (test_phase2.OfferPolicyTests.test_budget_conversion_never_rounds_up) ... ok
+test_corrupt_metadata_blocks_candidate_with_trace (test_phase2.OfferPolicyTests.test_corrupt_metadata_blocks_candidate_with_trace) ... ok
+test_duplicate_offer_id_blocks_commercial_result (test_phase2.OfferPolicyTests.test_duplicate_offer_id_blocks_commercial_result) ... ok
+test_edition_of_another_game_is_never_selected (test_phase2.OfferPolicyTests.test_edition_of_another_game_is_never_selected) ... ok
+test_freshness_boundaries (test_phase2.OfferPolicyTests.test_freshness_boundaries) ... ok
+test_invalid_prices_currencies_demo_and_availability_are_excluded (test_phase2.OfferPolicyTests.test_invalid_prices_currencies_demo_and_availability_are_excluded) ... ok
+test_orphan_references_fail_closed (test_phase2.OfferPolicyTests.test_orphan_references_fail_closed) ... ok
+test_selected_price_uses_exact_edition (test_phase2.OfferPolicyTests.test_selected_price_uses_exact_edition) ... ok
+test_store_must_be_demonstrative (test_phase2.OfferPolicyTests.test_store_must_be_demonstrative) ... ok
+test_absent_offer_is_discoverable_but_never_zero (test_phase2.RecommendationRulesTests.test_absent_offer_is_discoverable_but_never_zero) ... ok
+test_all_ranked_results_have_rule_and_offer_trails (test_phase2.RecommendationRulesTests.test_all_ranked_results_have_rule_and_offer_trails) ... ok
+test_eligible_named_game_has_trace (test_phase2.RecommendationRulesTests.test_eligible_named_game_has_trace) ... ok
+test_informational_card_is_not_recommendation_or_offer (test_phase2.RecommendationRulesTests.test_informational_card_is_not_recommendation_or_offer) ... ok
+test_invalid_candidate_never_receives_score (test_phase2.RecommendationRulesTests.test_invalid_candidate_never_receives_score) ... ok
+test_named_game_respects_budget (test_phase2.RecommendationRulesTests.test_named_game_respects_budget) ... ok
+test_named_game_respects_duration (test_phase2.RecommendationRulesTests.test_named_game_respects_duration) ... ok
+test_named_game_respects_explicit_exclusion (test_phase2.RecommendationRulesTests.test_named_game_respects_explicit_exclusion) ... ok
+test_named_game_respects_player_constraint (test_phase2.RecommendationRulesTests.test_named_game_respects_player_constraint) ... ok
+test_named_recommendation_cannot_erase_previous_constraints (test_phase2.RecommendationRulesTests.test_named_recommendation_cannot_erase_previous_constraints) ... ok
+test_python_ranking_profile_is_preserved (test_phase2.RecommendationRulesTests.test_python_ranking_profile_is_preserved) ... ok
+test_rules_are_versioned_and_described (test_phase2.RecommendationRulesTests.test_rules_are_versioned_and_described) ... ok
+test_shared_invariant_fixtures (test_phase2.RecommendationRulesTests.test_shared_invariant_fixtures) ... ok
+test_unsafe_policy_is_rejected (test_phase2.RecommendationRulesTests.test_unsafe_policy_is_rejected) ... ok
+test_weights_are_configurable_without_bypassing_filters (test_phase2.RecommendationRulesTests.test_weights_are_configurable_without_bypassing_filters) ... ok
+test_conflicting_assignments_fail_closed_atomically (test_phase2.RuleRegistryTests.test_conflicting_assignments_fail_closed_atomically) ... ok
+test_critical_rule_cannot_have_exemptions (test_phase2.RuleRegistryTests.test_critical_rule_cannot_have_exemptions) ... ok
+test_dependency_cannot_invert_hierarchy (test_phase2.RuleRegistryTests.test_dependency_cannot_invert_hierarchy) ... ok
+test_dependency_cycle_is_rejected (test_phase2.RuleRegistryTests.test_dependency_cycle_is_rejected) ... ok
+test_dependency_is_run_before_dependent_rule (test_phase2.RuleRegistryTests.test_dependency_is_run_before_dependent_rule) ... ok
+test_duplicate_ids_are_rejected (test_phase2.RuleRegistryTests.test_duplicate_ids_are_rejected) ... ok
+test_execution_errors_block_ranking (test_phase2.RuleRegistryTests.test_execution_errors_block_ranking) ... ok
+test_explicit_exemption_is_traced (test_phase2.RuleRegistryTests.test_explicit_exemption_is_traced) ... ok
+test_hierarchy_and_priority_are_stable (test_phase2.RuleRegistryTests.test_hierarchy_and_priority_are_stable) ... ok
+test_missing_dependency_is_rejected (test_phase2.RuleRegistryTests.test_missing_dependency_is_rejected) ... ok
+test_mutually_exclusive_active_rules_conflict (test_phase2.RuleRegistryTests.test_mutually_exclusive_active_rules_conflict) ... ok
+test_rejected_dependency_blocks_downstream (test_phase2.RuleRegistryTests.test_rejected_dependency_blocks_downstream) ... ok
+
+----------------------------------------------------------------------
+Ran 53 tests in 0.258s
+
+OK

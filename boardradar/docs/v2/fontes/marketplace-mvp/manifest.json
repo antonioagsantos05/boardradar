@@ -1,0 +1,14 @@
+{
+  "archive": "BoardRadar_2_0_Documentacao_Marketplace_MVP.zip",
+  "sha256": "847bf25df7b59ed80de3543d65409af04b14b887f46d995ee554e3635c189916",
+  "documents": [
+    {
+      "file": "BoardRadar_2_0_Plano_de_Negocio_Marketplace_MVP.docx",
+      "sha256": "f3ecd70cd8fe7928dfdcd392e12a90a88fad595cb5ead43c5c013cd70d53b4e6"
+    },
+    {
+      "file": "BoardRadar_2_0_Especificacao_Tecnica_Marketplace_MVP.docx",
+      "sha256": "e03f00f9234d73e97d43605a5da55df2c2f96539a86007673683307a0e04d8ed"
+    }
+  ]
+}

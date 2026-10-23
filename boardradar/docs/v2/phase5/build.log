@@ -1,0 +1,37 @@
+▲ Next.js 16.4.2 (Turbopack)
+✓ Running next.config.ts took 107ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 2.6s
+  Running TypeScript ...
+  Finished TypeScript in 3.2s ...
+  Collecting page data using 12 workers ...
+  Generating static pages using 12 workers (0/66) ...
+  Generating static pages using 12 workers (16/66) 
+  Generating static pages using 12 workers (32/66) 
+  Generating static pages using 12 workers (49/66) 
+✓ Generating static pages using 12 workers (66/66) in 2.5s
+  Finalizing page optimization ...
+
+Route (app)
+┌ ○ /
+├ ○ /_not-found
+├ ƒ /api/chat
+├ ƒ /api/games
+├ ƒ /api/games/[id]
+├ ƒ /api/games/[id]/offers
+├ ƒ /api/games/[id]/price-history
+├ ƒ /api/recommendations
+├   /jogos/[slug]
+│ ├ ● /jogos/catan
+│ ├ ● /jogos/ticket-to-ride
+│ ├ ● /jogos/carcassonne
+│ └ ● [+57 more paths]
+└ ƒ /out/[offerId]
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+

@@ -1,0 +1,31 @@
+{
+  "status": "implemented_except_unidentified_image_removal",
+  "date": "2026-10-20",
+  "checks": {
+    "production_build_and_typescript": "passed",
+    "typescript_tests": 32,
+    "responsive_scenarios": 120,
+    "accessibility_scenarios": 50,
+    "automated_accessibility_violations": 0,
+    "console_errors": 0,
+    "javascript_errors": 0,
+    "demo_seed_idempotence": "passed",
+    "personal_collection_crud_and_reload": "passed",
+    "local_favorite_removal_preserves_account_wishlist": "passed",
+    "existing_real_listing_unchanged": true,
+    "protected_backend_and_api_files_unchanged": 58
+  },
+  "local_examples": {
+    "active_demo_listings": 8,
+    "backup_created": true,
+    "real_user_listing_status": "pending_review"
+  },
+  "pending": [
+    "Identify which image the user means by item 3."
+  ],
+  "evidence": {
+    "browser": "flows/browser-baseline.json",
+    "accessibility": "audit.json",
+    "documentation": "../REFINAMENTOS_INTERFACE.md"
+  }
+}

@@ -1,0 +1,802 @@
+[
+  {
+    "user_id": "user_001",
+    "nome_exibicao": "Vendedor Demo 001",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_002",
+    "nome_exibicao": "Vendedor Demo 002",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_003",
+    "nome_exibicao": "Vendedor Demo 003",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_004",
+    "nome_exibicao": "Vendedor Demo 004",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_005",
+    "nome_exibicao": "Vendedor Demo 005",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_006",
+    "nome_exibicao": "Vendedor Demo 006",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_007",
+    "nome_exibicao": "Vendedor Demo 007",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_008",
+    "nome_exibicao": "Vendedor Demo 008",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_009",
+    "nome_exibicao": "Vendedor Demo 009",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_010",
+    "nome_exibicao": "Vendedor Demo 010",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_011",
+    "nome_exibicao": "Vendedor Demo 011",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_012",
+    "nome_exibicao": "Vendedor Demo 012",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_013",
+    "nome_exibicao": "Vendedor Demo 013",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_014",
+    "nome_exibicao": "Vendedor Demo 014",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_015",
+    "nome_exibicao": "Vendedor Demo 015",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_016",
+    "nome_exibicao": "Vendedor Demo 016",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_017",
+    "nome_exibicao": "Vendedor Demo 017",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_018",
+    "nome_exibicao": "Vendedor Demo 018",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_019",
+    "nome_exibicao": "Vendedor Demo 019",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_020",
+    "nome_exibicao": "Vendedor Demo 020",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_021",
+    "nome_exibicao": "Vendedor Demo 021",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_022",
+    "nome_exibicao": "Vendedor Demo 022",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_023",
+    "nome_exibicao": "Vendedor Demo 023",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_024",
+    "nome_exibicao": "Vendedor Demo 024",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_025",
+    "nome_exibicao": "Vendedor Demo 025",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_026",
+    "nome_exibicao": "Vendedor Demo 026",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_027",
+    "nome_exibicao": "Vendedor Demo 027",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_028",
+    "nome_exibicao": "Vendedor Demo 028",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_029",
+    "nome_exibicao": "Vendedor Demo 029",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_030",
+    "nome_exibicao": "Vendedor Demo 030",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_031",
+    "nome_exibicao": "Vendedor Demo 031",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_032",
+    "nome_exibicao": "Vendedor Demo 032",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_033",
+    "nome_exibicao": "Vendedor Demo 033",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_034",
+    "nome_exibicao": "Vendedor Demo 034",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_035",
+    "nome_exibicao": "Vendedor Demo 035",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_036",
+    "nome_exibicao": "Vendedor Demo 036",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_037",
+    "nome_exibicao": "Vendedor Demo 037",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_038",
+    "nome_exibicao": "Vendedor Demo 038",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_039",
+    "nome_exibicao": "Vendedor Demo 039",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_040",
+    "nome_exibicao": "Vendedor Demo 040",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_041",
+    "nome_exibicao": "Vendedor Demo 041",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_042",
+    "nome_exibicao": "Vendedor Demo 042",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_043",
+    "nome_exibicao": "Vendedor Demo 043",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_044",
+    "nome_exibicao": "Vendedor Demo 044",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_045",
+    "nome_exibicao": "Vendedor Demo 045",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_046",
+    "nome_exibicao": "Vendedor Demo 046",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_047",
+    "nome_exibicao": "Vendedor Demo 047",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_048",
+    "nome_exibicao": "Vendedor Demo 048",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_049",
+    "nome_exibicao": "Vendedor Demo 049",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_050",
+    "nome_exibicao": "Vendedor Demo 050",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_051",
+    "nome_exibicao": "Vendedor Demo 051",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_052",
+    "nome_exibicao": "Vendedor Demo 052",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_053",
+    "nome_exibicao": "Vendedor Demo 053",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_054",
+    "nome_exibicao": "Vendedor Demo 054",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_055",
+    "nome_exibicao": "Vendedor Demo 055",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_056",
+    "nome_exibicao": "Vendedor Demo 056",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_057",
+    "nome_exibicao": "Vendedor Demo 057",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_058",
+    "nome_exibicao": "Vendedor Demo 058",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_059",
+    "nome_exibicao": "Vendedor Demo 059",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_060",
+    "nome_exibicao": "Vendedor Demo 060",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_061",
+    "nome_exibicao": "Vendedor Demo 061",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_062",
+    "nome_exibicao": "Vendedor Demo 062",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_063",
+    "nome_exibicao": "Vendedor Demo 063",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_064",
+    "nome_exibicao": "Vendedor Demo 064",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_065",
+    "nome_exibicao": "Vendedor Demo 065",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_066",
+    "nome_exibicao": "Vendedor Demo 066",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_067",
+    "nome_exibicao": "Vendedor Demo 067",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_068",
+    "nome_exibicao": "Vendedor Demo 068",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_069",
+    "nome_exibicao": "Vendedor Demo 069",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_070",
+    "nome_exibicao": "Vendedor Demo 070",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_071",
+    "nome_exibicao": "Vendedor Demo 071",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_072",
+    "nome_exibicao": "Vendedor Demo 072",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_073",
+    "nome_exibicao": "Vendedor Demo 073",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_074",
+    "nome_exibicao": "Vendedor Demo 074",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_075",
+    "nome_exibicao": "Vendedor Demo 075",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_076",
+    "nome_exibicao": "Vendedor Demo 076",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_077",
+    "nome_exibicao": "Vendedor Demo 077",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_078",
+    "nome_exibicao": "Vendedor Demo 078",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_079",
+    "nome_exibicao": "Vendedor Demo 079",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_080",
+    "nome_exibicao": "Vendedor Demo 080",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_081",
+    "nome_exibicao": "Vendedor Demo 081",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_082",
+    "nome_exibicao": "Vendedor Demo 082",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_083",
+    "nome_exibicao": "Vendedor Demo 083",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_084",
+    "nome_exibicao": "Vendedor Demo 084",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_085",
+    "nome_exibicao": "Vendedor Demo 085",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_086",
+    "nome_exibicao": "Vendedor Demo 086",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_087",
+    "nome_exibicao": "Vendedor Demo 087",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_088",
+    "nome_exibicao": "Vendedor Demo 088",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_089",
+    "nome_exibicao": "Vendedor Demo 089",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_090",
+    "nome_exibicao": "Vendedor Demo 090",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_091",
+    "nome_exibicao": "Vendedor Demo 091",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_092",
+    "nome_exibicao": "Vendedor Demo 092",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_093",
+    "nome_exibicao": "Vendedor Demo 093",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_094",
+    "nome_exibicao": "Vendedor Demo 094",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_095",
+    "nome_exibicao": "Vendedor Demo 095",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_096",
+    "nome_exibicao": "Vendedor Demo 096",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_097",
+    "nome_exibicao": "Vendedor Demo 097",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_098",
+    "nome_exibicao": "Vendedor Demo 098",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_099",
+    "nome_exibicao": "Vendedor Demo 099",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  },
+  {
+    "user_id": "user_100",
+    "nome_exibicao": "Vendedor Demo 100",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticio": true,
+    "origem_dados": "simulacao_poc"
+  }
+]

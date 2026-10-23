@@ -1,0 +1,105 @@
+{
+  "phase": 1,
+  "scope": "Audit and implementation plan only",
+  "generated_at": "2026-10-19T15:46:47.100758-03:00",
+  "status": "passed",
+  "original_rules_extracted": 25,
+  "documents": 3,
+  "data_counts": {
+    "game-relations.json": 39,
+    "games.json": 60,
+    "knowledge-chunks.json": 8,
+    "knowledge-sources.json": 1,
+    "media-game-relations.json": 63,
+    "media-works.json": 21,
+    "offers.json": 236,
+    "policy.json": "configuration",
+    "price-history.json": 14396,
+    "stores.json": 10,
+    "videogames.json": 13
+  },
+  "checks": [
+    {
+      "name": "data-validation",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/tsx/dist/cli.mjs",
+        "scripts/validate-data.ts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.978,
+      "log": "data-validation.log"
+    },
+    {
+      "name": "typescript-tests",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/tsx/dist/cli.mjs",
+        "--test",
+        "tests/recommendation.test.ts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.854,
+      "log": "typescript-tests.log"
+    },
+    {
+      "name": "python-tests",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\python-3.13.7\\python.exe",
+        "chatbot/test_engine.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.551,
+      "log": "python-tests.log"
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 4.693,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "production-build",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/next/dist/bin/next",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 21.46,
+      "log": "production-build.log"
+    },
+    {
+      "name": "http-smoke",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "scripts/smoke.mjs"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.551,
+      "log": "http-smoke.log"
+    },
+    {
+      "name": "browser-chat",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "scripts/check-chat-browser.mjs"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 9.29,
+      "log": "browser-chat.log"
+    }
+  ],
+  "forbidden_python_imports": [],
+  "limits": [
+    "Not an audit of factual catalogue accuracy",
+    "No latency SLA, AI quality score or production readiness certification",
+    "Diagnostics expose gaps; later phases must correct them",
+    "No LLM or inference service used"
+  ]
+}

@@ -1,0 +1,41 @@
+.radar-page{padding-block:36px 48px;min-height:70vh}
+.site-header-nav a[href="/radar-ai"]{display:inline-flex;align-items:center;gap:8px}
+.radar-page-heading{display:flex;justify-content:space-between;align-items:start;gap:28px;margin-bottom:28px}
+.radar-page h1{font-size:clamp(30px,3.5vw,42px);line-height:1.2;margin-block:12px 18px}
+.radar-page-heading p{font-size:16px;line-height:1.7;max-width:720px}
+.radar-page-layout{display:grid;grid-template-columns:260px minmax(0,1fr);gap:28px;align-items:start}
+.radar-guide{padding:24px;border:1px solid #d5dfd5;border-radius:18px;background:radial-gradient(circle at 100% 0,#d9e5db,transparent 60%),#eeefe7}
+.radar-guide h2{font-size:23px;line-height:1.35}.radar-guide p{font-size:15px;line-height:1.7;margin-top:20px}.radar-guide .radar-session-note{font-size:13px;color:#52646a;border-top:1px solid #c5d2c8;padding-top:20px}
+#radar-page-host{min-width:0;min-height:580px}
+.app-shell #radar-page-host .chat-panel.chat-inline{position:relative;inset:auto;display:flex;width:100%;height:min(760px,85dvh);min-height:530px;max-height:none;max-width:none;border:1px solid #ccd9cf;border-radius:20px;box-shadow:0 12px 36px #082a3510;z-index:auto;margin:0}
+.chat-mode-button{font:inherit;font-size:12px;color:#fffdf8!important;text-decoration:underline;text-underline-offset:3px;line-height:1.4;min-height:44px;max-width:130px;display:flex;align-items:center;text-align:left;padding:8px}
+.chat-mode-button{flex-shrink:0;width:110px;justify-content:center;text-align:center}
+.app-shell .chat-header{gap:8px;flex-shrink:0;flex-wrap:nowrap}
+.app-shell .chat-header>div{flex:1;min-width:0}
+.app-shell .chat-header>div>span{line-height:1.5;font-size:12px}
+.app-shell .chat-header .icon-button{flex-shrink:0}
+.app-shell .chat-disclaimer{line-height:1.5;padding:10px 14px;flex-shrink:0}
+.app-shell .chat-messages{overscroll-behavior:contain;min-height:0;flex:1;scroll-padding:16px}
+.app-shell .message>p.chat-response-text{white-space:pre-wrap;font-size:15px;line-height:1.75;overflow-wrap:anywhere}
+.app-shell .message.assistant{max-width:100%}
+.app-shell .chat-recommendation{font-size:15px;line-height:1.6;overflow-wrap:anywhere;min-width:0}
+.app-shell article.chat-recommendation{display:block}
+.app-shell .chat-recommendation>div{min-width:0}
+.app-shell .chat-recommendation strong{font-size:16px}
+.app-shell .chat-recommendation p{font-size:14px;line-height:1.65}
+.app-shell .chat-recommendation span,.app-shell .chat-recommendation small{font-size:12px;line-height:1.6}
+.chat-game-actions{border-top:1px solid #cfdad0;margin-top:14px;padding-top:12px}
+.chat-game-actions p{font-size:13px!important;margin-bottom:10px;line-height:1.6}
+.chat-game-actions>div{display:flex;gap:8px;flex-wrap:wrap}
+.chat-game-actions a,.chat-game-actions button{font-size:13px;font-weight:600;line-height:1.4;display:inline-flex;align-items:center;min-height:44px;border:1px solid #b9cdc1;border-radius:8px;padding:8px 12px;background:#fffdf8;color:#123b43}
+.app-shell .chat-source-excerpt{white-space:pre-wrap;font-size:15px;line-height:1.75;margin-block:14px}
+.app-shell .chat-source summary{font-size:14px;line-height:1.6;min-height:44px}.app-shell .chat-source p,.app-shell .chat-source small{font-size:12px;line-height:1.6}
+.app-shell .chat-tool{font-size:14px;line-height:1.65;overflow-wrap:anywhere}.app-shell .chat-tool small{font-size:12px;line-height:1.6}
+.app-shell .chat-suggestions{display:flex;flex-wrap:nowrap;overflow-x:auto;flex-shrink:0;gap:8px;overscroll-behavior-x:contain}
+.app-shell .chat-suggestions button{font-size:13px;min-height:44px;white-space:nowrap;flex-shrink:0}
+.app-shell .chat-input{flex-shrink:0}.app-shell .chat-input button{min-width:48px;min-height:48px}
+.app-shell .chat-reset{min-height:44px;font-size:13px;flex-shrink:0}
+.app-shell .chat-table-wrap{max-width:100%;overflow:auto}.app-shell .chat-table{font-size:13px;line-height:1.6}
+.app-shell .thinking{display:flex;flex-direction:column;gap:12px;align-items:start}.thinking>span{display:flex;gap:8px;align-items:center}.thinking>button{border:1px solid #aac4b5;background:#fffdf8;border-radius:8px;padding:10px 14px;min-height:44px;font-size:14px}
+@media(max-width:1000px){.radar-page-layout{grid-template-columns:1fr}.radar-guide{display:none}}
+@media(max-width:600px){.radar-page-heading{flex-direction:column;gap:14px}.radar-page{padding-top:28px}.app-shell #radar-page-host .chat-panel.chat-inline{height:75dvh;min-height:550px}.app-shell .chat-header{padding:14px}.chat-mode-button{max-width:110px;font-size:12px}.app-shell .chat-panel:not(.chat-inline) .chat-avatar{display:none}.app-shell .chat-panel:not(.chat-inline) .chat-header>div>span{display:none}.app-shell .chat-panel:not(.chat-inline) .chat-mode-button{max-width:80px}.app-shell .chat-messages{padding:16px}.app-shell .chat-header>div>strong{font-size:18px}}

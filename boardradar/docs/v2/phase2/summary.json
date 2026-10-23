@@ -1,0 +1,114 @@
+{
+  "phase": 2,
+  "generated_at": "2026-10-19T15:59:13.460335-03:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "data-validation",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/tsx/dist/cli.mjs",
+        "scripts/validate-data.ts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.836,
+      "log": "data-validation.log"
+    },
+    {
+      "name": "typescript-tests",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/tsx/dist/cli.mjs",
+        "--test",
+        "tests\\phase2.test.ts",
+        "tests\\recommendation.test.ts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.902,
+      "log": "typescript-tests.log"
+    },
+    {
+      "name": "python-tests",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\python-3.13.7\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "chatbot",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.74,
+      "log": "python-tests.log"
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.007,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/next/dist/bin/next",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 13.87,
+      "log": "build.log"
+    },
+    {
+      "name": "http-smoke",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "scripts/smoke.mjs"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.601,
+      "log": "http-smoke.log"
+    },
+    {
+      "name": "browser",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "scripts/check-chat-browser.mjs"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 8.873,
+      "log": "browser.log"
+    }
+  ],
+  "policy_version": "2.0-phase2.1",
+  "source_sha256": {
+    "chatbot\\radar_ai\\catalog.py": "c906154dcf10a5d70df3766a7147bd15c31bcd70888912dc54e875ba2c0a342c",
+    "chatbot\\radar_ai\\offers.py": "3b016a7d5ba187857b76bc3c1902cde48cb0304cf67904101bf87b28b24b2245",
+    "chatbot\\radar_ai\\policies.py": "1024de040a4c95abca5ec06cbd49b6d92dd959dcbac66fec395695c4064cdf3d",
+    "chatbot\\radar_ai\\recommendation.py": "ef4bdca708fe17130c007703a514bd821498ecaf028aa23def4e23510f687e90",
+    "chatbot\\radar_ai\\rules.py": "3df36439c4f8ab8bdabcda4d4203a5937f014f04d451fadf1a219128a7986971",
+    "chatbot\\radar_ai\\scoring.py": "c28f3ba9a8091db5add15a6bc4e46a6c00745b3b9d235ce50553b3485bef99de",
+    "chatbot\\radar_ai\\__init__.py": "53de90ae27eb081f13c7d232b6d6d7d382f66f865851e9f72307bc72f0efcae8",
+    "chatbot\\engine.py": "07b519a2ce001c709b63138f08c814fca4d65ab8233ac0ba27573e13d5f35f85",
+    "src\\domain\\recommendation.ts": "8b710bf4f98f40b65feff9b899e6d0b129675c98f4c25067988818ab7aab6a39",
+    "src\\domain\\offer-policy.ts": "5f9e4abfb85deb8d7ffb0fdb505f1dc32aee8afef5fbd23de4ec956ad310e58a",
+    "src\\data\\policy.json": "85541185d4acf52c5e94b663484307da5d86908efab7a2d1c30cf57e805d0bfc",
+    "src\\components\\ChatAssistant.tsx": "98a6a1f998f1b392218073dde08bda0197b94f45a9370155afabe39f69c3ccc0",
+    "chatbot\\test_phase2.py": "28849de88b048bc7998f04db31071e7563cc50e7e5f2a73735ca9608d0c50661",
+    "tests\\phase2.test.ts": "b26cdd87b1c72cd5f5ebfa828dd48369cdbe33c178334a6eaa946bfa9391fcd6",
+    "tests\\fixtures\\recommendation-invariants.json": "98f48fec2f974f7088bf264675c5d43de009b5d548921054f334f8016ce1a07a"
+  },
+  "limits": [
+    "Command durations are not request latency benchmarks",
+    "Catalogue metadata remains preliminary",
+    "No LLM/inference provider",
+    "Phase 3 NLP and phase 5 evidence retrieval are not delivered here"
+  ]
+}

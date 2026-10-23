@@ -1,0 +1,538 @@
+{
+  "Recomende Gloomhaven para 8 pessoas até R$ 1": {
+    "text": "Não encontrei uma recomendação elegível entre os jogos citados com as condições atuais. Não vou ignorar seus filtros de jogadores, orçamento, tempo ou estilo.",
+    "state": {
+      "preferences": {
+        "players": 8,
+        "budget": 1.0
+      },
+      "interests": [],
+      "excluded": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false
+    },
+    "preferences": {
+      "players": 8,
+      "budget": 1.0
+    },
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "Sem limite de orçamento",
+      "Sem limite de tempo",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "recommendation",
+    "evaluation": [
+      {
+        "game_id": "g31",
+        "eligible": false,
+        "rejections": [
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "reason": "players_incompatible"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "reason": "budget_or_offer_unavailable"
+          }
+        ],
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "rejected"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "rejected"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "blocked",
+            "reason": "ineligible_candidate"
+          }
+        ]
+      }
+    ]
+  },
+  "Recomende Gloomhaven para 4 pessoas": {
+    "text": "Os jogos abaixo atendem às condições atuais. Abra a ficha para consultar os detalhes e as ofertas DEMO.",
+    "state": {
+      "preferences": {
+        "players": 4
+      },
+      "interests": [],
+      "excluded": [],
+      "last_ids": [
+        "g31"
+      ],
+      "waiting_for": null,
+      "budget_unlimited": false
+    },
+    "preferences": {
+      "players": 4
+    },
+    "ids": [
+      "g31"
+    ],
+    "recommendations": [
+      {
+        "id": "g31",
+        "name": "Gloomhaven",
+        "reason": "Combina fantasia / combate tático. 1–4 jogadores, cerca de 120 min; metadados preliminares.",
+        "price_cents": 58290,
+        "score": 12,
+        "score_breakdown": {
+          "score": 12,
+          "components": {
+            "themes": 0.0,
+            "style": 0,
+            "videogame": 0,
+            "complexity": 3.75,
+            "editorial": 8.0,
+            "combat": 0
+          },
+          "version": "1.1-preserved",
+          "profile": "python"
+        },
+        "policy_version": "2.0-phase2.1",
+        "edition_id": "g31-pt-base",
+        "offer_id": "o31-0",
+        "is_demo": true,
+        "eligible": true,
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ],
+        "offer_rule_trace": [
+          {
+            "rule_id": "SEC-OFFER-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-024-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-007-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 20,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-008-STOCK",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 30,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-005-OFFER",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          }
+        ]
+      }
+    ],
+    "suggestions": [
+      "Outras opções",
+      "Mais barato",
+      "Até 1 hora"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "recommendation",
+    "evaluation": [
+      {
+        "game_id": "g31",
+        "eligible": true,
+        "rejections": [],
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ]
+      }
+    ]
+  },
+  "Fale sobre Gloomhaven para 8 pessoas até R$ 1": {
+    "text": "Estas são fichas informativas, não recomendações de compra. A compatibilidade com suas preferências é indicada separadamente; os metadados são preliminares.",
+    "state": {
+      "preferences": {
+        "players": 8,
+        "budget": 1.0
+      },
+      "interests": [],
+      "excluded": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false
+    },
+    "preferences": {
+      "players": 8,
+      "budget": 1.0
+    },
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "Outras opções",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "game_details": [
+      {
+        "id": "g31",
+        "name": "Gloomhaven",
+        "description": "Explore fantasia / combate tático em Gloomhaven. Uma seleção para quem gosta de fantasia, tático, cooperativo. Consulte as regras da edição antes de escolher sua próxima partida.",
+        "players": {
+          "min": 1,
+          "max": 4
+        },
+        "duration": 120,
+        "complexity": 4,
+        "kind": "information",
+        "eligible_for_preferences": false,
+        "rejections": [
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "reason": "players_incompatible"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "reason": "budget_or_offer_unavailable"
+          }
+        ]
+      }
+    ],
+    "intent": "information",
+    "evaluation": [
+      {
+        "game_id": "g31",
+        "eligible": false,
+        "rejections": [
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "reason": "players_incompatible"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "reason": "budget_or_offer_unavailable"
+          }
+        ],
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "rejected"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "rejected"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "blocked",
+            "reason": "ineligible_candidate"
+          }
+        ]
+      }
+    ]
+  }
+}

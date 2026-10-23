@@ -1,0 +1,6 @@
+
+> boardradar@0.1.0 validate-data
+> tsx scripts/validate-data.ts
+
+Dados íntegros: 68 jogos, 13 videogames, 10 lojas, 236 ofertas, 14396 observações sintéticas.
+Atenção editorial: metadados e edições ainda aguardam conferência em fontes primárias.

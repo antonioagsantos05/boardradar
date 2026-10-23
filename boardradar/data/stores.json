@@ -1,0 +1,92 @@
+[
+  {
+    "store_id": "store_001",
+    "nome": "Ludoteca Central",
+    "cidade": "São Paulo",
+    "uf": "SP",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_002",
+    "nome": "Meeple & Cia",
+    "cidade": "Campinas",
+    "uf": "SP",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_003",
+    "nome": "Dados e Dragões",
+    "cidade": "Rio de Janeiro",
+    "uf": "RJ",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_004",
+    "nome": "Tabuleiro Urbano",
+    "cidade": "Belo Horizonte",
+    "uf": "MG",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_005",
+    "nome": "Ponto do Meeple",
+    "cidade": "Curitiba",
+    "uf": "PR",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_006",
+    "nome": "Universo Lúdico",
+    "cidade": "Porto Alegre",
+    "uf": "RS",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_007",
+    "nome": "Casa do Tabuleiro",
+    "cidade": "Florianópolis",
+    "uf": "SC",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_008",
+    "nome": "Jogada Certa",
+    "cidade": "Brasília",
+    "uf": "DF",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_009",
+    "nome": "Estação Boardgame",
+    "cidade": "Recife",
+    "uf": "PE",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  },
+  {
+    "store_id": "store_010",
+    "nome": "Portal dos Jogos",
+    "cidade": "Fortaleza",
+    "uf": "CE",
+    "ficticia": true,
+    "origem_dados": "simulacao_poc",
+    "site": null
+  }
+]

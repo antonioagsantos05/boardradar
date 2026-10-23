@@ -1,0 +1,168 @@
+{
+  "phase": 5,
+  "generated_at": "2026-10-19T17:21:45.882360-03:00",
+  "status": "passed",
+  "checks": [
+    {
+      "name": "retrieval-evaluation",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\python-3.13.7\\python.exe",
+        "scripts/evaluate-knowledge.py"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 0.384,
+      "log": "retrieval-evaluation.log"
+    },
+    {
+      "name": "data-validation",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/tsx/dist/cli.mjs",
+        "scripts/validate-data.ts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.1,
+      "log": "data-validation.log"
+    },
+    {
+      "name": "typescript-tests",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/tsx/dist/cli.mjs",
+        "--test",
+        "tests\\phase2.test.ts",
+        "tests\\recommendation.test.ts"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 1.103,
+      "log": "typescript-tests.log"
+    },
+    {
+      "name": "python-tests",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\python-3.13.7\\python.exe",
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "chatbot",
+        "-p",
+        "test_*.py",
+        "-v"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.523,
+      "log": "python-tests.log"
+    },
+    {
+      "name": "typecheck",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/typescript/bin/tsc",
+        "--noEmit"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 2.159,
+      "log": "typecheck.log"
+    },
+    {
+      "name": "build",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "node_modules/next/dist/bin/next",
+        "build"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 19.29,
+      "log": "build.log"
+    },
+    {
+      "name": "http-smoke",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "scripts/smoke.mjs"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 5.993,
+      "log": "http-smoke.log"
+    },
+    {
+      "name": "browser",
+      "command": [
+        "C:\\Users\\antonio.agsantos\\Desktop\\teste\\.tools\\node-v22.22.0-win-x64\\node.exe",
+        "scripts/check-chat-browser.mjs"
+      ],
+      "exit_code": 0,
+      "elapsed_seconds": 14.406,
+      "log": "browser.log"
+    }
+  ],
+  "test_counts": {
+    "typescript": 20,
+    "python": 262
+  },
+  "policy_version": "2.0-phase5.0",
+  "source_sha256": {
+    "chatbot\\radar_ai\\catalog.py": "c906154dcf10a5d70df3766a7147bd15c31bcd70888912dc54e875ba2c0a342c",
+    "chatbot\\radar_ai\\conversation.py": "9a505abcc3a9be8b0637e0eeb0eaefbba8ef16c7388ef498e7e53d6d8fbcb469",
+    "chatbot\\radar_ai\\media.py": "a22685796437125e9227782324048f5fb0fad88e2f97a79c2a7bbf95e9c3c045",
+    "chatbot\\radar_ai\\offers.py": "3b016a7d5ba187857b76bc3c1902cde48cb0304cf67904101bf87b28b24b2245",
+    "chatbot\\radar_ai\\policies.py": "265c255b020a22864844156cbfc6ef73ed0bc3a89823958b6cb921ab43d9ce11",
+    "chatbot\\radar_ai\\recommendation.py": "954da360a2f7d3c2f8c10619c38bdc9c1206d4e438df8bb221311e194a5fc984",
+    "chatbot\\radar_ai\\rules.py": "3df36439c4f8ab8bdabcda4d4203a5937f014f04d451fadf1a219128a7986971",
+    "chatbot\\radar_ai\\scoring.py": "c28f3ba9a8091db5add15a6bc4e46a6c00745b3b9d235ce50553b3485bef99de",
+    "chatbot\\radar_ai\\session.py": "361fbc584ed97fe3bc0103413628a68c58382443e4e9e75af6306f7e1ab3a942",
+    "chatbot\\radar_ai\\state.py": "2c1f6952a00d13077c3788c5a5fe2ca850acfa44075c65511b4f090970db9d45",
+    "chatbot\\radar_ai\\templates.py": "9b05107f8cf1602d1a0581e1a8293c88bfbae9ef602fca0d2f89ae3c48dbccef",
+    "chatbot\\radar_ai\\tools.py": "06039ec98c532ad9631872d0b0fbc112da071d5e124ee18ed382b13d1bfb0c03",
+    "chatbot\\radar_ai\\__init__.py": "53de90ae27eb081f13c7d232b6d6d7d382f66f865851e9f72307bc72f0efcae8",
+    "chatbot\\radar_ai\\knowledge\\answers.py": "30ffd9366c4fa983a7117981ecb7d3e4efc778e798054c64406b50165daf3606",
+    "chatbot\\radar_ai\\knowledge\\index.py": "71b767ce8c4f828de532905afcfc44a92352f3fd68ae1e611fbf547ccc933929",
+    "chatbot\\radar_ai\\knowledge\\ingestion.py": "54e85e8be63f64b7cfcf630bb96b7b631a79e172d143897608300ddb9a45d827",
+    "chatbot\\radar_ai\\knowledge\\__init__.py": "4faaf26cee0b4cea29b061202c294a86e8ea6d1b7968c1035774eacc44c2ec9d",
+    "chatbot\\radar_ai\\nlp\\entities.py": "8ee69afeff5dd1e7256665fb619d52892ba1872912eb78e3fc9bf4a037d89e6d",
+    "chatbot\\radar_ai\\nlp\\intents.py": "19b481a403b15160d763c2fe121ab842a0cb7dc5b752b79248e4ba4f9848cf64",
+    "chatbot\\radar_ai\\nlp\\interpreter.py": "907b88f5aab53454d329cb9c4d0a49761f408f08c5756ab41977c050adc675d5",
+    "chatbot\\radar_ai\\nlp\\models.py": "8cd9b74fa9abfef56af253f24609554f94c5e1e32e2559c7b2025a34a117d7c1",
+    "chatbot\\radar_ai\\nlp\\names.py": "9249030d0580d6a437094ec06086535725f25462b3fcf5416ceae26ba1432bc9",
+    "chatbot\\radar_ai\\nlp\\normalizer.py": "5e43106043d452e862e635b7850d65009aaa12d2139ff1b5b38e1207ed7234b2",
+    "chatbot\\radar_ai\\nlp\\synonyms.py": "04807f6c9bad517118789624ba17abd7dfec5c3bc3b0c325687c49d201c1f678",
+    "chatbot\\radar_ai\\nlp\\__init__.py": "01c0e309222bbd3fb8573055ed8ca7def4f15bf23aa375569f6e061f8409bfbf",
+    "chatbot\\test_engine.py": "2bc4fb0a90a000ae1e63b1bc5409abf847bcc462725701e7997bf06110db35a1",
+    "chatbot\\test_phase2.py": "28849de88b048bc7998f04db31071e7563cc50e7e5f2a73735ca9608d0c50661",
+    "chatbot\\test_phase3.py": "4358919be7c6fcf36b6b2a6dbfc487591b4e281d9965a93c57d58e279840acad",
+    "chatbot\\test_phase4.py": "9643cb057d3b5762138915adf8380ca14d49fbb4e2d4ec7142d81ea5f91af2d9",
+    "chatbot\\test_phase5.py": "d99c55f5495a205d058a9a2bab5f7ee9985632ccc44adf17bb1ab108d0c2bcd8",
+    "chatbot\\engine.py": "c41feeadc198ff24fa2845270d08dd8458ac25c51fc7bf2ac020ba7f586103c7",
+    "src\\domain\\recommendation.ts": "8b710bf4f98f40b65feff9b899e6d0b129675c98f4c25067988818ab7aab6a39",
+    "src\\domain\\offer-policy.ts": "5f9e4abfb85deb8d7ffb0fdb505f1dc32aee8afef5fbd23de4ec956ad310e58a",
+    "src\\data\\policy.json": "11f841222ce4f8790288ba92ee8632a5ebdb56fdfd72def6bd33713c268f2122",
+    "src\\data\\media-works.json": "dadfc2249714e3c4706369f4822f608b18ccad7106b26c393452ad5d54c2ba57",
+    "src\\data\\media-game-relations.json": "18f736ec4a6a51ac808e6dbf301e90cf920be09755fd98861b7f4839fee577d8",
+    "src\\components\\ChatAssistant.tsx": "7405cc9ab425710bf2da7161a50fa34922bf2f258160d4cb0aa2c0f331a128fb",
+    "src\\app\\globals.css": "d317ad4525715ea2f0c24c0f9901405250546ff23da46958d5ba442d49ebd9fa",
+    "src\\app\\api\\chat\\route.ts": "c4a0cd9d907af17665731f7968efcc03c06bae910c40c412ceab268852b2679a",
+    "tests\\fixtures\\nlp-cases.json": "a374addb101bc1b94437aca85e482ee570fb6547e2d7626bdb75819a97c177ec",
+    "tests\\phase2.test.ts": "b26cdd87b1c72cd5f5ebfa828dd48369cdbe33c178334a6eaa946bfa9391fcd6",
+    "tests\\fixtures\\recommendation-invariants.json": "98f48fec2f974f7088bf264675c5d43de009b5d548921054f334f8016ce1a07a",
+    "scripts\\smoke.mjs": "cba0540c0395ae21887073bf0eb362258f7a578cdcdedcc8a2b8398cd6c41849",
+    "scripts\\check-chat-browser.mjs": "bff45397782dd7f08104d2cce2a7d41a4cab4efcd489550f5dca50af9af707b6",
+    "scripts\\verify-phase5.py": "3a95b0afb00b85e65caab2c30cd532777f413423a4c270fbd77c2fdc675187b3",
+    "scripts\\evaluate-knowledge.py": "24e537e3ec8cbc5da8495c230dd5a178b66e96a9c245d493eca6d03a0fbb4c71",
+    "scripts\\index-knowledge.py": "4dcc132c7d842d9ee6bfd7c906ce2575cf6ffe27f89c9ce877755ba73e61e682",
+    "scripts\\ingest-knowledge.py": "9d23fe9af196617b1a7864f627aad76024717af5526940f293cd9e84e9791ca7",
+    "chatbot\\knowledge.py": "998717c9dfb6936b6179b4b2f5b36c3bb3997ca8ec879b497c25e0f9ec30b4df",
+    "src\\data\\knowledge-index.json": "93eadc864f8bf455fdca29bd26d6cfa44c8f3ea8ebda66ca7a5cb559ef296e8e",
+    "src\\data\\knowledge-sources.json": "f9f876e447831f9c3ab20276ec50d0b9a8cc1bca016a0b930bc50fc763f7a253",
+    "src\\data\\knowledge-chunks.json": "bc24e1f762edd1d12b74e3314cc1645ee2082349ef045f00efa97cdd0242da77",
+    "tests\\fixtures\\knowledge-cases.json": "a51c5d091480a3146b4e26a4294adba9a875f25baab565e5ce4122daf089693a"
+  },
+  "limits": [
+    "Command durations are not request latency benchmarks",
+    "Catalogue metadata remains preliminary",
+    "Client state is untrusted preferences, not identity or commercial authorization",
+    "30-minute absolute context expiry; legacy state is accepted on initial migration",
+    "No LLM/inference provider",
+    "No official manuals in deployed corpus; eight owned editorial excerpts only. Phase 6 hosting remains pending"
+  ]
+}

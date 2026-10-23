@@ -1,0 +1,23 @@
+[
+  {
+    "file": "especificacao_completa_boardgame_poc (1).docx",
+    "status": "read",
+    "sha256": "3c12da90aa0456fc23982b77760ccb66daba0e365c95b68e60e3f0b326927dbc",
+    "paragraphs": 385,
+    "extracted_to": "especificacao_completa_boardgame_poc (1).txt"
+  },
+  {
+    "file": "BoardRadar_2_0_Especificacao_Tecnica.docx",
+    "status": "read",
+    "sha256": "9d895eedd55f49584caa44f7489b77826282ddd0b2fdf8ec784be59f212dec7f",
+    "paragraphs": 174,
+    "extracted_to": "BoardRadar_2_0_Especificacao_Tecnica.txt"
+  },
+  {
+    "file": "BoardRadar_2_0_Plano_de_Negocio.docx",
+    "status": "read",
+    "sha256": "6587d598d0c3d004ae9877627655a8f779a0ad7c3ad674b71447d4e68ff2a3b7",
+    "paragraphs": 130,
+    "extracted_to": "BoardRadar_2_0_Plano_de_Negocio.txt"
+  }
+]

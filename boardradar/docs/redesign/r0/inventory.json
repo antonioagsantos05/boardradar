@@ -1,0 +1,251 @@
+{
+  "files": [
+    {
+      "path": "src/app/anuncios/page.tsx",
+      "bytes": 12187,
+      "lines": 40,
+      "fetch_calls": 4
+    },
+    {
+      "path": "src/app/conta/page.tsx",
+      "bytes": 6563,
+      "lines": 49,
+      "fetch_calls": 3
+    },
+    {
+      "path": "src/app/jogos/[slug]/page.tsx",
+      "bytes": 1047,
+      "lines": 8,
+      "fetch_calls": 0
+    },
+    {
+      "path": "src/app/marketplace/page.tsx",
+      "bytes": 501,
+      "lines": 4,
+      "fetch_calls": 0
+    },
+    {
+      "path": "src/app/mensagens/page.tsx",
+      "bytes": 2197,
+      "lines": 12,
+      "fetch_calls": 2
+    },
+    {
+      "path": "src/app/moderacao/page.tsx",
+      "bytes": 3705,
+      "lines": 18,
+      "fetch_calls": 2
+    },
+    {
+      "path": "src/app/page.tsx",
+      "bytes": 103,
+      "lines": 2,
+      "fetch_calls": 0
+    },
+    {
+      "path": "src/components/AccountJourney.tsx",
+      "bytes": 7378,
+      "lines": 22,
+      "fetch_calls": 2
+    },
+    {
+      "path": "src/components/BoardRadar.tsx",
+      "bytes": 13436,
+      "lines": 33,
+      "fetch_calls": 1
+    },
+    {
+      "path": "src/components/Brand.tsx",
+      "bytes": 573,
+      "lines": 1,
+      "fetch_calls": 0
+    },
+    {
+      "path": "src/components/ChatAssistant.tsx",
+      "bytes": 12480,
+      "lines": 72,
+      "fetch_calls": 1
+    },
+    {
+      "path": "src/components/CommunityActions.tsx",
+      "bytes": 2043,
+      "lines": 8,
+      "fetch_calls": 1
+    },
+    {
+      "path": "src/components/CommunityListings.tsx",
+      "bytes": 4345,
+      "lines": 23,
+      "fetch_calls": 1
+    },
+    {
+      "path": "src/components/CommunityModeration.tsx",
+      "bytes": 2805,
+      "lines": 10,
+      "fetch_calls": 2
+    },
+    {
+      "path": "src/components/GameComparison.tsx",
+      "bytes": 3528,
+      "lines": 13,
+      "fetch_calls": 2
+    },
+    {
+      "path": "src/components/GameDetail.tsx",
+      "bytes": 9334,
+      "lines": 31,
+      "fetch_calls": 1
+    },
+    {
+      "path": "src/components/ImportedCatalog.tsx",
+      "bytes": 7862,
+      "lines": 73,
+      "fetch_calls": 1
+    },
+    {
+      "path": "src/components/LibraryDetail.tsx",
+      "bytes": 1162,
+      "lines": 8,
+      "fetch_calls": 0
+    },
+    {
+      "path": "src/components/LibraryFacts.tsx",
+      "bytes": 1688,
+      "lines": 5,
+      "fetch_calls": 0
+    },
+    {
+      "path": "src/components/ListingPhotos.tsx",
+      "bytes": 2339,
+      "lines": 20,
+      "fetch_calls": 2
+    }
+  ],
+  "page_routes": [
+    "/",
+    "/anuncios",
+    "/conta",
+    "/marketplace",
+    "/mensagens",
+    "/moderacao",
+    "/jogos/[slug]"
+  ],
+  "api_routes": [
+    {
+      "path": "/api/account",
+      "methods": [
+        "GET",
+        "POST"
+      ]
+    },
+    {
+      "path": "/api/chat",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "path": "/api/compare",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "path": "/api/games",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "path": "/api/library",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "path": "/api/listing-images",
+      "methods": [
+        "GET",
+        "POST"
+      ]
+    },
+    {
+      "path": "/api/listings",
+      "methods": [
+        "GET",
+        "POST"
+      ]
+    },
+    {
+      "path": "/api/recommendations",
+      "methods": [
+        "POST"
+      ]
+    },
+    {
+      "path": "/api/games/[id]",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "path": "/api/games/[id]/offers",
+      "methods": [
+        "GET"
+      ]
+    },
+    {
+      "path": "/api/games/[id]/price-history",
+      "methods": [
+        "GET"
+      ]
+    }
+  ],
+  "css": {
+    "bytes": 31517,
+    "lines": 24,
+    "media_queries": 8,
+    "font_px_values": [
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21,
+      22,
+      23,
+      24,
+      25,
+      26,
+      27,
+      28,
+      29,
+      30,
+      32,
+      33,
+      36,
+      40,
+      46,
+      54,
+      64
+    ],
+    "external_font": true,
+    "focus_visible": [
+      "button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:3px solid #348577;outline-offset:4px}"
+    ],
+    "has_reduced_motion": true
+  },
+  "local_assets_directory": false,
+  "protected_outbound_route": "/out/[offerId] (GET returns 403 DEMO_MODE)"
+}

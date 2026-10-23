@@ -1,0 +1,1162 @@
+{
+  "Compare Root com Scythe": {
+    "text": "Comparei Root, Scythe usando os atributos cadastrados. Os metadados são preliminares. Interação, variabilidade, curva de aprendizado e estratégia detalhada ainda não estão cadastradas.",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792440056,
+        "expires_at": 1792441856
+      },
+      "subject_ids": [
+        "g45",
+        "g28"
+      ]
+    },
+    "preferences": {},
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "Ofertas deles",
+      "Edições deles",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "comparison",
+    "interpretation": {
+      "intent": "comparison",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": null,
+        "preferred_tags": [],
+        "excluded_tags": [],
+        "game_ids": [
+          "g45",
+          "g28"
+        ],
+        "edition_ids": [],
+        "videogame_ids": [],
+        "media_ids": [],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.95,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    },
+    "comparison": {
+      "games": [
+        {
+          "id": "g45",
+          "name": "Root"
+        },
+        {
+          "id": "g28",
+          "name": "Scythe"
+        }
+      ],
+      "rows": [
+        {
+          "attribute": "Jogadores",
+          "values": [
+            "2–4",
+            "1–5"
+          ]
+        },
+        {
+          "attribute": "Duração (min)",
+          "values": [
+            90,
+            115
+          ]
+        },
+        {
+          "attribute": "Complexidade (1–5)",
+          "values": [
+            4,
+            3
+          ]
+        },
+        {
+          "attribute": "Categoria",
+          "values": [
+            "Controle de área / assimetria",
+            "Estratégia / território"
+          ]
+        },
+        {
+          "attribute": "Temas e etiquetas",
+          "values": [
+            "território, estratégia, combate",
+            "território, gestão, estratégia"
+          ]
+        },
+        {
+          "attribute": "Compatível com a busca",
+          "values": [
+            "Sim",
+            "Sim"
+          ]
+        },
+        {
+          "attribute": "Interação",
+          "values": [
+            "Não cadastrado",
+            "Não cadastrado"
+          ]
+        },
+        {
+          "attribute": "Variabilidade",
+          "values": [
+            "Não cadastrado",
+            "Não cadastrado"
+          ]
+        },
+        {
+          "attribute": "Curva de aprendizado",
+          "values": [
+            "Não cadastrado",
+            "Não cadastrado"
+          ]
+        },
+        {
+          "attribute": "Estratégia detalhada",
+          "values": [
+            "Não cadastrado",
+            "Não cadastrado"
+          ]
+        }
+      ],
+      "provenance": [
+        {
+          "source": "Lista fornecida pelo cliente; metadados preliminares editoriais",
+          "status": "pending_verification"
+        },
+        {
+          "source": "Lista fornecida pelo cliente; metadados preliminares editoriais",
+          "status": "pending_verification"
+        }
+      ],
+      "metadata_status": "pending_verification"
+    },
+    "game_details": [
+      {
+        "id": "g45",
+        "name": "Root",
+        "description": "Explore controle de área / assimetria em Root. Uma seleção para quem gosta de território, estratégia, combate. Consulte as regras da edição antes de escolher sua próxima partida.",
+        "players": {
+          "min": 2,
+          "max": 4
+        },
+        "duration": 90,
+        "complexity": 4,
+        "kind": "information",
+        "eligible_for_preferences": true,
+        "rejections": []
+      },
+      {
+        "id": "g28",
+        "name": "Scythe",
+        "description": "Explore estratégia / território em Scythe. Uma seleção para quem gosta de território, gestão, estratégia. Consulte as regras da edição antes de escolher sua próxima partida.",
+        "players": {
+          "min": 1,
+          "max": 5
+        },
+        "duration": 115,
+        "complexity": 3,
+        "kind": "information",
+        "eligible_for_preferences": true,
+        "rejections": []
+      }
+    ],
+    "evaluation": [
+      {
+        "game_id": "g45",
+        "eligible": true,
+        "rejections": [],
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "exempt",
+            "reason": "no_player_constraint"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-GAME-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 65,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ]
+      },
+      {
+        "game_id": "g28",
+        "eligible": true,
+        "rejections": [],
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "exempt",
+            "reason": "no_player_constraint"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-GAME-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 65,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ]
+      }
+    ]
+  },
+  "Ofertas g1-pt-base": {
+    "text": "Ofertas DEMO recentes de Catan, separadas por edição. Valores em reais, sem frete. Lojas e preços são fictícios; a compatibilidade com suas preferências aparece separadamente.",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [],
+      "waiting_for": null,
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792440056,
+        "expires_at": 1792441856
+      },
+      "subject_ids": [
+        "g1"
+      ],
+      "subject_edition_ids": [
+        "g1-pt-base"
+      ]
+    },
+    "preferences": {},
+    "ids": [],
+    "recommendations": [],
+    "suggestions": [
+      "Edições deles",
+      "Mais barato",
+      "Recomeçar"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "offer",
+    "interpretation": {
+      "intent": "offer",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": null,
+        "preferred_tags": [],
+        "excluded_tags": [],
+        "game_ids": [
+          "g1"
+        ],
+        "edition_ids": [
+          "g1-pt-base"
+        ],
+        "videogame_ids": [],
+        "media_ids": [],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.8,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    },
+    "offer_groups": [
+      {
+        "game_id": "g1",
+        "game_name": "Catan",
+        "edition_id": "g1-pt-base",
+        "edition_name": "Jogo-base — edição de demonstração",
+        "language": "pt-BR (a confirmar)",
+        "metadata_status": "pending_verification",
+        "is_demo": true,
+        "shipping_included": false,
+        "eligible_for_preferences": true,
+        "offers": [
+          {
+            "id": "o1-0",
+            "price_cents": 6990,
+            "currency": "BRL",
+            "checked_at": "2026-10-15T12:00:00Z",
+            "condition": "À vista",
+            "store_name": "Meeple Aurora",
+            "within_budget": true
+          },
+          {
+            "id": "o1-1",
+            "price_cents": 7479,
+            "currency": "BRL",
+            "checked_at": "2026-10-15T12:00:00Z",
+            "condition": "PIX",
+            "store_name": "Toca do Tabuleiro",
+            "within_budget": true
+          }
+        ]
+      }
+    ],
+    "game_details": [
+      {
+        "id": "g1",
+        "name": "Catan",
+        "description": "Explore família / estratégia em Catan. Uma seleção para quem gosta de estratégia, negociação, construção. Consulte as regras da edição antes de escolher sua próxima partida.",
+        "players": {
+          "min": 3,
+          "max": 4
+        },
+        "duration": 90,
+        "complexity": 2,
+        "kind": "information",
+        "eligible_for_preferences": true,
+        "rejections": []
+      }
+    ],
+    "evaluation": [
+      {
+        "game_id": "g1",
+        "eligible": true,
+        "rejections": [],
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "exempt",
+            "reason": "no_player_constraint"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-GAME-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 65,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ]
+      }
+    ]
+  },
+  "Gosto do filme Duna": {
+    "text": "Encontrei opções de acordo com suas condições. Usei relações editoriais de Duna. São analogias de temática ou mecânica, com revisão pendente; não comprovam adaptação oficial nem experiência equivalente. Quantas pessoas vão jogar?",
+    "state": {
+      "preferences": {},
+      "interests": [],
+      "excluded": [],
+      "excluded_games": [],
+      "last_ids": [
+        "g22",
+        "g16",
+        "g58"
+      ],
+      "waiting_for": "players",
+      "budget_unlimited": false,
+      "session": {
+        "version": 1,
+        "issued_at": 1792440056,
+        "expires_at": 1792441856
+      },
+      "media_ids": [
+        "media-dune-film"
+      ],
+      "subject_ids": [
+        "g22"
+      ]
+    },
+    "preferences": {},
+    "ids": [
+      "g22",
+      "g16",
+      "g58"
+    ],
+    "recommendations": [
+      {
+        "id": "g22",
+        "name": "Dune: Imperium",
+        "reason": "Combina estratégia / deck-building. 1–4 jogadores, cerca de 120 min; metadados preliminares.",
+        "price_cents": 46500,
+        "score": 16,
+        "score_breakdown": {
+          "score": 16,
+          "components": {
+            "themes": 0.0,
+            "style": 0,
+            "videogame": 0,
+            "complexity": 7.5,
+            "editorial": 8.0,
+            "combat": 0
+          },
+          "version": "1.1-preserved",
+          "profile": "python"
+        },
+        "policy_version": "2.0-phase4.0",
+        "edition_id": "g22-pt-base",
+        "offer_id": "o22-0",
+        "is_demo": true,
+        "eligible": true,
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "exempt",
+            "reason": "no_player_constraint"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-GAME-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 65,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ],
+        "offer_rule_trace": [
+          {
+            "rule_id": "SEC-OFFER-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-024-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-007-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 20,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-008-STOCK",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 30,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-005-OFFER",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          }
+        ],
+        "editorial_links": [
+          {
+            "media_id": "media-dune-film",
+            "game_id": "g22",
+            "weight": 1.0,
+            "rationale": "Afinidade editorial com Duna: ficção científica, estratégia. A conexão é temática; não implica adaptação oficial nem equivalência de gameplay.",
+            "review_status": "editorial_draft",
+            "connection_type": "thematic",
+            "title": "Duna",
+            "provenance": {
+              "source": "Curadoria editorial original BoardRadar",
+              "license": "project-owned",
+              "retrieved_at": "2026-10-19",
+              "review_status": "editorial_draft"
+            }
+          }
+        ]
+      },
+      {
+        "id": "g16",
+        "name": "Terraforming Mars",
+        "reason": "Combina estratégia / ficção científica. 1–5 jogadores, cerca de 120 min; metadados preliminares.",
+        "price_cents": 38640,
+        "score": 16,
+        "score_breakdown": {
+          "score": 16,
+          "components": {
+            "themes": 0.0,
+            "style": 0,
+            "videogame": 0,
+            "complexity": 7.5,
+            "editorial": 8.0,
+            "combat": 0
+          },
+          "version": "1.1-preserved",
+          "profile": "python"
+        },
+        "policy_version": "2.0-phase4.0",
+        "edition_id": "g16-pt-base",
+        "offer_id": "o16-0",
+        "is_demo": true,
+        "eligible": true,
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "exempt",
+            "reason": "no_player_constraint"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-GAME-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 65,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ],
+        "offer_rule_trace": [
+          {
+            "rule_id": "SEC-OFFER-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-024-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-007-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 20,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-008-STOCK",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 30,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-005-OFFER",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          }
+        ],
+        "editorial_links": [
+          {
+            "media_id": "media-dune-film",
+            "game_id": "g16",
+            "weight": 0.7,
+            "rationale": "Afinidade editorial com Duna: ficção científica, estratégia. A conexão é temática; não implica adaptação oficial nem equivalência de gameplay.",
+            "review_status": "editorial_draft",
+            "connection_type": "thematic",
+            "title": "Duna",
+            "provenance": {
+              "source": "Curadoria editorial original BoardRadar",
+              "license": "project-owned",
+              "retrieved_at": "2026-10-19",
+              "review_status": "editorial_draft"
+            }
+          }
+        ]
+      },
+      {
+        "id": "g58",
+        "name": "Dune: War for Arrakis",
+        "reason": "Combina guerra / ficção científica. 1–4 jogadores, cerca de 120 min; metadados preliminares.",
+        "price_cents": 93660,
+        "score": 12,
+        "score_breakdown": {
+          "score": 12,
+          "components": {
+            "themes": 0.0,
+            "style": 0,
+            "videogame": 0,
+            "complexity": 3.75,
+            "editorial": 8.0,
+            "combat": 0
+          },
+          "version": "1.1-preserved",
+          "profile": "python"
+        },
+        "policy_version": "2.0-phase4.0",
+        "edition_id": "g58-pt-base",
+        "offer_id": "o58-0",
+        "is_demo": true,
+        "eligible": true,
+        "rule_trace": [
+          {
+            "rule_id": "SEC-CATALOG-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-PLAYERS-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 10,
+            "status": "exempt",
+            "reason": "no_player_constraint"
+          },
+          {
+            "rule_id": "USR-DURATION-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 20,
+            "status": "exempt",
+            "reason": "no_duration_constraint"
+          },
+          {
+            "rule_id": "USR-BUDGET-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 30,
+            "status": "exempt",
+            "reason": "no_budget_limit"
+          },
+          {
+            "rule_id": "USR-COMPLEXITY-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 40,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-MODE-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 50,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 60,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-GAME-EXCLUDED-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 65,
+            "status": "passed"
+          },
+          {
+            "rule_id": "USR-INTEREST-001",
+            "version": "1.0",
+            "layer": "USER_CONSTRAINT",
+            "priority": 70,
+            "status": "passed"
+          },
+          {
+            "rule_id": "CMP-EDITION-001",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "PREF-AFFINITY-001",
+            "version": "1.0",
+            "layer": "PREFERENCE",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RANK-SCORE-001",
+            "version": "1.0",
+            "layer": "RANKING",
+            "priority": 10,
+            "status": "applied"
+          }
+        ],
+        "offer_rule_trace": [
+          {
+            "rule_id": "SEC-OFFER-001",
+            "version": "1.0",
+            "layer": "SECURITY",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-024-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 10,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-007-OFFER",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 20,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-008-STOCK",
+            "version": "1.0",
+            "layer": "BUSINESS",
+            "priority": 30,
+            "status": "passed"
+          },
+          {
+            "rule_id": "RN-005-OFFER",
+            "version": "1.0",
+            "layer": "COMPATIBILITY",
+            "priority": 10,
+            "status": "passed"
+          }
+        ],
+        "editorial_links": [
+          {
+            "media_id": "media-dune-film",
+            "game_id": "g58",
+            "weight": 0.85,
+            "rationale": "Afinidade editorial com Duna: ficção científica, estratégia. A conexão é temática; não implica adaptação oficial nem equivalência de gameplay.",
+            "review_status": "editorial_draft",
+            "connection_type": "thematic",
+            "title": "Duna",
+            "provenance": {
+              "source": "Curadoria editorial original BoardRadar",
+              "license": "project-owned",
+              "retrieved_at": "2026-10-19",
+              "review_status": "editorial_draft"
+            }
+          }
+        ]
+      }
+    ],
+    "suggestions": [
+      "2 pessoas",
+      "4 pessoas",
+      "Vou jogar solo"
+    ],
+    "is_demo": true,
+    "engine": "python-catalog",
+    "intent": "recommendation",
+    "interpretation": {
+      "intent": "recommendation",
+      "entities": {
+        "players": null,
+        "max_price_cents": null,
+        "duration_minutes": null,
+        "max_complexity": null,
+        "mode": null,
+        "preferred_tags": [],
+        "excluded_tags": [],
+        "game_ids": [],
+        "edition_ids": [],
+        "videogame_ids": [],
+        "media_ids": [
+          "media-dune-film"
+        ],
+        "excluded_game_ids": [],
+        "remove": []
+      },
+      "confidence": 0.6,
+      "missing_information": [],
+      "ambiguities": [],
+      "errors": [],
+      "cheaper": false,
+      "more": false,
+      "version": "nlp-3.0",
+      "confidence_kind": "heuristic_not_calibrated"
+    }
+  }
+}

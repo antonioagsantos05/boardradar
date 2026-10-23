@@ -1,0 +1,437 @@
+[
+  {
+    "id": "franquia_01",
+    "nome": "Star Wars",
+    "temas": [
+      "espaco",
+      "ficcao_cientifica",
+      "guerra",
+      "aventura"
+    ],
+    "experiencias": [
+      "combate",
+      "estrategia",
+      "exploracao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_02",
+    "nome": "Harry Potter",
+    "temas": [
+      "magia",
+      "fantasia",
+      "misterio"
+    ],
+    "experiencias": [
+      "narrativa",
+      "exploracao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_03",
+    "nome": "O Senhor dos Anéis",
+    "temas": [
+      "fantasia",
+      "medieval",
+      "aventura",
+      "guerra"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "exploracao",
+      "narrativa"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_04",
+    "nome": "Game of Thrones",
+    "temas": [
+      "medieval",
+      "politica",
+      "guerra",
+      "fantasia"
+    ],
+    "experiencias": [
+      "diplomacia",
+      "estrategia",
+      "conflito"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_05",
+    "nome": "Marvel",
+    "temas": [
+      "super_herois",
+      "aventura",
+      "ficcao_cientifica"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "combate"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_06",
+    "nome": "DC Comics",
+    "temas": [
+      "super_herois",
+      "crime",
+      "aventura"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "combate"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_07",
+    "nome": "Jurassic Park",
+    "temas": [
+      "dinossauros",
+      "sobrevivencia",
+      "natureza",
+      "aventura"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "exploracao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_08",
+    "nome": "Indiana Jones",
+    "temas": [
+      "aventura",
+      "exploracao",
+      "misterio",
+      "historia"
+    ],
+    "experiencias": [
+      "exploracao",
+      "narrativa"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_09",
+    "nome": "Piratas do Caribe",
+    "temas": [
+      "piratas",
+      "aventura",
+      "fantasia"
+    ],
+    "experiencias": [
+      "exploracao",
+      "conflito"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_10",
+    "nome": "Matrix",
+    "temas": [
+      "cyberpunk",
+      "tecnologia",
+      "ficcao_cientifica"
+    ],
+    "experiencias": [
+      "estrategia",
+      "conflito"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_11",
+    "nome": "Duna",
+    "temas": [
+      "espaco",
+      "politica",
+      "ficcao_cientifica",
+      "guerra"
+    ],
+    "experiencias": [
+      "estrategia",
+      "diplomacia"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_12",
+    "nome": "Star Trek",
+    "temas": [
+      "espaco",
+      "exploracao",
+      "ficcao_cientifica"
+    ],
+    "experiencias": [
+      "exploracao",
+      "cooperacao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_13",
+    "nome": "Alien",
+    "temas": [
+      "terror",
+      "espaco",
+      "sobrevivencia",
+      "ficcao_cientifica"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "sobrevivencia"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_14",
+    "nome": "Predador",
+    "temas": [
+      "ficcao_cientifica",
+      "sobrevivencia",
+      "combate"
+    ],
+    "experiencias": [
+      "combate",
+      "conflito"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_15",
+    "nome": "O Exterminador do Futuro",
+    "temas": [
+      "robos",
+      "tecnologia",
+      "ficcao_cientifica",
+      "guerra"
+    ],
+    "experiencias": [
+      "conflito",
+      "sobrevivencia"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_16",
+    "nome": "Avatar",
+    "temas": [
+      "natureza",
+      "exploracao",
+      "ficcao_cientifica"
+    ],
+    "experiencias": [
+      "exploracao",
+      "cooperacao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_17",
+    "nome": "Transformers",
+    "temas": [
+      "robos",
+      "tecnologia",
+      "guerra",
+      "ficcao_cientifica"
+    ],
+    "experiencias": [
+      "combate",
+      "conflito"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_18",
+    "nome": "Pokémon",
+    "temas": [
+      "fantasia",
+      "animais",
+      "aventura"
+    ],
+    "experiencias": [
+      "colecao",
+      "competicao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_19",
+    "nome": "Super Mario",
+    "temas": [
+      "fantasia",
+      "aventura",
+      "nostalgia"
+    ],
+    "experiencias": [
+      "familia",
+      "competicao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_20",
+    "nome": "The Legend of Zelda",
+    "temas": [
+      "fantasia",
+      "aventura",
+      "exploracao",
+      "magia"
+    ],
+    "experiencias": [
+      "exploracao",
+      "narrativa"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_21",
+    "nome": "The Witcher",
+    "temas": [
+      "fantasia",
+      "medieval",
+      "magia",
+      "sobrenatural"
+    ],
+    "experiencias": [
+      "exploracao",
+      "narrativa"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_22",
+    "nome": "Resident Evil",
+    "temas": [
+      "terror",
+      "zumbis",
+      "sobrevivencia"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "sobrevivencia"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_23",
+    "nome": "The Last of Us",
+    "temas": [
+      "pos_apocalipse",
+      "sobrevivencia",
+      "drama"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "narrativa"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_24",
+    "nome": "Stranger Things",
+    "temas": [
+      "misterio",
+      "terror",
+      "nostalgia_anos_80",
+      "sobrenatural"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "deducao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_25",
+    "nome": "Sherlock Holmes",
+    "temas": [
+      "misterio",
+      "investigacao",
+      "crime"
+    ],
+    "experiencias": [
+      "deducao",
+      "cooperacao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_26",
+    "nome": "Scooby-Doo",
+    "temas": [
+      "misterio",
+      "investigacao",
+      "humor"
+    ],
+    "experiencias": [
+      "deducao",
+      "cooperacao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_27",
+    "nome": "Missão: Impossível",
+    "temas": [
+      "espionagem",
+      "aventura",
+      "tecnologia"
+    ],
+    "experiencias": [
+      "cooperacao",
+      "estrategia"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_28",
+    "nome": "007 — James Bond",
+    "temas": [
+      "espionagem",
+      "crime",
+      "aventura"
+    ],
+    "experiencias": [
+      "deducao",
+      "estrategia"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_29",
+    "nome": "De Volta para o Futuro",
+    "temas": [
+      "ficcao_cientifica",
+      "nostalgia",
+      "tecnologia"
+    ],
+    "experiencias": [
+      "aventura",
+      "narrativa"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  },
+  {
+    "id": "franquia_30",
+    "nome": "Disney — Princesas",
+    "temas": [
+      "romance",
+      "fantasia",
+      "contos_de_fadas"
+    ],
+    "experiencias": [
+      "narrativa",
+      "cooperacao"
+    ],
+    "relacao": "afinidade_temática; não implica licença ou vínculo oficial com jogos"
+  }
+]

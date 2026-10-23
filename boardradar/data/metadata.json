@@ -1,0 +1,33 @@
+{
+  "projeto": "BoardRadar",
+  "etapa": "POC 1 - dados",
+  "gerado_em": "2026-10-21",
+  "dados_comerciais": "Todos os vendedores, anúncios, edições comerciais e preços são fictícios.",
+  "fonte_jogos": "100 primeiros jogos do catálogo previamente selecionado, oriundo de arquivo BGG fornecido pelo usuário",
+  "referencia_bgg": "2019-09-20",
+  "traducao": "Categorias e mecânicas conforme JSON de entrada; descrições integrais em inglês preservadas, tradução pt-BR pendente.",
+  "imagens": "URLs de imagens provenientes do arquivo fornecido; disponibilidade e direitos de uso não verificados.",
+  "moeda": "BRL",
+  "descricoes": "100 resumos autorais em português brasileiro; textos longos em inglês removidos.",
+  "complexidade": {
+    "campo": "complexidade",
+    "escala": "1.00 a 5.00",
+    "fonte": "BGG averageWeight, dados de 2019",
+    "faixas": {
+      "leve": "1.00 a 1.99",
+      "moderado": "2.00 a 2.99",
+      "complexo": "3.00 a 3.99",
+      "muito_complexo": "4.00 a 5.00"
+    },
+    "observacao": "Medida comunitária de dificuldade de aprendizado e execução, não uma nota de qualidade."
+  },
+  "afinidades": {
+    "temas": 61,
+    "experiencias": 27,
+    "franquias": 30,
+    "jogos_classificados": 100,
+    "origem": "Curadoria editorial de POC baseada em nomes, resumos e características dos jogos; não são tags oficiais BGG",
+    "revisao": "Rótulos interpretativos sujeitos a revisão manual",
+    "preferencias": "Não selecionado = indiferente; escolhas opcionais; evitar temas marcados como não gosto por padrão"
+  }
+}

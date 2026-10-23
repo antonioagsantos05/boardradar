@@ -1,0 +1,385 @@
+Assistente de Compras de Board Games
+Especificação consolidada do produto, regras de negócio, requisitos, arquitetura, dados e plano de POC
+Versão 1.0 • 15 de outubro de 2026 • Documento de planejamento sujeito à aprovação do cliente
+1. Resumo executivo
+Plataforma B2C brasileira para descoberta personalizada de jogos de tabuleiro e comparação de ofertas. O diferencial frente a comparadores tradicionais é recomendar board games por preferências, estilos, mecânicas, franquias e videogames favoritos, explicando as afinidades. O preço é o principal caminho de monetização, mas a POC utiliza ofertas claramente simuladas.
+2. Objetivos, público e diferenciais
+Público: jogadores brasileiros, de iniciantes a entusiastas; não é uma ferramenta B2B para lojistas.
+Descoberta por temas (guerra, fantasia, terror, ficção científica, civilizações), estilos (4X, wargame, dungeon crawler, tático), mecânicas, jogadores, duração, complexidade, orçamento e franquias.
+Ponte videogame → tabuleiro: Civilization/Age of Empires → Through the Ages/Clash of Cultures; Stellaris → Eclipse/Twilight Imperium; XCOM → XCOM: The Board Game, com ressalvas sobre diferenças de experiência.
+Comparar ofertas por edição, condições de pagamento e disponibilidade; preços e estoques devem ser verificados em produção.
+Perfil opcional e personalização; navegar e comparar não exigem cadastro.
+Chat especializado, lista de desejos, alertas de preço e avaliações da comunidade são fases posteriores.
+3. Mercado, concorrência e monetização
+Referências competitivas discutidas: Compara Jogos, Mesa do Rudi/Achados do Rudi, Radar Tabuleiro e Ludopedia. Comparação de preços, histórico e alertas já existem no mercado; a proposta de valor deve priorizar recomendação, personalização e conexão com videogames. A lista é exploratória, não uma auditoria atualizada dos concorrentes.
+Monetização principal futura: afiliados e acordos de indicação com lojas, com transparência comercial.
+Fases posteriores: publicidade identificada e eventualmente serviços premium.
+Não distorcer ordenação por menor preço em função de patrocínio.
+Métricas: cobertura do catálogo, frescor das ofertas, cliques de saída, compras atribuídas (quando mensuráveis), retorno e conversão.
+4. Escopo e estratégia de entrega
+Área
+POC aprovada
+MVP posterior
+Catálogo
+60 jogos reais com metadados verificados/curados
+200–500 jogos, cobertura ampliada
+Videogames
+12 referências e relações editoriais
+Mais jogos e mapeamentos
+Lojas
+5 fictícias, sem compra real
+3–5 fontes comerciais autorizadas
+Ofertas
+150+ simuladas, sinalizadas
+Preços e disponibilidade reais
+Histórico
+Série sintética sinalizada
+Coletas reais a partir da ativação
+Conta
+Preferências no navegador
+Login e perfil persistido
+Recomendação
+Filtros + pontuação determinística
+Personalização refinada
+Chat IA
+Fora do escopo
+Fase 2, fundamentado no catálogo
+Checkout
+Fora do escopo
+Continua na loja parceira
+5. Atores e jornadas
+Ator
+Responsabilidades
+Visitante
+Buscar, filtrar, descobrir, visualizar jogos e comparar demonstrações
+Jogador autenticado (futuro)
+Editar preferências, receber recomendações personalizadas
+Administrador
+Curar jogos, edições, correspondências e fontes
+Loja parceira (futuro)
+Fornecer ofertas via canal autorizado
+Job de integração (futuro)
+Sincronizar, validar, registrar erros e histórico
+Fluxo principal: acesso → busca ou descoberta → preferências opcionais → recomendação/filtros → página do jogo → edição → ofertas → comparação → saída para loja (apenas em produção). Na POC, botão comercial é demonstrativo e não efetua redirecionamento real.
+6. Regras de negócio (RN)
+ID
+Regra
+RN-001
+Consulta pública sem autenticação.
+RN-002
+Onboarding opcional e editável.
+RN-003
+Jogos admitem múltiplas tags de tema, mecânica, estilo e franquia.
+RN-004
+Jogo-base, expansão e edição comercial têm identificações distintas.
+RN-005
+Somente edições idênticas ou equivalentes explicitamente aprovadas podem ter ofertas comparadas.
+RN-006
+Preços e estoque vêm exclusivamente de ofertas registradas, nunca de texto gerado por IA.
+RN-007
+Ofertas antigas são sinalizadas e não tratadas como atuais.
+RN-008
+Ordenação padrão pelo menor preço de produto válido; informar frete não incluído.
+RN-009
+Filtros obrigatórios prevalecem sobre o score de recomendação.
+RN-010
+Jogo sem oferta pode ser descoberto, mas sem preço verificado.
+RN-011
+Patrocínio identificado e sem manipulação silenciosa do ranking.
+RN-012
+Cliques de saída rastreados apenas quando permitido.
+RN-013
+Histórico registra observações reais, sem retroagir dados inexistentes.
+RN-014
+Respeitar licenças e autorizações de dados externos.
+RN-015
+Usuário pode solicitar exclusão da conta/dados, conforme obrigações aplicáveis.
+RN-016
+Somente administradores corrigem vínculos entre ofertas e edições.
+RN-017
+Importações registram origem e data.
+RN-018
+IDs externos não substituem IDs internos.
+RN-019
+Importações devem ser idempotentes.
+RN-020
+Correspondências incertas passam por revisão.
+RN-021
+Dados sem direito de uso não são publicados.
+RN-022
+Fonte externa não sobrescreve curadoria própria sem regra.
+RN-023
+Oferta sem edição confiável não participa da comparação.
+RN-024
+Dados sintéticos são identificados por origem e sinalizados na UI.
+RN-025
+Modo demo bloqueia checkout e redirecionamentos comerciais reais.
+7. Requisitos funcionais (RF)
+ID
+Módulo
+Requisito
+RF-001
+Catálogo
+Pesquisar por nome e aliases
+RF-002
+Catálogo
+Filtrar por tema, mecânica, estilo, franquia, jogadores e duração
+RF-003
+Catálogo
+Exibir ficha e edições
+RF-004
+Catálogo
+Combinar filtros
+RF-005
+Catálogo
+Exibir relacionados
+RF-006
+Perfil futuro
+Criar conta e autenticar
+RF-007
+Perfil
+Onboarding opcional
+RF-008
+Perfil
+Selecionar videogames favoritos
+RF-009
+Perfil
+Configurar orçamento, jogadores e estilos
+RF-010
+Perfil futuro
+Editar perfil e solicitar exclusão
+RF-011
+Recomendação
+Recomendar por perfil
+RF-012
+Recomendação
+Mapear videogames a atributos de board games
+RF-013
+Recomendação
+Aplicar restrições antes do ranking
+RF-014
+Recomendação
+Explicar justificativas
+RF-015
+Recomendação
+Permitir recomendações sem login
+RF-016
+Preços
+Consultar ofertas por edição
+RF-017
+Preços
+Exibir preço, loja, estoque e verificação
+RF-018
+Preços
+Ordenar ofertas válidas
+RF-019
+Preços
+Exibir histórico
+RF-020
+Comercial futuro
+Registrar clique e redirecionar
+RF-021
+Preços
+Informar ausência de ofertas
+RF-022
+Preços
+Diferenciar PIX/à vista e condições
+RF-023
+Admin futuro
+Importar jogos de fontes autorizadas
+RF-024
+Integração futura
+Sincronizar APIs/feeds
+RF-025
+Integração futura
+Registrar logs de execução
+RF-026
+Admin
+Corrigir associação de ofertas/edições
+RF-027
+Integração
+Evitar duplicidade por fonte/ID
+RF-028
+Admin
+Desativar lojas/ofertas inconsistentes
+8. Requisitos não funcionais (RNF)
+ID
+Dimensão
+Critério proposto
+RNF-001
+Performance
+p95 backend < 500 ms sob carga de referência definida
+RNF-002
+Web Vitals
+LCP p75 < 2,5 s nas páginas principais, sob condições definidas
+RNF-003
+Segurança
+Autorização no servidor e segredos protegidos quando houver autenticação
+RNF-004
+Privacidade
+Minimização, transparência e retenção conforme LGPD
+RNF-005
+Integridade
+Validação de esquema e referências; sem duplicações
+RNF-006
+Observabilidade
+Logs de sincronização e erros
+RNF-007
+Resiliência
+Falha de fonte não derruba catálogo
+RNF-008
+Acessibilidade
+WCAG 2.2 AA como referência
+RNF-009
+SEO
+URLs estáveis, metadados e páginas indexáveis
+RNF-010
+Custos
+Meta inicial até R$ 150/mês, excluindo licenças e extras
+RNF-011
+Manutenção
+Repositórios e adaptadores isolados
+RNF-012
+Recuperação
+Backups/restauração na fase de banco
+RNF-013
+Escalabilidade
+Coletas fora das requisições web
+RNF-014
+Confiabilidade
+Timestamp e origem visíveis
+9. Arquitetura da POC — decisão vigente
+Stack definida: Next.js + TypeScript, Node.js e arquivos JSON locais. Não utilizar Docker, PostgreSQL, Supabase, microsserviços, Redis ou autenticação na POC. JSONs são somente leitura; preferências temporárias podem ser guardadas em localStorage. Camada de repositórios abstrai os arquivos para futura migração ao banco.
+boardgame-advisor/
+  src/app/{page.tsx,jogos/,descobrir/,api/}
+  src/components/
+  src/domain/{models/,services/}
+  src/repositories/{game.repository.ts,offer.repository.ts,recommendation.repository.ts}
+  src/data/{games.json,videogames.json,game-relations.json,stores.json,offers.json,price-history.json}
+  scripts/validate-data.ts
+  package.json
+Execução local prevista: npm install; npm run dev. Hospedagem futura opcional em plataforma compatível com Next.js. Sem dependência obrigatória de serviços externos na demonstração.
+10. Modelo de dados e contratos
+Entidade / arquivo
+Campos ou função principal
+games.json
+id, slug, name, aliases, players, duration, complexity, tags, provenance
+videogames.json
+id, title, tags de experiência
+game-relations.json
+videogame_id, game_id, weight, rationale, review_status
+stores.json
+id, name, is_demo, domain opcional
+offers.json
+id, edition_id, store_id, price, currency, condition, availability, checked_at, is_demo
+price-history.json
+offer_id, observed_at, price, data_origin
+game_editions (conceitual)
+id, game_id, idioma, editora, EAN/GTIN, tipo (base/expansão)
+data_sources / provenance
+fonte, licença, data de obtenção e verificação
+staging / product_matches (futuro)
+payload bruto, confiança, revisão de correspondência
+Separar game (obra), game_edition (produto específico) e offer (anúncio comercial). Toda referência entre arquivos deve apontar para um ID existente. Valores monetários em BRL e números decimais, com política de arredondamento definida. Preferir centavos inteiros em implementação para evitar erros de ponto flutuante.
+11. Recomendação determinística
+Pipeline: receber filtros/perfil → buscar candidatos → excluir incompatíveis com restrições obrigatórias → calcular score → retornar jogos com justificativas. Pesos iniciais: temas 25%, mecânicas/estilos 25%, afinidade com videogames 25%, complexidade 15%, qualidade editorial 10%. Valores ajustáveis; não usar preço ausente como R$ 0. Relações com videogames são analogias editoriais, não equivalência de gameplay.
+12. Dados iniciais e proveniência
+Plano de POC: 60 board games, 12 videogames, 5 lojas fictícias e pelo menos 150 ofertas sintéticas; histórico de 30–90 dias simulado. Metadados factuais devem ser conferidos e descrições redigidas de forma original. Não atribuir preços inventados a lojas reais. Dados comerciais demonstrativos devem ter is_demo=true e rótulo visual inequívoco.
+Fontes candidatas para etapa posterior: BoardGameGeek, Ludopedia, editoras, distribuidoras, feeds de lojas e marketplaces. Acesso público não implica direito de reutilização comercial; validar licenças, APIs e permissões antes de importar. Para a POC, priorizar conteúdo editorial próprio e fatos verificáveis.
+Estratégia de aquisição recomendada para produto real: ofertas primeiro, enriquecimento progressivo dos jogos efetivamente vendidos. Experimento prévio: 30 jogos e 2 fontes autorizadas; validar correspondência, atualização repetida, direitos de uso e taxa de erros antes de escalar.
+13. Fluxos técnicos e diagramas de sequência (descrição textual)
+13.1 Jornada de compra
+Visitante -> Busca/Descoberta -> Filtros/Perfil opcional
+-> Recomendador -> Ficha do jogo -> Seleção de edição
+-> Consulta de ofertas -> Comparação -> [POC: demonstração | Produção: clique e loja]
+13.2 Sequência: recomendação
+Jogador -> Web: solicitar recomendações
+Web -> API: POST /api/recommendations
+API -> Perfil local (POC): ler preferências informadas
+API -> Recomendador: recomendar(preferências, filtros)
+Recomendador -> GameRepository: obter jogos/tags/relações
+GameRepository -> JSON: ler catálogo
+Recomendador -> Recomendador: aplicar restrições, pontuar e justificar
+API -> Web: resultados ordenados e justificativas
+13.3 Sequência: sincronização futura
+Agendador -> Job -> Adaptador -> API/feed autorizado
+Adaptador -> Normalizador -> Validador de edição
+[confiável] -> upsert de oferta -> histórico se houve observação
+[incerto] -> fila de revisão
+[erro] -> log; preservar último registro sem alegar atualização
+13.4 Sequência: clique comercial futuro
+Jogador -> Web: ver oferta
+Web -> API: GET /out/{offerId}
+API -> OfferRepository: validar oferta e URL autorizada
+API -> Registro: contabilizar clique com minimização de dados
+API -> Navegador: HTTP 302 -> Loja
+[POC: operação bloqueada por DEMO_MODE]
+14. APIs planejadas
+GET /api/games
+GET /api/games/{slug}
+GET /api/games/{id}/offers
+GET /api/games/{id}/price-history
+POST /api/recommendations
+GET /api/me/preferences     [fase futura]
+PUT /api/me/preferences     [fase futura]
+DELETE /api/me              [fase futura]
+GET /out/{offerId}          [desativado na POC]
+POST /api/admin/imports     [fase futura]
+GET /api/admin/sync-runs    [fase futura]
+15. Testes e critérios de aceite
+Teste
+Resultado esperado
+Busca sem login
+Retorna jogos sem autenticação
+Filtro por 4 jogadores
+Exclui jogos incompatíveis
+Expansão versus jogo-base
+Não mistura ofertas
+Oferta vencida
+Mostra sinalização de desatualização
+Sem oferta
+Exibe ausência de preço verificável
+Preço alterado (produção)
+Histórico guarda observações, não inventa passado
+POC com DEMO_MODE
+Nenhuma compra/redirecionamento real
+Integridade de JSON
+IDs únicos, relações válidas, valores coerentes
+Recomendação videogame
+Exibe motivo editorial compreensível
+Dados sintéticos
+Todos identificados na UI e nos registros
+16. Roadmap e marcos
+Fase 0 — especificação, contratos TypeScript, esquemas JSON e validador.
+Fase 1 — seed inicial, 60 jogos, 12 videogames, lojas e ofertas demo.
+Fase 2 — busca, filtros, fichas e comparação simulada.
+Fase 3 — perfil local e recomendações explicáveis.
+Fase 4 — testes, apresentação e aceite do cliente.
+Pós-aprovação — banco gerenciado, autenticação, integração com lojas autorizadas, tracking comercial real e SEO.
+Fase 2 do produto — chat com IA fundamentado no catálogo e nas ofertas; wishlist e alertas.
+Estimativas exploratórias anteriores: 6–8 semanas de implementação solo experiente e custo de infraestrutura baixo (meta de até R$ 150/mês), sujeitos a validação de escopo, licenças e provedores.
+17. Riscos, decisões e pendências
+Risco / decisão
+Mitigação / próximo passo
+Licenciamento de BGG/Ludopedia
+Confirmar termos e autorização antes de uso comercial
+Cobertura insuficiente de ofertas
+POC sintética explícita; parceiros/feeds depois
+Correspondência errada de edições
+IDs distintos, revisão e testes
+Recomendação pouco convincente
+Curadoria de relações e avaliação com usuários
+Preço sintético confundido com real
+Marca DEMO persistente, lojas fictícias e bloqueio de saída
+Dependência de Docker
+Nenhuma na POC
+Futura migração de persistência
+Repository pattern e contratos estáveis
+Privacidade do perfil
+LocalStorage temporário; futura LGPD e autenticação
+ADR pendentes
+Stack backend futura, banco, matching, validade de ofertas, licenças, IA
+18. Definição de pronto para aprovação da POC
+A POC estará pronta quando: (1) executar sem Docker e sem banco; (2) carregar os seis JSONs validados; (3) permitir busca, filtros e recomendações com justificativas; (4) demonstrar ofertas e histórico sintéticos sem ambiguidade; (5) manter edições separadas; (6) não permitir checkout real; (7) possuir roteiro de demonstração e testes básicos; (8) registrar claramente o que falta para produção.
+19. Próximos artefatos
+Produzir: schemas TypeScript/Zod, arquivos seed JSON, validador referencial, catálogo editorial revisado, testes de recomendação, ADRs e roteiro de apresentação ao cliente. Este documento consolida decisões e propostas discutidas; dados externos, preços e integrações reais ainda não foram verificados nesta entrega.

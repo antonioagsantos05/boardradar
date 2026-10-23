@@ -1,0 +1,5 @@
+{
+  "file": "docs/v2/REQUISITOS_USUARIO.md",
+  "sha256": "589f38dc69569efd9a4515fc9fa4e145cb515868afe981745c88ef6adec890ee",
+  "precedence": "Current user instruction; overrides generative-inference proposals in the planning documents"
+}
