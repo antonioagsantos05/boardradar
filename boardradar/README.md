@@ -130,3 +130,8 @@ Experimente: “Usar meus gostos”, “Gosto de Duna”, “Jogos para 4 pessoa
 O perfil autenticado é a fonte principal; na ausência dele, o chat pode recuperar as escolhas locais da mesma conta. A troca de sessão limpa a conversa atual. As respostas continuam sendo geradas por regras e dados do catálogo, sem chamada a um modelo externo. Regras de jogos sem manual disponível não são inventadas.
 
 Validação: `python -m unittest discover -s chatbot -p test_chat_evolution.py` e `python -m unittest discover -s chatbot -p test_poc_v3.py`. O script `scripts/check-chat-evolution.py` verifica API e interface com Playwright contra um servidor de teste na porta 3001 e banco isolado em `.qa/account-workspace-flow.sqlite3`.
+
+
+### Hospedagem no Render
+
+Site e backend Python podem executar juntos usando o `Dockerfile` da raiz do projeto. Consulte [o guia de publicação](docs/DEPLOY_RENDER.md) para configurar runtime Docker, diretório raiz, health check e armazenamento persistente.
